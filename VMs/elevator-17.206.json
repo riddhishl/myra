@@ -1,0 +1,947 @@
+[
+    {
+        "id": "066b1a4cbaa60291",
+        "type": "tab",
+        "label": "Local Broker",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fe734e3f7c9bbc2b",
+        "type": "tab",
+        "label": "Lift ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3c69092956e439b5",
+        "type": "ui_group",
+        "name": "Lift Control",
+        "tab": "7f52a3679c532636",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6080a5405e524def",
+        "type": "modbus-client",
+        "name": "Lift PLC",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": false,
+        "tcpHost": "172.16.17.129",
+        "tcpPort": "503",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "7f52a3679c532636",
+        "type": "ui_tab",
+        "name": "Lift Mechanism",
+        "icon": "dashboard",
+        "order": 7,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a2758594edff14c4",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "ce4557d2213201d3",
+        "type": "aedes broker",
+        "z": "066b1a4cbaa60291",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "persistence_bind": "memory",
+        "dburl": "",
+        "usetls": false,
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "845b1613e6523473",
+        "type": "ui_button",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "group": "3c69092956e439b5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start/Restart",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 540,
+        "wires": [
+            [
+                "a299e8ab7a1bcb6f",
+                "c9bcc1cc944f2ec4"
+            ]
+        ]
+    },
+    {
+        "id": "bd16b8421dc37902",
+        "type": "ui_button",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "group": "3c69092956e439b5",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Emergency Stop",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 360,
+        "y": 240,
+        "wires": [
+            [
+                "cd4095464af047da",
+                "7172ad2a135a1c7f"
+            ]
+        ]
+    },
+    {
+        "id": "cbbdfdf2fcff612d",
+        "type": "ui_button",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "group": "3c69092956e439b5",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Ground Floor",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 350,
+        "y": 280,
+        "wires": [
+            [
+                "794c44f478adf889",
+                "880856a055659a45"
+            ]
+        ]
+    },
+    {
+        "id": "1a5fbcd3400ce230",
+        "type": "ui_button",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "group": "3c69092956e439b5",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "First Floor",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 320,
+        "wires": [
+            [
+                "4cd229e74fb81584",
+                "f0a74795b6e0251a"
+            ]
+        ]
+    },
+    {
+        "id": "3fb24ec1c07e86b0",
+        "type": "ui_button",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "group": "3c69092956e439b5",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Second Floor",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 350,
+        "y": 360,
+        "wires": [
+            [
+                "07c38af19bb7f601",
+                "c71d6fcc0df48fc6"
+            ]
+        ]
+    },
+    {
+        "id": "5c51bb67c6e0b704",
+        "type": "ui_button",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "group": "3c69092956e439b5",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Third Floor",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 350,
+        "y": 400,
+        "wires": [
+            [
+                "9770e76973479da0",
+                "46a7f5db18738e0f"
+            ]
+        ]
+    },
+    {
+        "id": "58107189e5517409",
+        "type": "ui_button",
+        "z": "fe734e3f7c9bbc2b",
+        "d": true,
+        "name": "",
+        "group": "3c69092956e439b5",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Fourth Floor",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 350,
+        "y": 440,
+        "wires": [
+            [
+                "c1a565907e22f0fe"
+            ]
+        ]
+    },
+    {
+        "id": "794c44f478adf889",
+        "type": "trigger",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 520,
+        "y": 280,
+        "wires": [
+            [
+                "d819d694c1f297bd"
+            ]
+        ]
+    },
+    {
+        "id": "4cd229e74fb81584",
+        "type": "trigger",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 520,
+        "y": 320,
+        "wires": [
+            [
+                "1767335d1bece164"
+            ]
+        ]
+    },
+    {
+        "id": "07c38af19bb7f601",
+        "type": "trigger",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 520,
+        "y": 360,
+        "wires": [
+            [
+                "6bea0eda561cc243"
+            ]
+        ]
+    },
+    {
+        "id": "9770e76973479da0",
+        "type": "trigger",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 520,
+        "y": 400,
+        "wires": [
+            [
+                "ed7fb4ab2afc714c"
+            ]
+        ]
+    },
+    {
+        "id": "c1a565907e22f0fe",
+        "type": "trigger",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 520,
+        "y": 440,
+        "wires": [
+            [
+                "b867e3237734dd6a"
+            ]
+        ]
+    },
+    {
+        "id": "6885eabc2ead93f8",
+        "type": "modbus-flex-write",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "Lift",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "6080a5405e524def",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 890,
+        "y": 320,
+        "wires": [
+            [
+                "92338a3787003127"
+            ],
+            [
+                "92338a3787003127"
+            ]
+        ]
+    },
+    {
+        "id": "cd4095464af047da",
+        "type": "function",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "func": "msg.payload = { \n    value: msg.payload, \n    'fc': 6, \n    'unitid': 1, \n    'address': 0, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 220,
+        "wires": [
+            [
+                "6885eabc2ead93f8"
+            ]
+        ]
+    },
+    {
+        "id": "d819d694c1f297bd",
+        "type": "function",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "func": "msg.payload = { \n    value: msg.payload, \n    'fc': 6, \n    'unitid': 1, \n    'address': 1, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 280,
+        "wires": [
+            [
+                "6885eabc2ead93f8"
+            ]
+        ]
+    },
+    {
+        "id": "1767335d1bece164",
+        "type": "function",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "func": "msg.payload = { \n    value: msg.payload, \n    'fc': 6, \n    'unitid': 1, \n    'address': 2, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 320,
+        "wires": [
+            [
+                "6885eabc2ead93f8"
+            ]
+        ]
+    },
+    {
+        "id": "6bea0eda561cc243",
+        "type": "function",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "func": "msg.payload = { \n    value: msg.payload, \n    'fc': 6, \n    'unitid': 1, \n    'address': 3, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 360,
+        "wires": [
+            [
+                "6885eabc2ead93f8"
+            ]
+        ]
+    },
+    {
+        "id": "ed7fb4ab2afc714c",
+        "type": "function",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "func": "msg.payload = { \n    value: msg.payload, \n    'fc': 6, \n    'unitid': 1, \n    'address': 4, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 400,
+        "wires": [
+            [
+                "6885eabc2ead93f8"
+            ]
+        ]
+    },
+    {
+        "id": "b867e3237734dd6a",
+        "type": "function",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "func": "msg.payload = { \n    value: msg.payload, \n    'fc': 6, \n    'unitid': 1, \n    'address': 5, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 440,
+        "wires": [
+            [
+                "6885eabc2ead93f8"
+            ]
+        ]
+    },
+    {
+        "id": "bd6ddb329b5d5c6e",
+        "type": "inject",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 730,
+        "y": 120,
+        "wires": [
+            [
+                "cd4095464af047da"
+            ]
+        ]
+    },
+    {
+        "id": "92338a3787003127",
+        "type": "debug",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a299e8ab7a1bcb6f",
+        "type": "trigger",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "op1": "",
+        "op2": "111",
+        "op1type": "num",
+        "op2type": "str",
+        "duration": "250",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 540,
+        "y": 160,
+        "wires": [
+            [
+                "cd4095464af047da"
+            ]
+        ]
+    },
+    {
+        "id": "7172ad2a135a1c7f",
+        "type": "change",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Emergency Stop",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 540,
+        "wires": [
+            [
+                "add-newline"
+            ]
+        ]
+    },
+    {
+        "id": "880856a055659a45",
+        "type": "change",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Ground floor",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 580,
+        "wires": [
+            [
+                "add-newline"
+            ]
+        ]
+    },
+    {
+        "id": "f0a74795b6e0251a",
+        "type": "change",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "First floor",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 620,
+        "wires": [
+            [
+                "add-newline"
+            ]
+        ]
+    },
+    {
+        "id": "c71d6fcc0df48fc6",
+        "type": "change",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Second floor",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 660,
+        "wires": [
+            [
+                "add-newline"
+            ]
+        ]
+    },
+    {
+        "id": "46a7f5db18738e0f",
+        "type": "change",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Third floor",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 700,
+        "wires": [
+            [
+                "add-newline"
+            ]
+        ]
+    },
+    {
+        "id": "c9bcc1cc944f2ec4",
+        "type": "change",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Start/Restart",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 500,
+        "wires": [
+            [
+                "add-newline"
+            ]
+        ]
+    },
+    {
+        "id": "add-newline",
+        "type": "change",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "Add Newline",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload & \"\\n\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 600,
+        "wires": [
+            [
+                "de2612c1a0ece2af"
+            ]
+        ]
+    },
+    {
+        "id": "597fedb1554a0872",
+        "type": "tcp out",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "log forward",
+        "host": "172.16.23.207",
+        "port": "514",
+        "beserver": "client",
+        "base64": false,
+        "end": false,
+        "tls": "",
+        "x": 1170,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "de2612c1a0ece2af",
+        "type": "syslog-node",
+        "z": "fe734e3f7c9bbc2b",
+        "name": "",
+        "level": "6",
+        "category": "1",
+        "process": "Node-RED",
+        "pid": "0",
+        "hostname_mode": "custom",
+        "hostname": "172.16.17.206",
+        "x": 990,
+        "y": 600,
+        "wires": [
+            [
+                "597fedb1554a0872"
+            ]
+        ]
+    }
+]
