@@ -1,0 +1,229 @@
+[
+    {
+        "id": "f126044db6f4b215",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "691d4e89f7e3123e",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "3eefa24d262a00e8",
+        "type": "ui_link",
+        "name": "Toll Plaza",
+        "link": "http://172.16.17.203:1880/ui",
+        "icon": "local_taxi",
+        "target": "iframe",
+        "order": 3
+    },
+    {
+        "id": "c39970514815a7d1",
+        "type": "ui_link",
+        "name": "Traffic Light",
+        "link": "http://172.16.17.208:1880/ui",
+        "icon": "traffic",
+        "target": "iframe",
+        "order": 4
+    },
+    {
+        "id": "41024e8e65f2d03c",
+        "type": "ui_link",
+        "name": "Industry",
+        "link": "http://172.16.17.207:1880/ui",
+        "icon": "fa-industry",
+        "target": "iframe",
+        "order": 5
+    },
+    {
+        "id": "aac099c326c0ea65",
+        "type": "ui_link",
+        "name": "Smart Parking",
+        "link": "http://172.16.17.214:1880/ui",
+        "icon": "local_parking",
+        "target": "iframe",
+        "order": 6
+    },
+    {
+        "id": "d0d3c68fd1a3345a",
+        "type": "ui_link",
+        "name": "Smart Meter",
+        "link": "http://172.16.17.201:1880/ui",
+        "icon": "receipt",
+        "target": "iframe",
+        "order": 7
+    },
+    {
+        "id": "4c333f25da417698",
+        "type": "ui_link",
+        "name": "Power Sector",
+        "link": "http://172.16.17.213:1880/ui",
+        "icon": "power",
+        "target": "iframe",
+        "order": 1
+    },
+    {
+        "id": "cc585bf66832ca2f",
+        "type": "ui_link",
+        "name": "Sewage Treatment",
+        "link": "http://172.16.17.211:1880/ui",
+        "icon": "fa-tint",
+        "target": "iframe",
+        "order": 2
+    },
+    {
+        "id": "ecaad714cd94b202",
+        "type": "ui_link",
+        "name": "HVAC",
+        "link": "http://172.16.17.210:1880/ui",
+        "icon": "dns",
+        "target": "iframe",
+        "order": 8
+    },
+    {
+        "id": "e6c3a2e2216861e6",
+        "type": "ui_link",
+        "name": "Metro",
+        "link": "http://172.16.17.205:1880/ui",
+        "icon": "directions_train",
+        "target": "iframe",
+        "order": 9
+    },
+    {
+        "id": "3824a8581a5b5d08",
+        "type": "ui_link",
+        "name": "Elevator",
+        "link": "http://172.16.17.206:1880/ui",
+        "icon": "import_export",
+        "target": "iframe",
+        "order": 10
+    },
+    {
+        "id": "e362eb32eaac3dda",
+        "type": "ui_link",
+        "name": "Airport",
+        "link": "http://172.16.20.101:1880/ui",
+        "icon": "airplanemode_on",
+        "target": "iframe",
+        "order": 11
+    },
+    {
+        "id": "1049f1ef895372dc",
+        "type": "aedes broker",
+        "z": "f126044db6f4b215",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": null,
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "persistence_bind": "memory",
+        "dburl": "",
+        "usetls": false,
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [],
+            []
+        ]
+    }
+]
