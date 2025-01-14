@@ -1,0 +1,1335 @@
+[
+    {
+        "id": "3f5c605c4a3f5235",
+        "type": "tab",
+        "label": "Local Broker",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1eac9891.f72c47",
+        "type": "tab",
+        "label": "Metro",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c5437427.3716e8",
+        "type": "group",
+        "z": "1eac9891.f72c47",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b3783689.032868",
+            "44c4e4a8.94780c",
+            "59f8c35d.2edcac",
+            "941f9912.b34128"
+        ],
+        "x": 74,
+        "y": 39,
+        "w": 472,
+        "h": 122
+    },
+    {
+        "id": "627dcace.783324",
+        "type": "group",
+        "z": "1eac9891.f72c47",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a230244a.1132e8",
+            "7482861.2dfcd78",
+            "61f26d89.b273c4",
+            "aa81c198.cceca",
+            "43af1512.760a0c",
+            "a26aea96.e62a48",
+            "462cd750.8c8328",
+            "5468f28a.9db8fc",
+            "91224f5b.eaccc",
+            "74d4f372.f2cadc",
+            "69674e21.f2118",
+            "7c28f437.1c99cc",
+            "1eef1f02.31dc81",
+            "b33bc5dc.8801b8",
+            "eda6183ea4b1ac98",
+            "54560b6bceff6fec",
+            "721cb0a7d521dcbd",
+            "38151df186247736"
+        ],
+        "x": 14,
+        "y": 439,
+        "w": 1252,
+        "h": 282
+    },
+    {
+        "id": "bba5c471.2f33e8",
+        "type": "group",
+        "z": "1eac9891.f72c47",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "57c5adbe.2067a4",
+            "4b66351b.b802fc",
+            "88b48b28.a58708",
+            "2bad19d1.d3df36",
+            "a8f9a418.17d528",
+            "aeb3b85c.1fd478",
+            "cdd45b97.6eb548",
+            "be8bb1.3eaea45",
+            "d1e3ddc.9d3142",
+            "3fa4c4b8.7b660c",
+            "82215982.9deee8",
+            "ae175097.f962",
+            "d59505d7.24e038",
+            "120618529cc542d2",
+            "92662fd86d2c9e9e",
+            "9e330b2cf14fa5eb",
+            "3e55f83852fefdc4"
+        ],
+        "x": 14,
+        "y": 819,
+        "w": 1312,
+        "h": 302
+    },
+    {
+        "id": "acdf0c03.b33ca",
+        "type": "group",
+        "z": "1eac9891.f72c47",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b068f439.addf48",
+            "2a456bf3.0149f4",
+            "c305d773.0abe58"
+        ],
+        "x": 74,
+        "y": 179,
+        "w": 452,
+        "h": 102
+    },
+    {
+        "id": "15ba0606.c5006a",
+        "type": "mqtt-broker",
+        "name": "mqttBroker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "db8e89ad.094d68",
+        "type": "ui_group",
+        "name": "Metro track switch",
+        "tab": "66abfa15.7963e4",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "30de9663.ca43aa",
+        "type": "ui_group",
+        "name": "Metro Graphics",
+        "tab": "66abfa15.7963e4",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "2ab1d781ed961375",
+        "type": "modbus-client",
+        "name": "TrackSwitchPLC",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": false,
+        "tcpHost": "172.16.17.127",
+        "tcpPort": "503",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "66abfa15.7963e4",
+        "type": "ui_tab",
+        "name": "Metro System",
+        "icon": "directions_subway",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "add8c7eca554009b",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#07393b",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#07393b",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#07393b",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0f7b7f",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#07393b",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "b24c556cf4f06493",
+        "type": "aedes broker",
+        "z": "3f5c605c4a3f5235",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "persistence_bind": "memory",
+        "dburl": "",
+        "usetls": false,
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "a230244a.1132e8",
+        "type": "switch",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "ON/OFF state",
+        "property": "switching1",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 140,
+        "y": 580,
+        "wires": [
+            [
+                "7482861.2dfcd78"
+            ],
+            [
+                "61f26d89.b273c4"
+            ]
+        ]
+    },
+    {
+        "id": "7482861.2dfcd78",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "if is on",
+        "func": "msg.color = \"white\";\nmsg.background = \"#00CC33\";\nmsg.text = \"Switch to Track 2\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 540,
+        "wires": [
+            [
+                "aa81c198.cceca"
+            ]
+        ]
+    },
+    {
+        "id": "61f26d89.b273c4",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "if its off",
+        "func": "msg.color = \"white\";\nmsg.background = \"#CC0033\";\nmsg.text = \"Switch to track 1\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 320,
+        "y": 600,
+        "wires": [
+            [
+                "aa81c198.cceca"
+            ]
+        ]
+    },
+    {
+        "id": "aa81c198.cceca",
+        "type": "ui_button",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "on/off",
+        "group": "db8e89ad.094d68",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 450,
+        "y": 560,
+        "wires": [
+            [
+                "43af1512.760a0c"
+            ]
+        ]
+    },
+    {
+        "id": "43af1512.760a0c",
+        "type": "switch",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 570,
+        "y": 560,
+        "wires": [
+            [
+                "462cd750.8c8328"
+            ]
+        ]
+    },
+    {
+        "id": "a26aea96.e62a48",
+        "type": "inject",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 500,
+        "wires": [
+            [
+                "91224f5b.eaccc"
+            ]
+        ]
+    },
+    {
+        "id": "462cd750.8c8328",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "",
+        "func": "var obtaindata = global.get (\"switching1\")\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 560,
+        "wires": [
+            [
+                "5468f28a.9db8fc",
+                "74d4f372.f2cadc",
+                "1eef1f02.31dc81",
+                "721cb0a7d521dcbd"
+            ]
+        ]
+    },
+    {
+        "id": "5468f28a.9db8fc",
+        "type": "change",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "re-wirte switch variable",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "switching1",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91224f5b.eaccc",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "",
+        "func": "var obtaindata = global.get (\"filter\");\nmsg.payload = obtaindata;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 120,
+        "y": 540,
+        "wires": [
+            [
+                "a230244a.1132e8"
+            ]
+        ]
+    },
+    {
+        "id": "57c5adbe.2067a4",
+        "type": "switch",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "ON/OFF state",
+        "property": "switching2",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 120,
+        "y": 960,
+        "wires": [
+            [
+                "4b66351b.b802fc"
+            ],
+            [
+                "88b48b28.a58708"
+            ]
+        ]
+    },
+    {
+        "id": "4b66351b.b802fc",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "if is on",
+        "func": "msg.color = \"white\";\nmsg.background = \"#00CC33\";\nmsg.text = \"Switch to track 1\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 920,
+        "wires": [
+            [
+                "2bad19d1.d3df36"
+            ]
+        ]
+    },
+    {
+        "id": "88b48b28.a58708",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "if its off",
+        "func": "msg.color = \"white\";\nmsg.background = \"#CC0033\";\nmsg.text = \"Switch to track 2\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 300,
+        "y": 980,
+        "wires": [
+            [
+                "2bad19d1.d3df36"
+            ]
+        ]
+    },
+    {
+        "id": "2bad19d1.d3df36",
+        "type": "ui_button",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "on/off",
+        "group": "db8e89ad.094d68",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 430,
+        "y": 940,
+        "wires": [
+            [
+                "a8f9a418.17d528"
+            ]
+        ]
+    },
+    {
+        "id": "a8f9a418.17d528",
+        "type": "switch",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 550,
+        "y": 940,
+        "wires": [
+            [
+                "cdd45b97.6eb548"
+            ]
+        ]
+    },
+    {
+        "id": "aeb3b85c.1fd478",
+        "type": "inject",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 920,
+        "wires": [
+            [
+                "57c5adbe.2067a4"
+            ]
+        ]
+    },
+    {
+        "id": "cdd45b97.6eb548",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "",
+        "func": "var obtaindata = global.get (\"switching2\")\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 690,
+        "y": 940,
+        "wires": [
+            [
+                "be8bb1.3eaea45",
+                "d1e3ddc.9d3142",
+                "ae175097.f962",
+                "92662fd86d2c9e9e"
+            ]
+        ]
+    },
+    {
+        "id": "be8bb1.3eaea45",
+        "type": "change",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "re-wirte switch variable",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "switching2",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b3783689.032868",
+        "type": "inject",
+        "z": "1eac9891.f72c47",
+        "g": "c5437427.3716e8",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "",
+        "payload": "0",
+        "payloadType": "str",
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "44c4e4a8.94780c"
+            ]
+        ]
+    },
+    {
+        "id": "44c4e4a8.94780c",
+        "type": "change",
+        "z": "1eac9891.f72c47",
+        "g": "c5437427.3716e8",
+        "name": "global switching1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "switching1",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "59f8c35d.2edcac",
+        "type": "inject",
+        "z": "1eac9891.f72c47",
+        "g": "c5437427.3716e8",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "",
+        "payload": "0",
+        "payloadType": "str",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "941f9912.b34128"
+            ]
+        ]
+    },
+    {
+        "id": "941f9912.b34128",
+        "type": "change",
+        "z": "1eac9891.f72c47",
+        "g": "c5437427.3716e8",
+        "name": "global switching2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "switching2",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74d4f372.f2cadc",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "Command",
+        "func": "var obtaindata = msg.payload\nif (obtaindata == \"1\"){msg.payload = \"switchtotrack2\"}\nif (obtaindata == \"0\"){msg.payload = \"switchtotrack1\"}\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 560,
+        "wires": [
+            [
+                "69674e21.f2118"
+            ]
+        ]
+    },
+    {
+        "id": "d1e3ddc.9d3142",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "Command",
+        "func": "var obtaindata = msg.payload\nif (obtaindata == \"1\"){msg.payload = \"switchtotrack1\"}\nif (obtaindata == \"0\"){msg.payload = \"switchtotrack2\"}\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 890,
+        "y": 940,
+        "wires": [
+            [
+                "3fa4c4b8.7b660c"
+            ]
+        ]
+    },
+    {
+        "id": "69674e21.f2118",
+        "type": "mqtt out",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "",
+        "topic": "train/control/trackSwitch1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "15ba0606.c5006a",
+        "x": 1110,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "3fa4c4b8.7b660c",
+        "type": "mqtt out",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "",
+        "topic": "train/control/trackSwitch2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "15ba0606.c5006a",
+        "x": 1130,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "7c28f437.1c99cc",
+        "type": "ui_text",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "group": "db8e89ad.094d68",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "SW1",
+        "label": "",
+        "format": "Switch 1",
+        "layout": "row-center",
+        "x": 460,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "82215982.9deee8",
+        "type": "ui_text",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "group": "db8e89ad.094d68",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "SW2",
+        "label": "Switch 2",
+        "format": "",
+        "layout": "row-center",
+        "x": 430,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "1eef1f02.31dc81",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "",
+        "func": "if(msg.payload == \"1\"){msg.payload = \"t1_change\"}\nif(msg.payload == \"0\"){msg.payload = \"t1_hold\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 880,
+        "y": 600,
+        "wires": [
+            [
+                "b33bc5dc.8801b8"
+            ]
+        ]
+    },
+    {
+        "id": "ae175097.f962",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "",
+        "func": "if(msg.payload == \"1\"){msg.payload = \"t2_change\"}\nif(msg.payload == \"0\"){msg.payload = \"t2_hold\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 880,
+        "y": 980,
+        "wires": [
+            [
+                "d59505d7.24e038"
+            ]
+        ]
+    },
+    {
+        "id": "7ee0af44.87869",
+        "type": "mqtt out",
+        "z": "1eac9891.f72c47",
+        "name": "",
+        "topic": "train/position",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "15ba0606.c5006a",
+        "x": 910,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "307000d4.b1757",
+        "type": "inject",
+        "z": "1eac9891.f72c47",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "t1_1_0",
+        "payloadType": "str",
+        "x": 750,
+        "y": 140,
+        "wires": [
+            [
+                "7ee0af44.87869"
+            ]
+        ]
+    },
+    {
+        "id": "774f658f.d7572c",
+        "type": "inject",
+        "z": "1eac9891.f72c47",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "t1_1_1",
+        "payloadType": "str",
+        "x": 750,
+        "y": 100,
+        "wires": [
+            [
+                "7ee0af44.87869"
+            ]
+        ]
+    },
+    {
+        "id": "b33bc5dc.8801b8",
+        "type": "link out",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "",
+        "links": [
+            "c305d773.0abe58"
+        ],
+        "x": 975,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "d59505d7.24e038",
+        "type": "link out",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "",
+        "links": [
+            "c305d773.0abe58"
+        ],
+        "x": 975,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "b068f439.addf48",
+        "type": "ui_template",
+        "z": "1eac9891.f72c47",
+        "g": "acdf0c03.b33ca",
+        "group": "30de9663.ca43aa",
+        "name": "",
+        "order": 0,
+        "width": "20",
+        "height": "10",
+        "format": "<svg\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n   xmlns:cc=\"http://creativecommons.org/ns#\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n   width=\"1050\"\n   height=\"600\"\n   id=\"metrosvg\"\n   version=\"1.1\"\n   inkscape:version=\"0.48+devel \"\n   onload=\"var src; if (document.documentURI) src = document.documentURI; else if (this.getSrc) src = this.getSrc(); else src = document.location.href + ''; try {parent.preload.load(src);}catch(e) {}\"\n   viewBox=\"0 0 1060 500\"\n   sodipodi:docname=\"metro.svg\">\n  <defs\n     id=\"defs4\">\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect15986\"\n       is_visible=\"true\" />\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect15982\"\n       is_visible=\"true\" />\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect15974\"\n       is_visible=\"true\" />\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect15970\"\n       is_visible=\"true\" />\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect15964\"\n       is_visible=\"true\" />\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect15960\"\n       is_visible=\"true\" />\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect15940\"\n       is_visible=\"true\" />\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect15910\"\n       is_visible=\"true\" />\n    <clipPath\n       id=\"clipPath3278\"\n       clipPathUnits=\"userSpaceOnUse\">\n      <path\n         inkscape:connector-curvature=\"0\"\n         id=\"path3280\"\n         d=\"m 3292,1221 13007,0 0,25251 -13007,0 0,-25251\" />\n    </clipPath>\n    <clipPath\n       id=\"clipPath11150\"\n       clipPathUnits=\"userSpaceOnUse\">\n      <path\n         inkscape:connector-curvature=\"0\"\n         id=\"path11152\"\n         d=\"m 3292,0 13008,0 0,27245 -13008,0 0,-27245\" />\n    </clipPath>\n  </defs>\n  <sodipodi:namedview\n     id=\"base\"\n     pagecolor=\"#ffffff\"\n     bordercolor=\"#666666\"\n     borderopacity=\"1.0\"\n     inkscape:pageopacity=\"0.0\"\n     inkscape:pageshadow=\"2\"\n     inkscape:zoom=\"0.5\"\n     inkscape:cx=\"317.77289\"\n     inkscape:cy=\"602.42386\"\n     inkscape:document-units=\"px\"\n     inkscape:current-layer=\"g3272\"\n     showgrid=\"false\"\n     inkscape:window-width=\"1366\"\n     inkscape:window-height=\"745\"\n     inkscape:window-x=\"-8\"\n     inkscape:window-y=\"-8\"\n     inkscape:window-maximized=\"1\"\n     showguides=\"true\"\n     inkscape:guide-bbox=\"true\" />\n  <metadata\n     id=\"metadata7\">\n    <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n        <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n        <dc:title />\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n  <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\"\n     transform=\"translate(0,-308.26771)\">\n    <g\n       transform=\"matrix(0,-1.25,-1.25,0,2695.0589,2238.6795)\"\n       inkscape:label=\"Mauritius layout 24x8 ft\"\n       id=\"g3270\">\n      <g\n         transform=\"matrix(0.12,0,0,0.12,16,50)\"\n         id=\"g3272\">\n        <rect\n           transform=\"scale(1,-1)\"\n           y=\"-11159.561\"\n           x=\"10179.616\"\n           height=\"573.33337\"\n           width=\"1105\"\n           id=\"rect16396\"\n           style=\"fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n        <rect\n           style=\"fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n           id=\"rect16394\"\n           width=\"1178.3333\"\n           height=\"593.33337\"\n           x=\"-17488.727\"\n           y=\"-11562.116\"\n           transform=\"matrix(0,-1,-1,0,0,0)\" />\n        <g\n           id=\"g11146\">\n          <g\n             clip-path=\"url(#clipPath11150)\"\n             id=\"g11148\">\n            <path\n               inkscape:connector-curvature=\"0\"\n               id=\"path11154\"\n               style=\"fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none\"\n               d=\"m 3292,1220 13007,0\" />\n            <path\n               inkscape:connector-curvature=\"0\"\n               id=\"path11156\"\n               style=\"fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none\"\n               d=\"m 16299,26473 -13007,0\" />\n          </g>\n        </g>\n        <path\n           style=\"fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n           d=\"m 12520.701,11715.875 c -0.422,16.02 -1.232,32.039 -2.421,48.02 l 0,2275.769 0.442,0 c -3.567,1003.275 -1039.648,1034.587 -1078.216,1662.942 l 3.906,0 -3.281,1784.948 -343.62,0 0,-1813.164 0.769,0 c -23.23,-890.947 941.694,-841.098 1067.734,-1640.26 l -0.169,0 0,-734.74 0,-844.036 0,-645.664 -0.05,0 0.05,-0.417 0,-152.708 c -17.912,-157.805 -91.271,-308.817 -204.388,-420.742 -113.115,-111.923 -265.213,-183.994 -423.763,-200.795 l -152.435,1.25 c -4.868,0.738 -10.565,0.28 -15.417,1.12 l -612.76,0 c 0.729,-0.79 1.455,-1.582 2.187,-2.37 l -578.815,0 0,-333.02 c 0.07,-0.05 0.07,-0.17 0.169,-0.17 l 1400.078,0 c 0.232,0 0.404,0.637 0.404,0.404 l 0,-0.768 c 235.164,18.541 462.705,127.858 631.471,291.458 168.621,163.459 281.351,389.534 305.704,622.226 l 0,0.04 c 0,0.217 -0,0.49 -0.03,0.559 l 0.03,0 0,32.279 c 1.57,22.58 2.381,45.206 2.421,67.839 z m -2.421,-100.118 0,-0.182 0,-0.377 c 0.02,0.187 0.05,0.373 0.06,0.559 l -0.06,0 z\"\n           id=\"path16277\"\n           inkscape:connector-curvature=\"0\" />\n        <path\n           style=\"fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n           d=\"M 873.21484 37.308594 C 870.82834 37.370994 868.4433 37.490216 866.0625 37.666016 L 527.02539 37.666016 L 527.02539 37.599609 C 377.56044 38.127009 372.89565 191.32464 279.28516 197.02734 L 279.28516 196.45117 L 9.546875 196.94336 L 9.546875 243.38086 L 279.28516 243.38086 L 279.28516 243.26562 C 413.8515 246.76017 406.32204 101.60137 527.02539 82.640625 L 527.02539 82.666016 L 637.99805 82.666016 L 765.47852 82.666016 L 862.99805 82.666016 L 862.99805 82.673828 L 863.06055 82.666016 L 886.125 82.666016 C 909.95925 85.360616 932.76718 96.39551 949.67188 113.41211 C 966.57642 130.42856 977.4626 153.31061 980 177.16211 L 979.8125 200.09375 C 979.70105 200.82605 979.76933 201.68221 979.64258 202.41211 L 979.64258 294.59375 C 979.76183 294.48395 979.88105 294.37377 980 294.26367 L 980 383.31836 C 980 383.35271 980.02815 383.38086 980.0625 383.38086 L 1024.2227 383.38086 C 1024.2567 383.38086 1024.2852 383.35271 1024.2852 383.31836 L 1024.2852 176.29883 C 1024.2852 176.26448 1024.1888 176.23828 1024.2227 176.23828 L 1024.3379 176.23828 C 1021.5756 141.46618 1005.2904 107.82164 980.91797 82.867188 C 956.54537 57.912888 922.82826 41.2378 888.13086 37.65625 L 888.13086 37.666016 L 888.1582 37.666016 C 888.38785 37.666016 888.15846 37.666922 888.13086 37.669922 L 888.13086 37.666016 L 883.32227 37.666016 C 879.95837 37.433816 876.58669 37.314594 873.21484 37.308594 z \"\n           transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n           id=\"rect15916\" />\n        <path\n           style=\"fill:none;stroke:#000000;stroke-width:33.33333206;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n           d=\"m 11719.071,14962.565 c 135.874,-118.207 22.553,-20.49 160.023,-136.837 150.163,-113.632 262.962,-275.834 317.223,-456.159 53.262,-177.005 49.297,-365.262 48.991,-550.107 -0.305,-184.007 1.487,18.202 -2.123,-169.519\"\n           id=\"path4262\"\n           inkscape:connector-curvature=\"0\"\n           sodipodi:nodetypes=\"ccssc\" />\n        <path\n           style=\"fill:none;stroke:#000000;stroke-width:33.33333206;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;opacity:1\"\n           d=\"m 11362.551,15945.095 0.286,-360.178 c 0.04,-49.895 0.31,-100.003 8.043,-149.295 7.732,-49.293 22.65,-97.512 44.97,-142.137 44.64,-89.248 229.538,-264.212 303.523,-331.176\"\n           id=\"path4264\"\n           inkscape:connector-curvature=\"0\"\n           sodipodi:nodetypes=\"cscsc\" />\n        <path\n           style=\"fill:none;stroke:#000000;stroke-width:33.33333388;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n           d=\"m 11168.782,17442.059 6.667,-1857.5 c 0.195,-54.283 7.334,-99.641 16.119,-153.208 8.785,-53.567 38.917,-132.547 63.9,-180.739 49.967,-96.384 131.696,-161.786 213.603,-233.043 135.874,-118.207 272.553,-235.49 410.023,-351.837 150.163,-113.632 262.962,-275.834 317.223,-456.159 53.262,-177.005 52.068,-365.325 47.223,-550.107 -4.845,-184.782 -9.805,-369.577 -8.605,-554.418 l 9.429,-1451.926 c -18.434,-206.127 -123.874,-403.064 -285.2,-532.687 -103.698,-83.32 -229.291,-139.139 -360.625,-160.278 l -1358.192,-9.428\"\n           id=\"path15958\"\n           inkscape:connector-curvature=\"0\"\n           sodipodi:nodetypes=\"csssscssscscc\" />\n        <path\n           style=\"fill:none;stroke:#000000;stroke-width:33.33333388;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n           d=\"m 11362.551,17438.424 0.286,-1693.511 c 0,-49.895 0.31,-100.003 8.043,-149.295 7.732,-49.293 22.65,-97.512 44.97,-142.137 44.64,-89.248 118.132,-160.149 192.117,-227.113 144.581,-130.86 291.163,-259.62 443.121,-381.837 103.57,-83.299 209.886,-168.272 278.455,-282.131 34.285,-56.929 58.71,-119.659 72.963,-184.568 14.253,-64.91 18.17,-131.586 20.991,-197.982 5.54,-130.39 10.254,-260.815 14.142,-391.265 21.022,-705.367 17.877,-1411.455 -9.428,-2116.607 -4.217,-108.892 -14.169,-219.176 -53.517,-320.797 -39.348,-101.622 -104.751,-191.782 -182.185,-268.458 -161.426,-159.846 -374.165,-267.053 -598.684,-301.699 l -1354.05,-14.142\"\n           id=\"path15962\"\n           inkscape:connector-curvature=\"0\"\n           sodipodi:nodetypes=\"cscsssssssssscc\" />\n        <path\n           sodipodi:nodetypes=\"ccssc\"\n           inkscape:connector-curvature=\"0\"\n           id=\"t2change\"\n           d=\"m 11719.071,14962.565 c 135.874,-118.207 22.553,-20.49 160.023,-136.837 150.163,-113.632 262.962,-275.834 317.223,-456.159 53.262,-177.005 49.297,-365.262 48.991,-550.107 -0.305,-184.007 1.487,18.202 -2.123,-169.519\"\n           style=\"fill:none;stroke:#000000;stroke-width:33.33333206;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\" />\n        <path\n           style=\"fill:none;stroke:#00ff00;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n           d=\"m 402.41004,164.0527 c 10.14268,-11.79539 20.23915,-23.63053 30.28905,-35.50501 17.0448,-22.52445 41.3751,-39.444299 68.42385,-47.583449 26.34744,-7.928123 54.36624,-7.812464 81.87923,-7.100045\"\n           id=\"t2hold\"\n           transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n           inkscape:connector-curvature=\"0\" />\n        <g\n           id=\"g16253\">\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_16\"\n             d=\"m 989.60071,324.10771 0.34882,50.25203\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_15\"\n             d=\"m 989.02642,241.37713 0.35996,51.85555\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_14\"\n             d=\"m 986.35605,160.21566 c 0.88692,3.43544 1.61537,6.91174 2.17928,10.41528 l 0.27677,39.87115\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_13\"\n             d=\"m 949.48493,101.14522 c 5.47139,4.6434 10.51028,9.79333 15.0087,15.39197 3.79935,4.72857 7.21747,9.76064 10.22412,15.02816\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_12\"\n             d=\"m 887.77371,74.088397 c 12.35613,1.466339 24.44241,5.005382 35.69671,10.316149\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_11\"\n             d=\"m 808.89141,74.248792 47.99021,-0.311655\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_10\"\n             d=\"m 725.43641,74.790759 52.57028,-0.341398\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_9\"\n             d=\"m 642.03464,75.111396 c 8.25516,0.08541 16.5108,0.113745 24.76705,0.06015 l 27.75193,-0.180225\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_8\"\n             d=\"m 560.00005,73.568298 c 7.88847,-0.0554 15.78501,0.106562 23.63894,0.312493 9.17466,0.24056 18.34953,0.483011 27.52479,0.693214\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_7\"\n             d=\"m 483.52538,87.664646 c 5.69781,-2.644684 11.58042,-4.889807 17.59756,-6.700405 9.17274,-2.760139 18.54805,-4.54533 28.03408,-5.669815\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_6\"\n             d=\"m 427.30883,134.90753 c 1.79824,-2.11869 3.59499,-4.23864 5.39026,-6.35984 7.02446,-9.28272 15.28629,-17.61354 24.46583,-24.77017\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_5\"\n             d=\"m 377.61437,192.71668 c 0.76652,-0.88718 1.53555,-1.77629 2.30917,-2.66554 9.1357,-10.5011 18.23459,-21.03425 27.29645,-31.59917\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_4\"\n             d=\"m 274.44536,234.16777 20.42969,-0.0733 c 8.14244,-0.0292 14.94614,-1.1001 22.98119,-2.41785 8.03505,-1.31775 19.88205,-5.83755 27.11085,-9.585 4.02605,-2.08717 7.69171,-4.54379 11.11631,-7.26757\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_3\"\n             d=\"M 191.28325,234.46625 243.5645,234.2786\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_2\"\n             d=\"m 107.14262,234.76825 53.25977,-0.19116\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t2_1\"\n             d=\"m 16.25005,235.09449 60.013668,-0.2154\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n        </g>\n        <path\n           sodipodi:nodetypes=\"cscsc\"\n           inkscape:connector-curvature=\"0\"\n           id=\"t1change\"\n           d=\"m 11362.551,15945.095 0.286,-360.178 c 0.04,-49.895 0.31,-100.003 8.043,-149.295 7.732,-49.293 22.65,-97.512 44.97,-142.137 44.64,-89.248 229.538,-264.212 303.523,-331.176\"\n           style=\"fill:none;stroke:#000000;stroke-width:33.33333206;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;opacity:1\" />\n        <path\n           style=\"fill:none;stroke:#00ff00;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n           d=\"m 239.99977,205.99144 30.82218,-0.005 c 7.48425,0 15.00045,-0.0465 22.39425,-1.20645 7.39395,-1.1598 14.62679,-3.3975 21.32054,-6.7455 13.3872,-6.696 24.02235,-17.7198 34.06695,-28.81755 10.36134,-11.44775 20.63491,-22.97913 30.72269,-34.66861\"\n           id=\"t1hold\"\n           inkscape:connector-curvature=\"0\"\n           transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\" />\n        <g\n           id=\"g16235\">\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_16\"\n             d=\"m 1016.9942,323.46895 0.5324,50.97659\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_15\"\n             d=\"m 1016.0907,236.96886 0.581,55.62502\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_14\"\n             d=\"m 1011.768,154.12907 c 1.5249,5.66371 2.7424,11.41009 3.6373,17.20885 l 0.3629,34.75587\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_13\"\n             d=\"m 969.9947,81.378387 c 0.0519,0.05226 0.10376,0.104552 0.15558,0.156883 12.57574,12.70004 22.9794,27.51746 30.77982,43.59667\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_12\"\n             d=\"m 892.62618,46.765196 c 12.73162,0.924566 25.38736,2.846979 37.2554,7.442324 5.54861,2.148417 10.86941,4.81467 15.94777,7.897302\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_11\"\n             d=\"m 809.12637,43.937477 c 17.5453,0.404052 35.0883,0.90773 52.62788,1.511028\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_10\"\n             d=\"m 726.62465,42.771889 c 17.20988,0.09 34.41926,0.27582 51.62706,0.557443\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_9\"\n             d=\"m 642.12531,43.099927 c 17.8737,-0.232272 35.74874,-0.361175 53.62394,-0.386716\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_8\"\n             d=\"m 556.62303,45.00003 c 2.54926,-0.08019 5.09858,-0.158276 7.64796,-0.234259 15.65648,-0.466609 31.31533,-0.853842 46.97574,-1.161702\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_7\"\n             d=\"m 471.74452,51.042138 c 1.37213,-0.366345 2.75246,-0.701862 4.13942,-1.006417 9.7365,-2.13795 19.7379,-2.7255 29.6973,-3.14865 6.72105,-0.285564 13.44273,-0.556497 20.16496,-0.812798\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_6\"\n             d=\"M 406.52598,101.94407 C 417.66493,88.094324 429.059,74.000882 443.5933,63.956946\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_5\"\n             d=\"m 351.02682,166.53581 c 12.12716,-13.43305 24.12325,-26.98897 35.83046,-40.78764\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_4\"\n             d=\"m 274.62514,205.97689 c 6.22245,-0.0385 12.44891,-0.23371 18.59091,-1.19728 7.39395,-1.1598 14.62679,-3.3975 21.32054,-6.7455 5.26196,-2.63192 10.09874,-5.93246 14.64159,-9.64332\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_3\"\n             d=\"m 190.62476,205.99961 53.12484,-0.009\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_2\"\n             d=\"m 106.62498,206.01379 53.12486,-0.009\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <path\n             transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n             id=\"t1_1\"\n             d=\"m 16.79515,206.02896 58.954917,-0.01\"\n             style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n        </g>\n        <path\n           style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n           d=\"m 485.13356,78.816634 c 14.06185,-3.331202 28.52584,-4.56088 43.07658,-4.998572\"\n           id=\"m_4\"\n           transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n           inkscape:connector-curvature=\"0\" />\n        <path\n           style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n           d=\"m 399.11655,139.94472 c 0.86943,-1.05308 2.80334,-3.38646 9.58309,-11.39709 13.16414,-17.39621 30.67398,-31.449346 50.42557,-40.696243\"\n           id=\"m_3\"\n           transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n           inkscape:connector-curvature=\"0\" />\n        <path\n           style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n           d=\"m 349.85173,190.2155 c 10.07081,-8.2131 22.03844,-20.27542 30.6875,-29.42471\"\n           id=\"m_2\"\n           inkscape:connector-curvature=\"0\"\n           transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\" />\n        <path\n           style=\"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n           d=\"m 278.64966,205.99908 16.17169,-0.0128 c 7.48425,-0.006 15.00044,-0.0465 22.39424,-1.20645 6.1232,-0.96047 12.13591,-2.66018 17.82346,-5.11752\"\n           id=\"m_1\"\n           transform=\"matrix(0,-6.6666668,-6.6666668,0,12736.079,17550.393)\"\n           inkscape:connector-curvature=\"0\" />\n        <rect\n           style=\"fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n           id=\"rect16398\"\n           width=\"221.56012\"\n           height=\"119.99387\"\n           x=\"-14019.572\"\n           y=\"-12183.081\"\n           transform=\"matrix(0,-1,-1,0,0,0)\" />\n        <rect\n           transform=\"matrix(0,-1,-1,0,0,0)\"\n           y=\"-11549.042\"\n           x=\"-15871.014\"\n           height=\"119.99387\"\n           width=\"221.56012\"\n           id=\"rect16400\"\n           style=\"fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n        <text\n           xml:space=\"preserve\"\n           style=\"font-size:141.02308655px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n           x=\"-15925.193\"\n           y=\"-11588.082\"\n           id=\"text16402\"\n           sodipodi:linespacing=\"125%\"\n           transform=\"matrix(0,-1,-1,0,0,0)\"><tspan\n             sodipodi:role=\"line\"\n             id=\"tspan16404\"\n             x=\"-15925.193\"\n             y=\"-11588.082\">SW1</tspan></text>\n        <text\n           transform=\"matrix(0,-1,-1,0,0,0)\"\n           sodipodi:linespacing=\"125%\"\n           id=\"text16406\"\n           y=\"-11918.065\"\n           x=\"-14063.146\"\n           style=\"font-size:141.02308655px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n           xml:space=\"preserve\"><tspan\n             y=\"-11918.065\"\n             x=\"-14063.146\"\n             id=\"tspan16408\"\n             sodipodi:role=\"line\">SW2</tspan></text>\n        <text\n           xml:space=\"preserve\"\n           style=\"font-size:266.66668701px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ffff;fill-opacity:1;stroke:none;font-family:sans-serif\"\n           x=\"-17267.551\"\n           y=\"-10773.582\"\n           id=\"text16410\"\n           sodipodi:linespacing=\"125%\"\n           transform=\"matrix(0,-1,-1,0,0,0)\"><tspan\n             sodipodi:role=\"line\"\n             id=\"tspan16412\"\n             x=\"-17267.551\"\n             y=\"-10773.582\"\n             style=\"font-size:150px;fill:#00ffff\">Station A</tspan></text>\n        <text\n           transform=\"scale(1,-1)\"\n           sodipodi:linespacing=\"125%\"\n           id=\"text16414\"\n           y=\"-11247.151\"\n           x=\"10349.591\"\n           style=\"font-size:200px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ffff;fill-opacity:1;stroke:none;font-family:sans-serif\"\n           xml:space=\"preserve\"><tspan\n             y=\"-11247.151\"\n             x=\"10349.591\"\n             id=\"tspan16416\"\n             sodipodi:role=\"line\"\n             style=\"font-size:150px;fill:#00ffff\">Station B</tspan></text>\n      </g>\n    </g>\n  </g>\n  <script type=\"text/ecmascript\"><![CDATA[\n  var metrosvg = document.getElementById('metrosvg');\n  console.log(metrosvg);\n  var t1_1 = metrosvg.getElementById('t1_1');\n  var t1_2 = metrosvg.getElementById('t1_2');\n  var t1_3 = metrosvg.getElementById('t1_3');\n  var t1_4 = metrosvg.getElementById('t1_4');\n  var t1_5 = metrosvg.getElementById('t1_5');\n  var t1_6 = metrosvg.getElementById('t1_6');\n  var t1_7 = metrosvg.getElementById('t1_7');\n  var t1_8 = metrosvg.getElementById('t1_8');\n  var t1_9 = metrosvg.getElementById('t1_9');\n  var t1_10 = metrosvg.getElementById('t1_10');\n  var t1_11 = metrosvg.getElementById('t1_11');\n  var t1_12 = metrosvg.getElementById('t1_12');\n  var t1_13 = metrosvg.getElementById('t1_13');\n  var t1_14 = metrosvg.getElementById('t1_14');\n  var t1_15 = metrosvg.getElementById('t1_15');\n  var t1_16 = metrosvg.getElementById('t1_16');\n\n  var t2_1 = metrosvg.getElementById('t2_1');\n  var t2_2 = metrosvg.getElementById('t2_2');\n  var t2_3 = metrosvg.getElementById('t2_3');\n  var t2_4 = metrosvg.getElementById('t2_4');\n  var t2_5 = metrosvg.getElementById('t2_5');\n  var t2_6 = metrosvg.getElementById('t2_6');\n  var t2_7 = metrosvg.getElementById('t2_7');\n  var t2_8 = metrosvg.getElementById('t2_8');\n  var t2_9 = metrosvg.getElementById('t2_9');\n  var t2_10 = metrosvg.getElementById('t2_10');\n  var t2_11 = metrosvg.getElementById('t2_11');\n  var t2_12 = metrosvg.getElementById('t2_12');\n  var t2_13 = metrosvg.getElementById('t2_13');\n  var t2_14 = metrosvg.getElementById('t2_14');\n  var t2_15 = metrosvg.getElementById('t2_15');\n  var t2_16 = metrosvg.getElementById('t2_16');\n  var m_1 = metrosvg.getElementById('m_1');\n  var m_2 = metrosvg.getElementById('m_2');\n  var m_3 = metrosvg.getElementById('m_3');\n  var m_4 = metrosvg.getElementById('m_4');\n\n  var t1_hold = metrosvg.getElementById('t1hold');\n  var t1_change = metrosvg.getElementById('t1change');\n  var t2_hold = metrosvg.getElementById('t2hold');\n  var t2_change = metrosvg.getElementById('t2change');\n\n  t1_1.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_2.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_3.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_4.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_5.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_6.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_7.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_8.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_9.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_10.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_11.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_12.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_13.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_14.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_15.setAttributeNS(null, 'style', \"opacity:0\");\n  t1_16.setAttributeNS(null, 'style', \"opacity:0\");\n\n  t2_1.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_2.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_3.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_4.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_5.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_6.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_7.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_8.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_9.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_10.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_11.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_12.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_13.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_14.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_15.setAttributeNS(null, 'style', \"opacity:0\");\n  t2_16.setAttributeNS(null, 'style', \"opacity:0\");\n\n  m_1.setAttributeNS(null, 'style', \"opacity:0\");\n  m_2.setAttributeNS(null, 'style', \"opacity:0\");\n  m_3.setAttributeNS(null, 'style', \"opacity:0\");\n  m_4.setAttributeNS(null, 'style', \"opacity:0\");\n\n  (function(scope) {\n    scope.$watch('msg.payload', function(data) {\n      console.log('Position 222');\n      console.dir(data);\n      switch (scope.msg.payload) {\n        case \"t1_1_1\":\n        t1_1.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_1_0\":\n        t1_1.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_2_1\":\n        t1_2.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_2_0\":\n        t1_2.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_3_1\":\n        t1_3.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_3_0\":\n        t1_3.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_4_1\":\n        t1_4.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_4_0\":\n        t1_4.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_5_1\":\n        t1_5.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_5_0\":\n        t1_5.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_6_1\":\n        t1_6.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_6_0\":\n        t1_6.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_7_1\":\n        t1_7.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_7_0\":\n        t1_7.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_8_1\":\n        t1_8.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_8_0\":\n        t1_8.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_9_1\":\n        t1_9.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_9_0\":\n        t1_9.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_10_1\":\n        t1_10.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_10_0\":\n        t1_10.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_11_1\":\n        t1_11.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_11_0\":\n        t1_11.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_12_1\":\n        t1_12.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_12_0\":\n        t1_12.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_13_1\":\n        t1_13.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_13_0\":\n        t1_13.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_14_1\":\n        t1_14.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_14_0\":\n        t1_14.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_15_1\":\n        t1_15.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_15_0\":\n        t1_15.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_16_1\":\n        t1_16.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_16_0\":\n        t1_16.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_1_1\":\n        t2_1.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_1_0\":\n        t2_1.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_2_1\":\n        t2_2.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_2_0\":\n        t2_2.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_3_1\":\n        t2_3.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_3_0\":\n        t2_3.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_4_1\":\n        t2_4.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_4_0\":\n        t2_4.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_5_1\":\n        t2_5.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_5_0\":\n        t2_5.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_6_1\":\n        t2_6.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_6_0\":\n        t2_6.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_7_1\":\n        t2_7.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_7_0\":\n        t2_7.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_8_1\":\n        t2_8.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_8_0\":\n        t2_8.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_9_1\":\n        t2_9.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_9_0\":\n        t2_9_1.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_10_1\":\n        t2_10.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_10_0\":\n        t2_10.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_11_1\":\n        t2_11.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_11_0\":\n        t2_11.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_12_1\":\n        t2_12.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_12_0\":\n        t2_12.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_13_1\":\n        t2_13.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_13_0\":\n        t2_13.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_14_1\":\n        t2_14.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_14_0\":\n        t2_14.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_15_1\":\n        t2_15.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_15_0\":\n        t2_15.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_16_1\":\n        t2_16.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_16_0\":\n        t2_16.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"m_1_0\":\n        m_1.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"m_1_1\":\n        m_1.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"m_2_0\":\n        m_2.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"m_2_1\":\n        m_2.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"m_3_0\":\n        m_3.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"m_3_1\":\n        m_3.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"m_4_0\":\n        m_4.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"m_4_1\":\n        m_4.setAttributeNS(null, 'style', \"fill:none;stroke:#ff0000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t1_hold\":\n        t1_hold.setAttributeNS(null, 'style', \"fill:none;stroke:#00ff00;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        t1_change.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t1_change\":\n        t1_hold.setAttributeNS(null, 'style', \"opacity:0\");\n        t1_change.setAttributeNS(null, 'style', \"fill:none;stroke:#00ff00;stroke-width:33.33333206;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        case \"t2_hold\":\n        t2_hold.setAttributeNS(null, 'style', \"fill:none;stroke:#00ff00;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        t2_change.setAttributeNS(null, 'style', \"opacity:0\");\n        break;\n        case \"t2_change\":\n        t2_hold.setAttributeNS(null, 'style', \"opacity:0\");\n        t2_change.setAttributeNS(null, 'style', \"fill:none;stroke:#00ff00;stroke-width:33.33333206;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\");\n        break;\n        default:\n      }\n    });\n  })(scope);\n  ]]></script>\n</svg>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 440,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a456bf3.0149f4",
+        "type": "mqtt in",
+        "z": "1eac9891.f72c47",
+        "g": "acdf0c03.b33ca",
+        "name": "",
+        "topic": "train/position",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "b068f439.addf48"
+            ]
+        ]
+    },
+    {
+        "id": "c305d773.0abe58",
+        "type": "link in",
+        "z": "1eac9891.f72c47",
+        "g": "acdf0c03.b33ca",
+        "name": "train_graphics",
+        "links": [
+            "b33bc5dc.8801b8",
+            "d59505d7.24e038",
+            "92b65fc.a5b48a",
+            "17aa966e.e5abca"
+        ],
+        "x": 335,
+        "y": 220,
+        "wires": [
+            [
+                "b068f439.addf48"
+            ]
+        ]
+    },
+    {
+        "id": "eda6183ea4b1ac98",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "",
+        "func": "msg.payload = { \n    value: 1, \n    'fc': 5, \n    'unitid': 1, \n    'address': 0, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 640,
+        "wires": [
+            [
+                "54560b6bceff6fec"
+            ]
+        ]
+    },
+    {
+        "id": "54560b6bceff6fec",
+        "type": "modbus-flex-write",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "2ab1d781ed961375",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1150,
+        "y": 640,
+        "wires": [
+            [],
+            [
+                "f17caef7ba3b0437"
+            ]
+        ]
+    },
+    {
+        "id": "120618529cc542d2",
+        "type": "modbus-flex-write",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "server": "2ab1d781ed961375",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1210,
+        "y": 1020,
+        "wires": [
+            [],
+            [
+                "f17caef7ba3b0437"
+            ]
+        ]
+    },
+    {
+        "id": "f17caef7ba3b0437",
+        "type": "modbus-response",
+        "z": "1eac9891.f72c47",
+        "name": "",
+        "registerShowMax": 20,
+        "x": 1410,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "721cb0a7d521dcbd",
+        "type": "switch",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 790,
+        "y": 680,
+        "wires": [
+            [
+                "eda6183ea4b1ac98"
+            ],
+            [
+                "38151df186247736"
+            ]
+        ]
+    },
+    {
+        "id": "38151df186247736",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "627dcace.783324",
+        "name": "",
+        "func": "msg.payload = { \n    value: 1, \n    'fc': 5, \n    'unitid': 1, \n    'address': 1, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 680,
+        "wires": [
+            [
+                "54560b6bceff6fec"
+            ]
+        ]
+    },
+    {
+        "id": "92662fd86d2c9e9e",
+        "type": "switch",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 850,
+        "y": 1060,
+        "wires": [
+            [
+                "9e330b2cf14fa5eb"
+            ],
+            [
+                "3e55f83852fefdc4"
+            ]
+        ]
+    },
+    {
+        "id": "9e330b2cf14fa5eb",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "",
+        "func": "msg.payload = { \n    value: 1, \n    'fc': 5, \n    'unitid': 1, \n    'address': 2, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 1020,
+        "wires": [
+            [
+                "120618529cc542d2"
+            ]
+        ]
+    },
+    {
+        "id": "3e55f83852fefdc4",
+        "type": "function",
+        "z": "1eac9891.f72c47",
+        "g": "bba5c471.2f33e8",
+        "name": "",
+        "func": "msg.payload = { \n    value: 1, \n    'fc': 5, \n    'unitid': 1, \n    'address': 3, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 1080,
+        "wires": [
+            [
+                "120618529cc542d2"
+            ]
+        ]
+    }
+]
