@@ -1,0 +1,2086 @@
+[
+    {
+        "id": "b18fbe9a1fc2fc07",
+        "type": "tab",
+        "label": "Local Broker",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e55d01fc.fed8e",
+        "type": "tab",
+        "label": "Water Treatmeant",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "408b3272.f7983c",
+        "type": "group",
+        "z": "e55d01fc.fed8e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "6ab02e24.e0cf1",
+            "2e204142.03c99e",
+            "b324c7ef.b5f0c8",
+            "e3f72efe.03d6c"
+        ],
+        "x": 54,
+        "y": 39,
+        "w": 432,
+        "h": 122
+    },
+    {
+        "id": "9fdf7678.88ac18",
+        "type": "group",
+        "z": "e55d01fc.fed8e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b7d4741e.e238f8",
+            "3505df9f.0d8ff",
+            "19d92e9.917d0d1",
+            "ba72c7f.734f538",
+            "2bcd0a44.c39686"
+        ],
+        "x": 514,
+        "y": 39,
+        "w": 652,
+        "h": 122
+    },
+    {
+        "id": "dac83cb6.696da",
+        "type": "group",
+        "z": "e55d01fc.fed8e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ad84729f.d8c87",
+            "a43dd345.3eb4c",
+            "e221cbd7.4ebc28",
+            "5bf17c3c.7e9db4",
+            "ca6696b.e05e868",
+            "7e1d0853.165048",
+            "e9341337.35628",
+            "e83664bc.7daba8",
+            "75a68809.bc68d8",
+            "76e5984c.f5cc78",
+            "9e58e499.bea9f8",
+            "33b43e38cfcb68a3",
+            "d40cbeb42b554d26",
+            "006474b38cef682d",
+            "4278c58de91ab1eb",
+            "a65ec310189e7edd"
+        ],
+        "x": 74,
+        "y": 679,
+        "w": 1012,
+        "h": 202
+    },
+    {
+        "id": "b0250709.521cc8",
+        "type": "group",
+        "z": "e55d01fc.fed8e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "19d14e83.df3541",
+            "6a46f00c.f7ba8",
+            "dfafcd58.90e43",
+            "1c50f154.56dc8f",
+            "39fb63f4.ce809c",
+            "ddfb5bf0.c3bbb8",
+            "f959483a.b8aac8",
+            "134b49ec.080a36",
+            "5385f98d.da8558",
+            "2242163.14fb1ea",
+            "20737e1ce943da76",
+            "5067a00ecf991bff",
+            "e8af3d169638b33b",
+            "0373da533a9aef1c",
+            "854d656acf645fc7"
+        ],
+        "x": 54,
+        "y": 959,
+        "w": 1012,
+        "h": 202
+    },
+    {
+        "id": "a115fa9d.86f438",
+        "type": "group",
+        "z": "e55d01fc.fed8e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "abc8db9a.95ddc8",
+            "c779d84f.14aaf8",
+            "8f515b3.cab8ea8",
+            "74ee8ca7.e4f3b4"
+        ],
+        "x": 54,
+        "y": 179,
+        "w": 322,
+        "h": 142
+    },
+    {
+        "id": "758d86fe.c6a168",
+        "type": "group",
+        "z": "e55d01fc.fed8e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c166daa7.3037e8",
+            "633eea8f.f3fd54",
+            "7c4e1824.427278",
+            "7ba415b7.7ee10c",
+            "4ed69029.bbe1d",
+            "4c9157a3.ade2f8",
+            "4c43e49c.bc005c",
+            "79d346f2.8a1818",
+            "8f3be358.9a301",
+            "fb5853d.5de2fb"
+        ],
+        "x": 54,
+        "y": 359,
+        "w": 642,
+        "h": 242
+    },
+    {
+        "id": "5e7bf2191a37ac12",
+        "type": "group",
+        "z": "e55d01fc.fed8e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "34ec31e8.cc65ce",
+            "71af147.8f9d0ec",
+            "d261b0cf.47fe2",
+            "351cb57d.de5b1a",
+            "7327e0c8.b3156",
+            "3cac82f5.f33bfe",
+            "da218b16.59d708",
+            "46067d846446d0f1",
+            "a535f902c585cbb0",
+            "5462b550d398a80b",
+            "168ae6c18a20fb8c",
+            "1bc9102ee30784d7",
+            "de03db57985311ae",
+            "1ad8518424663fcf",
+            "e22070dd44a09f16",
+            "1d3ac42a842f59ff",
+            "605443f524c805b1",
+            "3b8b70e2ba7fb4f2"
+        ],
+        "x": 754,
+        "y": 199,
+        "w": 592,
+        "h": 382
+    },
+    {
+        "id": "1369121d.5439be",
+        "type": "ui_group",
+        "name": "WaterTreatment",
+        "tab": "b57664be.2e3278",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "15ba0606.c5006a",
+        "type": "mqtt-broker",
+        "name": "mqttBroker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "ab6021f1.63b68",
+        "type": "ui_group",
+        "name": "Filteration",
+        "tab": "b57664be.2e3278",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "c8547a8a.954368",
+        "type": "ui_group",
+        "name": "Recycle",
+        "tab": "b57664be.2e3278",
+        "order": 4,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ecc24777.1bd4f8",
+        "type": "ui_group",
+        "name": "Water Treatmeant Plant",
+        "tab": "b57664be.2e3278",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "61a5f2df87f1ca9b",
+        "type": "modbus-client",
+        "name": "moxa",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": false,
+        "tcpHost": "172.16.17.133",
+        "tcpPort": "4001",
+        "tcpType": "TELNET",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "b57664be.2e3278",
+        "type": "ui_tab",
+        "name": "WaterTreatment",
+        "icon": "fa-tint",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "480f474f60626b6b",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "080c75ee3a5a7c78",
+        "type": "aedes broker",
+        "z": "b18fbe9a1fc2fc07",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "persistence_bind": "memory",
+        "dburl": "",
+        "usetls": false,
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c166daa7.3037e8",
+        "type": "ui_switch",
+        "z": "e55d01fc.fed8e",
+        "d": true,
+        "g": "758d86fe.c6a168",
+        "name": "",
+        "label": "Master Switch",
+        "tooltip": "",
+        "group": "1369121d.5439be",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "run_all",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "stop_all",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 160,
+        "y": 500,
+        "wires": [
+            [
+                "7ba415b7.7ee10c",
+                "8f3be358.9a301"
+            ]
+        ]
+    },
+    {
+        "id": "633eea8f.f3fd54",
+        "type": "ui_gauge",
+        "z": "e55d01fc.fed8e",
+        "g": "758d86fe.c6a168",
+        "name": "",
+        "group": "1369121d.5439be",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TDS Levels",
+        "label": "ppm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "2000",
+        "colors": [
+            "#ffff00",
+            "#00ff00",
+            "#ca3838"
+        ],
+        "seg1": "150",
+        "seg2": "500",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "abc8db9a.95ddc8",
+        "type": "mqtt out",
+        "z": "e55d01fc.fed8e",
+        "g": "a115fa9d.86f438",
+        "name": "",
+        "topic": "waterTreatment/control",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "15ba0606.c5006a",
+        "x": 250,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "ad84729f.d8c87",
+        "type": "switch",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "ON/OFF state",
+        "property": "filter",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 200,
+        "y": 820,
+        "wires": [
+            [
+                "a43dd345.3eb4c"
+            ],
+            [
+                "e221cbd7.4ebc28"
+            ]
+        ]
+    },
+    {
+        "id": "a43dd345.3eb4c",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "if is on",
+        "func": "msg.color = \"white\";\nmsg.background = \"#00CC33\";\nmsg.text = \"Stop Filtration\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 780,
+        "wires": [
+            [
+                "5bf17c3c.7e9db4"
+            ]
+        ]
+    },
+    {
+        "id": "e221cbd7.4ebc28",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "if its off",
+        "func": "msg.color = \"white\";\nmsg.background = \"#CC0033\";\nmsg.text = \"Start Filtration\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 380,
+        "y": 840,
+        "wires": [
+            [
+                "5bf17c3c.7e9db4"
+            ]
+        ]
+    },
+    {
+        "id": "5bf17c3c.7e9db4",
+        "type": "ui_button",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "on/off",
+        "group": "ab6021f1.63b68",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 530,
+        "y": 800,
+        "wires": [
+            [
+                "ca6696b.e05e868"
+            ]
+        ]
+    },
+    {
+        "id": "ca6696b.e05e868",
+        "type": "switch",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 650,
+        "y": 800,
+        "wires": [
+            [
+                "e9341337.35628"
+            ]
+        ]
+    },
+    {
+        "id": "7e1d0853.165048",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 740,
+        "wires": [
+            [
+                "75a68809.bc68d8"
+            ]
+        ]
+    },
+    {
+        "id": "e9341337.35628",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "",
+        "func": "var obtaindata = global.get (\"filter\")\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 770,
+        "y": 800,
+        "wires": [
+            [
+                "e83664bc.7daba8",
+                "76e5984c.f5cc78",
+                "4278c58de91ab1eb"
+            ]
+        ]
+    },
+    {
+        "id": "e83664bc.7daba8",
+        "type": "change",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "re-wirte switch variable",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "filter",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "75a68809.bc68d8",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "",
+        "func": "var obtaindata = global.get (\"filter\");\nmsg.payload = obtaindata;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 180,
+        "y": 780,
+        "wires": [
+            [
+                "ad84729f.d8c87"
+            ]
+        ]
+    },
+    {
+        "id": "19d14e83.df3541",
+        "type": "switch",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "ON/OFF state",
+        "property": "pump",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 180,
+        "y": 1080,
+        "wires": [
+            [
+                "6a46f00c.f7ba8"
+            ],
+            [
+                "dfafcd58.90e43"
+            ]
+        ]
+    },
+    {
+        "id": "6a46f00c.f7ba8",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "if is on",
+        "func": "msg.color = \"white\";\nmsg.background = \"#00CC33\";\nmsg.text = \"Stop Pump\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 350,
+        "y": 1060,
+        "wires": [
+            [
+                "1c50f154.56dc8f"
+            ]
+        ]
+    },
+    {
+        "id": "dfafcd58.90e43",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "if its off",
+        "func": "msg.color = \"white\";\nmsg.background = \"#CC0033\";\nmsg.text = \"Start Pump\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 360,
+        "y": 1100,
+        "wires": [
+            [
+                "1c50f154.56dc8f"
+            ]
+        ]
+    },
+    {
+        "id": "1c50f154.56dc8f",
+        "type": "ui_button",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "on/off",
+        "group": "c8547a8a.954368",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 510,
+        "y": 1080,
+        "wires": [
+            [
+                "39fb63f4.ce809c"
+            ]
+        ]
+    },
+    {
+        "id": "39fb63f4.ce809c",
+        "type": "switch",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 1080,
+        "wires": [
+            [
+                "f959483a.b8aac8"
+            ]
+        ]
+    },
+    {
+        "id": "ddfb5bf0.c3bbb8",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 1040,
+        "wires": [
+            [
+                "19d14e83.df3541"
+            ]
+        ]
+    },
+    {
+        "id": "f959483a.b8aac8",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "",
+        "func": "var obtaindata = global.get (\"pump\")\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 750,
+        "y": 1080,
+        "wires": [
+            [
+                "134b49ec.080a36",
+                "5385f98d.da8558",
+                "20737e1ce943da76"
+            ]
+        ]
+    },
+    {
+        "id": "134b49ec.080a36",
+        "type": "change",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "re-wirte switch variable",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "pump",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6ab02e24.e0cf1",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "g": "408b3272.f7983c",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "",
+        "payload": "0",
+        "payloadType": "str",
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [
+                "2e204142.03c99e"
+            ]
+        ]
+    },
+    {
+        "id": "2e204142.03c99e",
+        "type": "change",
+        "z": "e55d01fc.fed8e",
+        "g": "408b3272.f7983c",
+        "name": "global filter",
+        "rules": [
+            {
+                "t": "set",
+                "p": "filter",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b324c7ef.b5f0c8",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "g": "408b3272.f7983c",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "",
+        "payload": "0",
+        "payloadType": "str",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "e3f72efe.03d6c"
+            ]
+        ]
+    },
+    {
+        "id": "e3f72efe.03d6c",
+        "type": "change",
+        "z": "e55d01fc.fed8e",
+        "g": "408b3272.f7983c",
+        "name": "global pump",
+        "rules": [
+            {
+                "t": "set",
+                "p": "pump",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "76e5984c.f5cc78",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "Command",
+        "func": "var obtaindata = msg.payload\nif (obtaindata == \"1\"){msg.payload = \"run_filter\"}\nif (obtaindata == \"0\"){msg.payload = \"stop_filter\"}\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 930,
+        "y": 800,
+        "wires": [
+            [
+                "9e58e499.bea9f8"
+            ]
+        ]
+    },
+    {
+        "id": "5385f98d.da8558",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "Command",
+        "func": "var obtaindata = msg.payload\nif (obtaindata == \"1\"){msg.payload = \"run_pump\"}\nif (obtaindata == \"0\"){msg.payload = \"stop_pump\"}\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 910,
+        "y": 1080,
+        "wires": [
+            [
+                "2242163.14fb1ea"
+            ]
+        ]
+    },
+    {
+        "id": "7c4e1824.427278",
+        "type": "mqtt in",
+        "z": "e55d01fc.fed8e",
+        "g": "758d86fe.c6a168",
+        "name": "",
+        "topic": "tdsMeter/control/value",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 180,
+        "y": 400,
+        "wires": [
+            [
+                "633eea8f.f3fd54"
+            ]
+        ]
+    },
+    {
+        "id": "3505df9f.0d8ff",
+        "type": "mqtt in",
+        "z": "e55d01fc.fed8e",
+        "g": "9fdf7678.88ac18",
+        "name": "",
+        "topic": "waterTreatment/redStatus",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 650,
+        "y": 80,
+        "wires": [
+            [
+                "ba72c7f.734f538"
+            ]
+        ]
+    },
+    {
+        "id": "19d92e9.917d0d1",
+        "type": "mqtt in",
+        "z": "e55d01fc.fed8e",
+        "g": "9fdf7678.88ac18",
+        "name": "",
+        "topic": "waterTreatment/greenStatus",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 660,
+        "y": 120,
+        "wires": [
+            [
+                "2bcd0a44.c39686"
+            ]
+        ]
+    },
+    {
+        "id": "ba72c7f.734f538",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "9fdf7678.88ac18",
+        "name": "",
+        "func": "if (msg.payload == \"1\"){msg.payload = \"redTrue\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 880,
+        "y": 80,
+        "wires": [
+            [
+                "b7d4741e.e238f8"
+            ]
+        ]
+    },
+    {
+        "id": "2bcd0a44.c39686",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "9fdf7678.88ac18",
+        "name": "",
+        "func": "if (msg.payload == \"1\"){msg.payload = \"greenTrue\"}\nif (msg.payload == \"0\"){msg.payload = \"redTrue\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 880,
+        "y": 120,
+        "wires": [
+            [
+                "b7d4741e.e238f8"
+            ]
+        ]
+    },
+    {
+        "id": "c779d84f.14aaf8",
+        "type": "ui_template",
+        "z": "e55d01fc.fed8e",
+        "g": "a115fa9d.86f438",
+        "group": "ecc24777.1bd4f8",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<svg\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n   xmlns:cc=\"http://creativecommons.org/ns#\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n   width=\"1052.3622\"\n   height=\"744.09448\"\n   id=\"watertreatmentsvg\"\n   version=\"1.1\"\n   inkscape:version=\"0.48+devel \"\n   onload=\"var src; if (document.documentURI) src = document.documentURI; else if (this.getSrc) src = this.getSrc(); else src = document.location.href + ''; try {parent.preload.load(src);}catch(e) {}\"\n   viewBox=\"0 0 1052.3622 744.09449\"\n   sodipodi:docname=\"waterTreatment.svg\">\n  <defs\n     id=\"defs16420\">\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect4233\"\n       is_visible=\"true\" />\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect4229\"\n       is_visible=\"true\" />\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect4225\"\n       is_visible=\"true\" />\n    <inkscape:path-effect\n       effect=\"spiro\"\n       id=\"path-effect4202\"\n       is_visible=\"true\" />\n    <linearGradient\n       inkscape:collect=\"always\"\n       id=\"linearGradient16545\">\n      <stop\n         style=\"stop-color:#000000;stop-opacity:1\"\n         offset=\"0\"\n         id=\"stop16547\" />\n      <stop\n         style=\"stop-color:#4d4d4d;stop-opacity:1\"\n         offset=\"1\"\n         id=\"stop16549\" />\n    </linearGradient>\n    <linearGradient\n       inkscape:collect=\"always\"\n       id=\"linearGradient16533\">\n      <stop\n         style=\"stop-color:#008080;stop-opacity:1\"\n         offset=\"0\"\n         id=\"stop16535\" />\n      <stop\n         style=\"stop-color:#000000;stop-opacity:1\"\n         offset=\"1\"\n         id=\"stop16537\" />\n    </linearGradient>\n    <radialGradient\n       inkscape:collect=\"always\"\n       xlink:href=\"#linearGradient16533\"\n       id=\"radialGradient16539\"\n       cx=\"664.34943\"\n       cy=\"811.38953\"\n       fx=\"664.34943\"\n       fy=\"811.38953\"\n       r=\"196.71782\"\n       gradientUnits=\"userSpaceOnUse\"\n       gradientTransform=\"matrix(2.2233248,-0.03812971,0.03249122,1.894542,-1106.3647,-1025.7597)\" />\n    <radialGradient\n       inkscape:collect=\"always\"\n       xlink:href=\"#linearGradient16545\"\n       id=\"radialGradient16551\"\n       cx=\"664.34943\"\n       cy=\"811.38953\"\n       fx=\"664.34943\"\n       fy=\"811.38953\"\n       r=\"25.961935\"\n       gradientUnits=\"userSpaceOnUse\"\n       gradientTransform=\"matrix(0.89305664,-0.00807643,0.01114262,1.232106,-205.27957,-508.23203)\" />\n    <radialGradient\n       inkscape:collect=\"always\"\n       xlink:href=\"#linearGradient16533\"\n       id=\"radialGradient16727\"\n       gradientUnits=\"userSpaceOnUse\"\n       gradientTransform=\"matrix(2.2233248,-0.03812971,0.03249122,1.894542,-1106.3647,-1025.7597)\"\n       cx=\"664.34943\"\n       cy=\"811.38953\"\n       fx=\"664.34943\"\n       fy=\"811.38953\"\n       r=\"196.71782\" />\n    <radialGradient\n       inkscape:collect=\"always\"\n       xlink:href=\"#linearGradient16545\"\n       id=\"radialGradient16729\"\n       gradientUnits=\"userSpaceOnUse\"\n       gradientTransform=\"matrix(0.89305664,-0.00807643,0.01114262,1.232106,-205.27957,-508.23203)\"\n       cx=\"664.34943\"\n       cy=\"811.38953\"\n       fx=\"664.34943\"\n       fy=\"811.38953\"\n       r=\"25.961935\" />\n  </defs>\n  <sodipodi:namedview\n     id=\"base\"\n     pagecolor=\"#ffffff\"\n     bordercolor=\"#666666\"\n     borderopacity=\"1.0\"\n     inkscape:pageopacity=\"0.0\"\n     inkscape:pageshadow=\"2\"\n     inkscape:zoom=\"0.5\"\n     inkscape:cx=\"513.05485\"\n     inkscape:cy=\"553.21788\"\n     inkscape:document-units=\"px\"\n     inkscape:current-layer=\"g16564\"\n     showgrid=\"false\"\n     showguides=\"true\"\n     inkscape:guide-bbox=\"true\"\n     inkscape:snap-object-midpoints=\"true\"\n     inkscape:window-width=\"1366\"\n     inkscape:window-height=\"745\"\n     inkscape:window-x=\"-8\"\n     inkscape:window-y=\"-8\"\n     inkscape:window-maximized=\"1\"\n     inkscape:snap-nodes=\"true\"\n     inkscape:snap-others=\"false\">\n    <sodipodi:guide\n       orientation=\"1,0\"\n       position=\"74,400\"\n       id=\"guide4357\" />\n    <sodipodi:guide\n       orientation=\"1,0\"\n       position=\"970,186\"\n       id=\"guide4359\" />\n    <sodipodi:guide\n       orientation=\"0,1\"\n       position=\"582,652\"\n       id=\"guide4361\" />\n    <sodipodi:guide\n       orientation=\"0,1\"\n       position=\"570,280\"\n       id=\"guide4363\" />\n  </sodipodi:namedview>\n  <metadata\n     id=\"metadata16423\">\n    <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n        <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n        <dc:title />\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n  <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\"\n     transform=\"translate(0,-308.26771)\">\n    <g\n       style=\"fill:#b3b3b3\"\n       id=\"g16520\"\n       transform=\"translate(-224.85996,-24.748738)\">\n      <path\n         inkscape:connector-curvature=\"0\"\n         id=\"rect16475\"\n         d=\"m 330.73201,473.76534 a 70.008011,30.324483 0 0 0 -42.45898,26.7253 l -0.13221,0 0,1.14707 a 70.008011,30.324483 0 0 0 -9.4e-4,0.01 70.008011,30.324483 0 0 0 9.4e-4,0.0154 l 0,181.23695 140.01591,0 0,-182.40959 -0.0964,0 a 70.008011,30.324483 0 0 0 -41.69784,-26.5629 27.835632,5.9744787 0 0 1 9.4e-4,0.007 27.835632,5.9744787 0 0 1 -27.83562,5.97447 27.835632,5.9744787 0 0 1 -27.83564,-5.97447 27.835632,5.9744787 0 0 1 0.0396,-0.16879 z\"\n         style=\"fill:#b3b3b3;stroke:#000000;stroke-width:1.78700006;stroke-miterlimit:4;stroke-dasharray:none\" />\n      <g\n         style=\"fill:#b3b3b3\"\n         transform=\"matrix(0.63211584,0,0,0.79070985,131.75623,138.62937)\"\n         id=\"g16515\">\n        <path\n           inkscape:connector-curvature=\"0\"\n           style=\"fill:#b3b3b3;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n           d=\"m 358.52156,407.15876 a 44.194171,7.7781743 0 0 0 -44.19336,7.77734 44.194171,7.7781743 0 0 0 44.19336,7.7793 44.194171,7.7781743 0 0 0 44.19336,-7.7793 44.194171,7.7781743 0 0 0 -44.19336,-7.77734 z M 314.3282,424.9361 a 44.194169,7.7781741 0 0 0 44.19336,7.7793 44.194169,7.7781741 0 0 0 44.13868,-7.50782 44.19417,7.7781742 0 0 1 -43.95118,6.97657 44.19417,7.7781742 0 0 1 -44.08789,-7.24805 l -0.29297,0 z\"\n           id=\"path16437\" />\n        <rect\n           inkscape:transform-center-y=\"5.0536856\"\n           inkscape:transform-center-x=\"0.97116139\"\n           ry=\"0\"\n           y=\"414.90558\"\n           x=\"313.32819\"\n           height=\"10.109375\"\n           width=\"2\"\n           id=\"rect16507\"\n           style=\"fill:#b3b3b3;stroke:none\" />\n        <rect\n           transform=\"matrix(0.99998311,0.00581162,-0.00581162,0.99998311,0,0)\"\n           inkscape:transform-center-y=\"5.1930331\"\n           inkscape:transform-center-x=\"-0.93858877\"\n           style=\"fill:#b3b3b3;stroke:none\"\n           id=\"rect16509\"\n           width=\"2\"\n           height=\"10.41106\"\n           x=\"404.11987\"\n           y=\"412.62881\"\n           ry=\"0\" />\n      </g>\n    </g>\n    <rect\n       transform=\"scale(1,-1)\"\n       inkscape:label=\"{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;tank1_height&quot;}\"\n       style=\"fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       id=\"tank1_level\"\n       width=\"136.5625\"\n       height=\"181.04878\"\n       x=\"64.834572\"\n       y=\"-656.51532\" />\n    <g\n       id=\"g4435\"\n       transform=\"translate(-12.727925,43.840621)\">\n      <rect\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4367\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.0101\"\n         y=\"431.62592\" />\n      <rect\n         y=\"611.08368\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4369\"\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         transform=\"scale(1,-1)\"\n         inkscape:label=\"{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;tank1_height&quot;}\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4365\"\n         width=\"0.79799539\"\n         height=\"181.04878\"\n         x=\"213.32701\"\n         y=\"-612.67468\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4371\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"539.3006\" />\n      <rect\n         y=\"575.19214\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4373\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4375\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"593.13788\" />\n      <rect\n         y=\"557.24634\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4377\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4379\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"467.51746\" />\n      <rect\n         y=\"449.57169\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4381\"\n         style=\"fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4383\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"503.40903\" />\n      <rect\n         y=\"521.3548\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4385\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4387\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"485.46326\" />\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"195.33824\"\n         y=\"612.71851\"\n         id=\"text4389\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4391\"\n           x=\"195.33824\"\n           y=\"612.71851\">0</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"598.57635\"\n         id=\"text4393\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4395\"\n           x=\"187.37926\"\n           y=\"598.57635\">10</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4397\"\n         y=\"580.89868\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"580.89868\"\n           x=\"187.37926\"\n           id=\"tspan4399\"\n           sodipodi:role=\"line\">20</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"562.86749\"\n         id=\"text4401\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4403\"\n           x=\"187.37926\"\n           y=\"562.86749\">30</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4405\"\n         y=\"545.01306\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"545.01306\"\n           x=\"187.37926\"\n           id=\"tspan4407\"\n           sodipodi:role=\"line\">40</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"527.15857\"\n         id=\"text4409\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4411\"\n           x=\"187.37926\"\n           y=\"527.15857\">50</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4413\"\n         y=\"509.30414\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"509.30414\"\n           x=\"187.37926\"\n           id=\"tspan4415\"\n           sodipodi:role=\"line\">60</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"491.27292\"\n         id=\"text4417\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4419\"\n           x=\"187.37926\"\n           y=\"491.27292\">70</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4421\"\n         y=\"473.2417\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"473.2417\"\n           x=\"187.37926\"\n           id=\"tspan4423\"\n           sodipodi:role=\"line\">80</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"455.38727\"\n         id=\"text4425\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4427\"\n           x=\"187.37926\"\n           y=\"455.38727\">90</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4429\"\n         y=\"440.53802\"\n         x=\"179.42027\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"440.53802\"\n           x=\"179.42027\"\n           id=\"tspan4431\"\n           sodipodi:role=\"line\">100</tspan></text>\n    </g>\n    <path\n       style=\"fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"M 826.89258 156.45898 L 826.89258 174.45898 L 826.91992 174.45898 L 826.91992 280.31641 L 808.51367 280.31641 L 808.51367 298.31641 L 844.95312 298.31641 L 844.95312 280.31641 L 844.91992 280.31641 L 844.91992 174.45898 L 851.89453 174.45898 L 851.89453 156.45898 L 826.89258 156.45898 z M 8.9902344 167.0332 L 8.9902344 185.0332 L 62.566406 185.0332 L 62.566406 167.0332 L 8.9902344 167.0332 z M 359.56445 287.78906 L 359.56445 305.78906 L 426.75195 305.78906 L 426.75195 287.78906 L 359.56445 287.78906 z M 993.02539 321.18359 L 993.02539 339.18359 L 1042.8398 339.18359 L 1042.8398 321.18359 L 993.02539 321.18359 z M 588.51367 321.31641 L 588.51367 339.31641 L 695.95312 339.31641 L 695.95312 321.31641 L 588.51367 321.31641 z M 204 328.09375 L 204 346.09375 L 247.5 346.09375 L 247.5 328.09375 L 204 328.09375 z \"\n       transform=\"translate(0,308.26771)\"\n       id=\"rect16651\" />\n    <g\n       id=\"g16564\"\n       transform=\"translate(130.78992,56.568543)\">\n      <circle\n         r=\"125.08535\"\n         cy=\"486.12039\"\n         cx=\"397.06308\"\n         id=\"path16529\"\n         style=\"fill:#008080;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <circle\n         style=\"fill:url(#radialGradient16539);fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"circle16531\"\n         cx=\"397.06308\"\n         cy=\"486.12039\"\n         r=\"116.77473\" />\n      <rect\n         inkscape:transform-center-y=\"-48.690911\"\n         inkscape:transform-center-x=\"-0.41980145\"\n         ry=\"4.5483942\"\n         y=\"378.24197\"\n         x=\"390.0658\"\n         height=\"116.51632\"\n         width=\"13.994708\"\n         id=\"filter_rotor_rec1\"\n         style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         inkscape:label=\"{&quot;attr&quot;:&quot;rotate&quot;,&quot;max&quot;:360,&quot;min&quot;:0,&quot;tag&quot;:&quot;filter_rotor1&quot;}\" />\n      <circle\n         r=\"15.411406\"\n         cy=\"486.12039\"\n         cx=\"397.06308\"\n         id=\"circle16541\"\n         style=\"fill:url(#radialGradient16551);fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n    </g>\n    <g\n       transform=\"translate(776.40326,33.941127)\"\n       id=\"g16570\">\n      <g\n         id=\"g16572\"\n         transform=\"translate(-212.13204,-68.589359)\"\n         style=\"fill:#b3b3b3\">\n        <path\n           inkscape:connector-curvature=\"0\"\n           id=\"path16574\"\n           d=\"m 330.73201,473.76534 a 70.008011,30.324483 0 0 0 -42.45898,26.7253 l -0.13221,0 0,1.14707 a 70.008011,30.324483 0 0 0 -9.4e-4,0.01 70.008011,30.324483 0 0 0 9.4e-4,0.0154 l 0,181.23695 140.01591,0 0,-182.40959 -0.0964,0 a 70.008011,30.324483 0 0 0 -41.69784,-26.5629 27.835632,5.9744787 0 0 1 9.4e-4,0.007 27.835632,5.9744787 0 0 1 -27.83562,5.97447 27.835632,5.9744787 0 0 1 -27.83564,-5.97447 27.835632,5.9744787 0 0 1 0.0396,-0.16879 z\"\n           style=\"fill:#b3b3b3;stroke:#000000;stroke-width:1.28717554;stroke-miterlimit:4;stroke-dasharray:none\" />\n        <g\n           transform=\"matrix(0.63211584,0,0,0.79070985,131.75623,138.62937)\"\n           id=\"g16576\"\n           style=\"fill:#b3b3b3\">\n          <path\n             inkscape:connector-curvature=\"0\"\n             style=\"fill:#b3b3b3;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             d=\"m 358.52156,407.15876 a 44.194171,7.7781743 0 0 0 -44.19336,7.77734 44.194171,7.7781743 0 0 0 44.19336,7.7793 44.194171,7.7781743 0 0 0 44.19336,-7.7793 44.194171,7.7781743 0 0 0 -44.19336,-7.77734 z M 314.3282,424.9361 a 44.194169,7.7781741 0 0 0 44.19336,7.7793 44.194169,7.7781741 0 0 0 44.13868,-7.50782 44.19417,7.7781742 0 0 1 -43.95118,6.97657 44.19417,7.7781742 0 0 1 -44.08789,-7.24805 l -0.29297,0 z\"\n             id=\"path16578\" />\n          <rect\n             inkscape:transform-center-y=\"5.0536856\"\n             inkscape:transform-center-x=\"0.97116139\"\n             ry=\"0\"\n             y=\"414.90558\"\n             x=\"313.32819\"\n             height=\"10.109375\"\n             width=\"2\"\n             id=\"rect16580\"\n             style=\"fill:#b3b3b3;stroke:none\" />\n          <rect\n             transform=\"matrix(0.99998311,0.00581162,-0.00581162,0.99998311,0,0)\"\n             inkscape:transform-center-y=\"5.1930331\"\n             inkscape:transform-center-x=\"-0.93858877\"\n             style=\"fill:#b3b3b3;stroke:none\"\n             id=\"rect16582\"\n             width=\"2\"\n             height=\"10.41106\"\n             x=\"404.11987\"\n             y=\"412.62881\"\n             ry=\"0\" />\n        </g>\n      </g>\n      <rect\n         style=\"fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"tank3_level\"\n         width=\"136.5625\"\n         height=\"181.04878\"\n         x=\"77.5625\"\n         y=\"-612.67468\"\n         inkscape:label=\"{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;tank3_height&quot;}\"\n         transform=\"scale(1,-1)\" />\n    </g>\n    <g\n       transform=\"translate(-12.727925,409.84062)\"\n       id=\"g16665\">\n      <g\n         id=\"g16667\"\n         transform=\"translate(-212.13204,-68.589359)\"\n         style=\"fill:#b3b3b3\">\n        <path\n           inkscape:connector-curvature=\"0\"\n           id=\"path16669\"\n           d=\"m 330.73201,473.76534 a 70.008011,30.324483 0 0 0 -42.45898,26.7253 l -0.13221,0 0,1.14707 a 70.008011,30.324483 0 0 0 -9.4e-4,0.01 70.008011,30.324483 0 0 0 9.4e-4,0.0154 l 0,181.23695 140.01591,0 0,-182.40959 -0.0964,0 a 70.008011,30.324483 0 0 0 -41.69784,-26.5629 27.835632,5.9744787 0 0 1 9.4e-4,0.007 27.835632,5.9744787 0 0 1 -27.83562,5.97447 27.835632,5.9744787 0 0 1 -27.83564,-5.97447 27.835632,5.9744787 0 0 1 0.0396,-0.16879 z\"\n           style=\"fill:#b3b3b3;stroke:#000000;stroke-width:1.28717554;stroke-miterlimit:4;stroke-dasharray:none\" />\n        <g\n           transform=\"matrix(0.63211584,0,0,0.79070985,131.75623,138.62937)\"\n           id=\"g16671\"\n           style=\"fill:#b3b3b3\">\n          <path\n             inkscape:connector-curvature=\"0\"\n             style=\"fill:#b3b3b3;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             d=\"m 358.52156,407.15876 a 44.194171,7.7781743 0 0 0 -44.19336,7.77734 44.194171,7.7781743 0 0 0 44.19336,7.7793 44.194171,7.7781743 0 0 0 44.19336,-7.7793 44.194171,7.7781743 0 0 0 -44.19336,-7.77734 z M 314.3282,424.9361 a 44.194169,7.7781741 0 0 0 44.19336,7.7793 44.194169,7.7781741 0 0 0 44.13868,-7.50782 44.19417,7.7781742 0 0 1 -43.95118,6.97657 44.19417,7.7781742 0 0 1 -44.08789,-7.24805 l -0.29297,0 z\"\n             id=\"path16673\" />\n          <rect\n             inkscape:transform-center-y=\"5.0536856\"\n             inkscape:transform-center-x=\"0.97116139\"\n             ry=\"0\"\n             y=\"414.90558\"\n             x=\"313.32819\"\n             height=\"10.109375\"\n             width=\"2\"\n             id=\"rect16675\"\n             style=\"fill:#b3b3b3;stroke:none\" />\n          <rect\n             transform=\"matrix(0.99998311,0.00581162,-0.00581162,0.99998311,0,0)\"\n             inkscape:transform-center-y=\"5.1930331\"\n             inkscape:transform-center-x=\"-0.93858877\"\n             style=\"fill:#b3b3b3;stroke:none\"\n             id=\"rect16677\"\n             width=\"2\"\n             height=\"10.41106\"\n             x=\"404.11987\"\n             y=\"412.62881\"\n             ry=\"0\" />\n        </g>\n      </g>\n      <rect\n         style=\"fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"tank2_level\"\n         width=\"136.5625\"\n         height=\"181.04878\"\n         x=\"77.5625\"\n         y=\"-612.67468\"\n         inkscape:label=\"{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;tank2_height&quot;}\"\n         transform=\"scale(1,-1)\" />\n    </g>\n    <path\n       style=\"fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"M 826.89258 522.45898 L 826.89258 540.45898 L 826.91992 540.45898 L 826.91992 646.31641 L 808.51367 646.31641 L 808.51367 664.31641 L 844.95312 664.31641 L 844.95312 646.31641 L 844.91992 646.31641 L 844.91992 540.45898 L 851.89453 540.45898 L 851.89453 522.45898 L 826.89258 522.45898 z M 8.9902344 533.0332 L 8.9902344 551.0332 L 62.566406 551.0332 L 62.566406 533.0332 L 8.9902344 533.0332 z M 359.56445 653.78906 L 359.56445 671.78906 L 426.75195 671.78906 L 426.75195 653.78906 L 359.56445 653.78906 z M 993.02539 687.18359 L 993.02539 705.18359 L 1042.8398 705.18359 L 1042.8398 687.18359 L 993.02539 687.18359 z M 588.51367 687.31641 L 588.51367 705.31641 L 695.95312 705.31641 L 695.95312 687.31641 L 588.51367 687.31641 z M 204 694.09375 L 204 712.09375 L 247.5 712.09375 L 247.5 694.09375 L 204 694.09375 z \"\n       transform=\"translate(0,308.26771)\"\n       id=\"rect16681\" />\n    <g\n       transform=\"translate(130.78992,422.56854)\"\n       id=\"g16685\">\n      <circle\n         style=\"fill:#008080;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"circle16687\"\n         cx=\"397.06308\"\n         cy=\"486.12039\"\n         r=\"125.08535\" />\n      <circle\n         r=\"116.77473\"\n         cy=\"486.12039\"\n         cx=\"397.06308\"\n         id=\"circle16689\"\n         style=\"fill:url(#radialGradient16727);fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"filter_rotor_rec2\"\n         width=\"13.994708\"\n         height=\"116.51632\"\n         x=\"390.0658\"\n         y=\"378.24197\"\n         ry=\"4.5483942\"\n         inkscape:transform-center-x=\"-0.41980145\"\n         inkscape:transform-center-y=\"-48.690911\"\n         inkscape:label=\"{&quot;attr&quot;:&quot;rotate&quot;,&quot;max&quot;:360,&quot;min&quot;:0,&quot;tag&quot;:&quot;filter_rotor2&quot;}\" />\n      <circle\n         style=\"fill:url(#radialGradient16729);fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"circle16693\"\n         cx=\"397.06308\"\n         cy=\"486.12039\"\n         r=\"15.411406\" />\n    </g>\n    <g\n       id=\"g16695\"\n       transform=\"translate(776.40326,399.94113)\">\n      <g\n         transform=\"translate(-212.13204,-68.589359)\"\n         id=\"g16697\"\n         style=\"fill:#b3b3b3\">\n        <path\n           style=\"fill:#b3b3b3;stroke:#000000;stroke-width:1.28717554;stroke-miterlimit:4;stroke-dasharray:none\"\n           d=\"m 330.73201,473.76534 a 70.008011,30.324483 0 0 0 -42.45898,26.7253 l -0.13221,0 0,1.14707 a 70.008011,30.324483 0 0 0 -9.4e-4,0.01 70.008011,30.324483 0 0 0 9.4e-4,0.0154 l 0,181.23695 140.01591,0 0,-182.40959 -0.0964,0 a 70.008011,30.324483 0 0 0 -41.69784,-26.5629 27.835632,5.9744787 0 0 1 9.4e-4,0.007 27.835632,5.9744787 0 0 1 -27.83562,5.97447 27.835632,5.9744787 0 0 1 -27.83564,-5.97447 27.835632,5.9744787 0 0 1 0.0396,-0.16879 z\"\n           id=\"path16699\"\n           inkscape:connector-curvature=\"0\" />\n        <g\n           id=\"g16701\"\n           transform=\"matrix(0.63211584,0,0,0.79070985,131.75623,138.62937)\"\n           style=\"fill:#b3b3b3\">\n          <path\n             id=\"path16703\"\n             d=\"m 358.52156,407.15876 a 44.194171,7.7781743 0 0 0 -44.19336,7.77734 44.194171,7.7781743 0 0 0 44.19336,7.7793 44.194171,7.7781743 0 0 0 44.19336,-7.7793 44.194171,7.7781743 0 0 0 -44.19336,-7.77734 z M 314.3282,424.9361 a 44.194169,7.7781741 0 0 0 44.19336,7.7793 44.194169,7.7781741 0 0 0 44.13868,-7.50782 44.19417,7.7781742 0 0 1 -43.95118,6.97657 44.19417,7.7781742 0 0 1 -44.08789,-7.24805 l -0.29297,0 z\"\n             style=\"fill:#b3b3b3;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none\"\n             inkscape:connector-curvature=\"0\" />\n          <rect\n             style=\"fill:#b3b3b3;stroke:none\"\n             id=\"rect16705\"\n             width=\"2\"\n             height=\"10.109375\"\n             x=\"313.32819\"\n             y=\"414.90558\"\n             ry=\"0\"\n             inkscape:transform-center-x=\"0.97116139\"\n             inkscape:transform-center-y=\"5.0536856\" />\n          <rect\n             ry=\"0\"\n             y=\"412.62881\"\n             x=\"404.11987\"\n             height=\"10.41106\"\n             width=\"2\"\n             id=\"rect16707\"\n             style=\"fill:#b3b3b3;stroke:none\"\n             inkscape:transform-center-x=\"-0.93858877\"\n             inkscape:transform-center-y=\"5.1930331\"\n             transform=\"matrix(0.99998311,0.00581162,-0.00581162,0.99998311,0,0)\" />\n        </g>\n      </g>\n      <rect\n         y=\"-612.67468\"\n         x=\"77.5625\"\n         height=\"181.04878\"\n         width=\"136.5625\"\n         id=\"tank4_level\"\n         style=\"fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         inkscape:label=\"{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;tank4_height&quot;}\"\n         transform=\"scale(1,-1)\" />\n    </g>\n    <g\n       id=\"g4262\"\n       transform=\"translate(-945.98338,62.665323)\">\n      <path\n         id=\"pump1_body\"\n         d=\"m 1301.6094,221.97852 c -1.8188,0 -3.2832,1.46446 -3.2832,3.2832 l 0,18.65625 c 0,1.81874 1.4644,3.2832 3.2832,3.2832 1.8187,0 3.2832,-1.46446 3.2832,-3.2832 l 0,-18.65625 c 0,-1.81874 -1.4645,-3.2832 -3.2832,-3.2832 z m -52.3594,0.11523 a 32.749995,32.749995 0 0 0 -32.75,32.75 32.749995,32.749995 0 0 0 0.7793,7 l -0.9141,0 c -5.8114,0 -10.4902,4.48854 -10.4902,10.0625 l 0,5.50195 c 0,5.57396 4.6788,10.06055 10.4902,10.06055 l 27.7696,0 c 0.5135,0 1.0144,-0.0456 1.5078,-0.11328 a 32.749995,32.749995 0 0 0 3.6074,0.23828 32.749995,32.749995 0 0 0 32.75,-32.75 32.749995,32.749995 0 0 0 -0.8105,-7.125 l 1.5878,0 c 5.7292,0 10.3418,-4.53195 10.3418,-10.16211 l 0,-5.29883 c 0,-5.63016 -4.6126,-10.16406 -10.3418,-10.16406 l -33.1855,0 c -0.048,0 -0.095,0.007 -0.1426,0.008 a 32.749995,32.749995 0 0 0 -0.1992,-0.008 z m -0.1289,4.38086 a 28.369928,28.369928 0 0 1 27.4414,21.24414 l 0.01,0 a 28.25,28.25 0 0 1 0.076,0.36523 28.369928,28.369928 0 0 1 0.4727,2.23829 28.25,28.25 0 0 1 0.1484,1.22461 28.369928,28.369928 0 0 1 0.1641,1.52929 28.25,28.25 0 0 1 0.07,1.76758 28.25,28.25 0 0 1 -0.5703,5.61133 28.369928,28.369928 0 0 1 -27.8086,22.75781 28.369928,28.369928 0 0 1 -28.3691,-28.36914 28.369928,28.369928 0 0 1 28.3691,-28.36914 z m 16.5703,0.0918 17.2637,0 c 3.1523,0 5.6894,2.45459 5.6894,5.5039 l 0,5.54883 c 0,3.04931 -2.5371,5.50391 -5.6894,5.50391 l -3.1641,0 a 32.749995,32.749995 0 0 0 -14.0996,-16.55664 z m -68.2695,35.59961 c -1.8188,0 -3.2832,1.46446 -3.2832,3.2832 l 0,18.65625 c 0,1.81874 1.4644,3.2832 3.2832,3.2832 1.8187,0 3.2832,-1.46446 3.2832,-3.2832 l 0,-18.65625 c 0,-1.81874 -1.4645,-3.2832 -3.2832,-3.2832 z m 18.8066,4.30273 2.4453,0 a 32.749995,32.749995 0 0 0 14.086,16.625 l -16.5313,0 c -3.2426,0 -5.8535,-2.35357 -5.8535,-5.27734 l 0,-6.07032 c 0,-2.92377 2.6109,-5.27734 5.8535,-5.27734 z\"\n         style=\"fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         inkscape:connector-curvature=\"0\"\n         transform=\"translate(0,308.26771)\" />\n      <path\n         id=\"pump1_fan\"\n         transform=\"translate(0,308.26771)\"\n         d=\"m 1248.6309,233.35352 a 21.058348,21.058348 0 0 0 -15.8555,7.54101 l 0.5371,-0.30078 0.4375,0.125 7.8125,7.5625 c -0.6114,0.69546 -1.1098,1.49029 -1.4687,2.34375 -0.3713,0.882 -0.5942,1.8263 -0.6563,2.78125 l -11.5703,0.0293 a 21.058348,21.058348 0 0 0 7.0742,16.74414 l 7.9746,-8.17774 c 0.6401,0.52143 1.3535,0.95366 2.1113,1.28125 0.9401,0.40639 1.9507,0.65105 2.9727,0.71875 l 0,11.4375 a 21.058348,21.058348 0 0 0 16.6426,-7.08203 l -8.2364,-7.99804 c 0.619,-0.6921 1.1136,-1.49515 1.4532,-2.35938 0.3054,-0.77728 0.4852,-1.60363 0.5312,-2.4375 l 11.5,0.0273 a 21.058348,21.058348 0 0 0 0.059,-1.17968 21.058348,21.058348 0 0 0 -6.9277,-15.57618 l -8.0078,8.33008 c -0.7,-0.6413 -1.512,-1.15929 -2.3887,-1.52344 -0.7822,-0.32487 -1.6168,-0.52725 -2.4609,-0.59765 l 0.045,-11.56836 -0.01,-0.0606 a 21.058348,21.058348 0 0 0 -1.5703,-0.0605 z m 0.3183,15.22656 a 0,0 0 0 0 0,0 5.8310951,5.8310951 0 0 1 5.9023,5.83008 5.8310951,5.8310951 0 1 1 -5.9043,-5.83008 z m 0.025,1.94531 a 3.8865515,3.8865515 0 1 0 3.9356,3.88477 3.8865515,3.8865515 0 0 0 -3.9356,-3.88477 z\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         inkscape:connector-curvature=\"0\"\n         inkscape:label=\"{&quot;attr&quot;:&quot;rotate&quot;,&quot;max&quot;:360,&quot;min&quot;:0,&quot;tag&quot;:&quot;pump1_rotor&quot;}\" />\n      <path\n         id=\"rect4246\"\n         transform=\"translate(0,308.26771)\"\n         d=\"m 1250.9609,234.33594 0,2.01172 7.1368,0 0,-2.01172 -7.1368,0 z m 0.2637,3.38086 0,1.92382 6.6074,0 0,-1.92382 -6.6074,0 z m 0.6856,3.38086 0,1.52539 5.2597,0 0,-1.52539 -5.2597,0 z m 0.5312,2.69726 0,1.30274 4.2207,0 0,-1.30274 -4.2207,0 z m -24.1094,1.81055 0,7.13672 2.0137,0 0,-7.13672 -2.0137,0 z m 3.3828,0.26562 0,6.60743 1.9219,0 0,-6.60743 -1.9219,0 z m 3.3809,0.66211 0,5.25977 1.5254,0 0,-5.25977 -1.5254,0 z m 2.6953,0.50782 0,4.2207 1.3047,0 0,-4.2207 -1.3047,0 z m 29.5645,8.95117 0,7.13672 2.0117,0 0,-7.13672 -2.0117,0 z m -3.293,0.26562 0,6.60742 1.9238,0 0,-6.60742 -1.9238,0 z m -2.9824,0.66211 0,5.25977 1.5254,0 0,-5.25977 -1.5254,0 z m -2.4746,0.50781 0,4.22071 1.3027,0 0,-4.22071 -1.3027,0 z m -17.0352,6.62891 0,1.30274 4.2207,0 0,-1.30274 -4.2207,0 z m -0.5312,2.47461 0,1.52539 5.2597,0 0,-1.52539 -5.2597,0 z m -0.6856,2.98242 0,1.92383 6.6074,0 0,-1.92383 -6.6074,0 z m -0.2637,3.29297 0,2.01172 7.1368,0 0,-2.01172 -7.1368,0 z\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         inkscape:connector-curvature=\"0\" />\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"1022.3508\"\n         y=\"339.15863\"\n         id=\"text4291\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4293\"\n           x=\"1022.3508\"\n           y=\"339.15863\"\n           style=\"font-size:35.00000058px\">Tank 1</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"1025.0372\"\n         y=\"706.85413\"\n         id=\"text4295\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4297\"\n           x=\"1025.0372\"\n           y=\"706.85413\"\n           style=\"font-size:35px\">Tank 2</tspan><tspan\n           sodipodi:role=\"line\"\n           x=\"1025.0372\"\n           y=\"750.60413\"\n           id=\"tspan4299\"\n           style=\"font-size:35px\" /></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"1802.9968\"\n         y=\"336.3302\"\n         id=\"text4301\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4303\"\n           x=\"1802.9968\"\n           y=\"336.3302\"\n           style=\"font-size:35.00000058px\">Tank 3</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"1802.9968\"\n         y=\"703.88361\"\n         id=\"text4305\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4307\"\n           x=\"1802.9968\"\n           y=\"703.88361\"\n           style=\"font-size:35px\">Tank 4</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"1183.9834\"\n         y=\"505.69684\"\n         id=\"text4309\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4311\"\n           x=\"1183.9834\"\n           y=\"505.69684\"\n           style=\"font-size:35px\">Pump 1</tspan><tspan\n           sodipodi:role=\"line\"\n           x=\"1183.9834\"\n           y=\"549.44684\"\n           id=\"tspan4313\"\n           style=\"font-size:35px\" /></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"1185.9834\"\n         y=\"867.69684\"\n         id=\"text4315\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4317\"\n           x=\"1185.9834\"\n           y=\"867.69684\"\n           style=\"font-size:35px\">Pump 2</tspan><tspan\n           sodipodi:role=\"line\"\n           x=\"1185.9834\"\n           y=\"911.44684\"\n           id=\"tspan4319\"\n           style=\"font-size:35px\" /></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"1621.9834\"\n         y=\"485.69684\"\n         id=\"text4321\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4323\"\n           x=\"1621.9834\"\n           y=\"485.69684\"\n           style=\"font-size:35px\">Pump 3</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"1621.9834\"\n         y=\"871.69684\"\n         id=\"text4325\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4327\"\n           x=\"1621.9834\"\n           y=\"871.69684\"\n           style=\"font-size:35px\">Pump 4</tspan><tspan\n           sodipodi:role=\"line\"\n           x=\"1621.9834\"\n           y=\"915.44684\"\n           id=\"tspan4329\"\n           style=\"font-size:35px\" /></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:35.00000058px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"1411.9834\"\n         y=\"315.69687\"\n         id=\"text4331\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4333\"\n           x=\"1411.9834\"\n           y=\"315.69687\" /></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:35px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"1395.9834\"\n         y=\"675.69684\"\n         id=\"text4335\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4337\"\n           x=\"1395.9834\"\n           y=\"675.69684\">Filtration </tspan></text>\n    </g>\n    <g\n       transform=\"translate(-945.98338,428.16533)\"\n       id=\"g4267\">\n      <path\n         transform=\"translate(0,308.26771)\"\n         inkscape:connector-curvature=\"0\"\n         style=\"fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         d=\"m 1301.6094,221.97852 c -1.8188,0 -3.2832,1.46446 -3.2832,3.2832 l 0,18.65625 c 0,1.81874 1.4644,3.2832 3.2832,3.2832 1.8187,0 3.2832,-1.46446 3.2832,-3.2832 l 0,-18.65625 c 0,-1.81874 -1.4645,-3.2832 -3.2832,-3.2832 z m -52.3594,0.11523 a 32.749995,32.749995 0 0 0 -32.75,32.75 32.749995,32.749995 0 0 0 0.7793,7 l -0.9141,0 c -5.8114,0 -10.4902,4.48854 -10.4902,10.0625 l 0,5.50195 c 0,5.57396 4.6788,10.06055 10.4902,10.06055 l 27.7696,0 c 0.5135,0 1.0144,-0.0456 1.5078,-0.11328 a 32.749995,32.749995 0 0 0 3.6074,0.23828 32.749995,32.749995 0 0 0 32.75,-32.75 32.749995,32.749995 0 0 0 -0.8105,-7.125 l 1.5878,0 c 5.7292,0 10.3418,-4.53195 10.3418,-10.16211 l 0,-5.29883 c 0,-5.63016 -4.6126,-10.16406 -10.3418,-10.16406 l -33.1855,0 c -0.048,0 -0.095,0.007 -0.1426,0.008 a 32.749995,32.749995 0 0 0 -0.1992,-0.008 z m -0.1289,4.38086 a 28.369928,28.369928 0 0 1 27.4414,21.24414 l 0.01,0 a 28.25,28.25 0 0 1 0.076,0.36523 28.369928,28.369928 0 0 1 0.4727,2.23829 28.25,28.25 0 0 1 0.1484,1.22461 28.369928,28.369928 0 0 1 0.1641,1.52929 28.25,28.25 0 0 1 0.07,1.76758 28.25,28.25 0 0 1 -0.5703,5.61133 28.369928,28.369928 0 0 1 -27.8086,22.75781 28.369928,28.369928 0 0 1 -28.3691,-28.36914 28.369928,28.369928 0 0 1 28.3691,-28.36914 z m 16.5703,0.0918 17.2637,0 c 3.1523,0 5.6894,2.45459 5.6894,5.5039 l 0,5.54883 c 0,3.04931 -2.5371,5.50391 -5.6894,5.50391 l -3.1641,0 a 32.749995,32.749995 0 0 0 -14.0996,-16.55664 z m -68.2695,35.59961 c -1.8188,0 -3.2832,1.46446 -3.2832,3.2832 l 0,18.65625 c 0,1.81874 1.4644,3.2832 3.2832,3.2832 1.8187,0 3.2832,-1.46446 3.2832,-3.2832 l 0,-18.65625 c 0,-1.81874 -1.4645,-3.2832 -3.2832,-3.2832 z m 18.8066,4.30273 2.4453,0 a 32.749995,32.749995 0 0 0 14.086,16.625 l -16.5313,0 c -3.2426,0 -5.8535,-2.35357 -5.8535,-5.27734 l 0,-6.07032 c 0,-2.92377 2.6109,-5.27734 5.8535,-5.27734 z\"\n         id=\"pump2_body\" />\n      <path\n         inkscape:connector-curvature=\"0\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         d=\"m 1248.6309,233.35352 a 21.058348,21.058348 0 0 0 -15.8555,7.54101 l 0.5371,-0.30078 0.4375,0.125 7.8125,7.5625 c -0.6114,0.69546 -1.1098,1.49029 -1.4687,2.34375 -0.3713,0.882 -0.5942,1.8263 -0.6563,2.78125 l -11.5703,0.0293 a 21.058348,21.058348 0 0 0 7.0742,16.74414 l 7.9746,-8.17774 c 0.6401,0.52143 1.3535,0.95366 2.1113,1.28125 0.9401,0.40639 1.9507,0.65105 2.9727,0.71875 l 0,11.4375 a 21.058348,21.058348 0 0 0 16.6426,-7.08203 l -8.2364,-7.99804 c 0.619,-0.6921 1.1136,-1.49515 1.4532,-2.35938 0.3054,-0.77728 0.4852,-1.60363 0.5312,-2.4375 l 11.5,0.0273 a 21.058348,21.058348 0 0 0 0.059,-1.17968 21.058348,21.058348 0 0 0 -6.9277,-15.57618 l -8.0078,8.33008 c -0.7,-0.6413 -1.512,-1.15929 -2.3887,-1.52344 -0.7822,-0.32487 -1.6168,-0.52725 -2.4609,-0.59765 l 0.045,-11.56836 -0.01,-0.0606 a 21.058348,21.058348 0 0 0 -1.5703,-0.0605 z m 0.3183,15.22656 a 0,0 0 0 0 0,0 5.8310951,5.8310951 0 0 1 5.9023,5.83008 5.8310951,5.8310951 0 1 1 -5.9043,-5.83008 z m 0.025,1.94531 a 3.8865515,3.8865515 0 1 0 3.9356,3.88477 3.8865515,3.8865515 0 0 0 -3.9356,-3.88477 z\"\n         transform=\"translate(0,308.26771)\"\n         id=\"pump2_fan\" />\n      <path\n         inkscape:connector-curvature=\"0\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         d=\"m 1250.9609,234.33594 0,2.01172 7.1368,0 0,-2.01172 -7.1368,0 z m 0.2637,3.38086 0,1.92382 6.6074,0 0,-1.92382 -6.6074,0 z m 0.6856,3.38086 0,1.52539 5.2597,0 0,-1.52539 -5.2597,0 z m 0.5312,2.69726 0,1.30274 4.2207,0 0,-1.30274 -4.2207,0 z m -24.1094,1.81055 0,7.13672 2.0137,0 0,-7.13672 -2.0137,0 z m 3.3828,0.26562 0,6.60743 1.9219,0 0,-6.60743 -1.9219,0 z m 3.3809,0.66211 0,5.25977 1.5254,0 0,-5.25977 -1.5254,0 z m 2.6953,0.50782 0,4.2207 1.3047,0 0,-4.2207 -1.3047,0 z m 29.5645,8.95117 0,7.13672 2.0117,0 0,-7.13672 -2.0117,0 z m -3.293,0.26562 0,6.60742 1.9238,0 0,-6.60742 -1.9238,0 z m -2.9824,0.66211 0,5.25977 1.5254,0 0,-5.25977 -1.5254,0 z m -2.4746,0.50781 0,4.22071 1.3027,0 0,-4.22071 -1.3027,0 z m -17.0352,6.62891 0,1.30274 4.2207,0 0,-1.30274 -4.2207,0 z m -0.5312,2.47461 0,1.52539 5.2597,0 0,-1.52539 -5.2597,0 z m -0.6856,2.98242 0,1.92383 6.6074,0 0,-1.92383 -6.6074,0 z m -0.2637,3.29297 0,2.01172 7.1368,0 0,-2.01172 -7.1368,0 z\"\n         transform=\"translate(0,308.26771)\"\n         id=\"path4273\" />\n    </g>\n    <g\n       id=\"g4275\"\n       transform=\"translate(-497.26586,54.897556)\">\n      <path\n         id=\"pump3_body\"\n         d=\"m 1301.6094,221.97852 c -1.8188,0 -3.2832,1.46446 -3.2832,3.2832 l 0,18.65625 c 0,1.81874 1.4644,3.2832 3.2832,3.2832 1.8187,0 3.2832,-1.46446 3.2832,-3.2832 l 0,-18.65625 c 0,-1.81874 -1.4645,-3.2832 -3.2832,-3.2832 z m -52.3594,0.11523 a 32.749995,32.749995 0 0 0 -32.75,32.75 32.749995,32.749995 0 0 0 0.7793,7 l -0.9141,0 c -5.8114,0 -10.4902,4.48854 -10.4902,10.0625 l 0,5.50195 c 0,5.57396 4.6788,10.06055 10.4902,10.06055 l 27.7696,0 c 0.5135,0 1.0144,-0.0456 1.5078,-0.11328 a 32.749995,32.749995 0 0 0 3.6074,0.23828 32.749995,32.749995 0 0 0 32.75,-32.75 32.749995,32.749995 0 0 0 -0.8105,-7.125 l 1.5878,0 c 5.7292,0 10.3418,-4.53195 10.3418,-10.16211 l 0,-5.29883 c 0,-5.63016 -4.6126,-10.16406 -10.3418,-10.16406 l -33.1855,0 c -0.048,0 -0.095,0.007 -0.1426,0.008 a 32.749995,32.749995 0 0 0 -0.1992,-0.008 z m -0.1289,4.38086 a 28.369928,28.369928 0 0 1 27.4414,21.24414 l 0.01,0 a 28.25,28.25 0 0 1 0.076,0.36523 28.369928,28.369928 0 0 1 0.4727,2.23829 28.25,28.25 0 0 1 0.1484,1.22461 28.369928,28.369928 0 0 1 0.1641,1.52929 28.25,28.25 0 0 1 0.07,1.76758 28.25,28.25 0 0 1 -0.5703,5.61133 28.369928,28.369928 0 0 1 -27.8086,22.75781 28.369928,28.369928 0 0 1 -28.3691,-28.36914 28.369928,28.369928 0 0 1 28.3691,-28.36914 z m 16.5703,0.0918 17.2637,0 c 3.1523,0 5.6894,2.45459 5.6894,5.5039 l 0,5.54883 c 0,3.04931 -2.5371,5.50391 -5.6894,5.50391 l -3.1641,0 a 32.749995,32.749995 0 0 0 -14.0996,-16.55664 z m -68.2695,35.59961 c -1.8188,0 -3.2832,1.46446 -3.2832,3.2832 l 0,18.65625 c 0,1.81874 1.4644,3.2832 3.2832,3.2832 1.8187,0 3.2832,-1.46446 3.2832,-3.2832 l 0,-18.65625 c 0,-1.81874 -1.4645,-3.2832 -3.2832,-3.2832 z m 18.8066,4.30273 2.4453,0 a 32.749995,32.749995 0 0 0 14.086,16.625 l -16.5313,0 c -3.2426,0 -5.8535,-2.35357 -5.8535,-5.27734 l 0,-6.07032 c 0,-2.92377 2.6109,-5.27734 5.8535,-5.27734 z\"\n         style=\"fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         inkscape:connector-curvature=\"0\"\n         transform=\"translate(0,308.26771)\" />\n      <path\n         id=\"pump3_fan\"\n         transform=\"translate(0,308.26771)\"\n         d=\"m 1248.6309,233.35352 a 21.058348,21.058348 0 0 0 -15.8555,7.54101 l 0.5371,-0.30078 0.4375,0.125 7.8125,7.5625 c -0.6114,0.69546 -1.1098,1.49029 -1.4687,2.34375 -0.3713,0.882 -0.5942,1.8263 -0.6563,2.78125 l -11.5703,0.0293 a 21.058348,21.058348 0 0 0 7.0742,16.74414 l 7.9746,-8.17774 c 0.6401,0.52143 1.3535,0.95366 2.1113,1.28125 0.9401,0.40639 1.9507,0.65105 2.9727,0.71875 l 0,11.4375 a 21.058348,21.058348 0 0 0 16.6426,-7.08203 l -8.2364,-7.99804 c 0.619,-0.6921 1.1136,-1.49515 1.4532,-2.35938 0.3054,-0.77728 0.4852,-1.60363 0.5312,-2.4375 l 11.5,0.0273 a 21.058348,21.058348 0 0 0 0.059,-1.17968 21.058348,21.058348 0 0 0 -6.9277,-15.57618 l -8.0078,8.33008 c -0.7,-0.6413 -1.512,-1.15929 -2.3887,-1.52344 -0.7822,-0.32487 -1.6168,-0.52725 -2.4609,-0.59765 l 0.045,-11.56836 -0.01,-0.0606 a 21.058348,21.058348 0 0 0 -1.5703,-0.0605 z m 0.3183,15.22656 a 0,0 0 0 0 0,0 5.8310951,5.8310951 0 0 1 5.9023,5.83008 5.8310951,5.8310951 0 1 1 -5.9043,-5.83008 z m 0.025,1.94531 a 3.8865515,3.8865515 0 1 0 3.9356,3.88477 3.8865515,3.8865515 0 0 0 -3.9356,-3.88477 z\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         inkscape:connector-curvature=\"0\" />\n      <path\n         id=\"path4281\"\n         transform=\"translate(0,308.26771)\"\n         d=\"m 1250.9609,234.33594 0,2.01172 7.1368,0 0,-2.01172 -7.1368,0 z m 0.2637,3.38086 0,1.92382 6.6074,0 0,-1.92382 -6.6074,0 z m 0.6856,3.38086 0,1.52539 5.2597,0 0,-1.52539 -5.2597,0 z m 0.5312,2.69726 0,1.30274 4.2207,0 0,-1.30274 -4.2207,0 z m -24.1094,1.81055 0,7.13672 2.0137,0 0,-7.13672 -2.0137,0 z m 3.3828,0.26562 0,6.60743 1.9219,0 0,-6.60743 -1.9219,0 z m 3.3809,0.66211 0,5.25977 1.5254,0 0,-5.25977 -1.5254,0 z m 2.6953,0.50782 0,4.2207 1.3047,0 0,-4.2207 -1.3047,0 z m 29.5645,8.95117 0,7.13672 2.0117,0 0,-7.13672 -2.0117,0 z m -3.293,0.26562 0,6.60742 1.9238,0 0,-6.60742 -1.9238,0 z m -2.9824,0.66211 0,5.25977 1.5254,0 0,-5.25977 -1.5254,0 z m -2.4746,0.50781 0,4.22071 1.3027,0 0,-4.22071 -1.3027,0 z m -17.0352,6.62891 0,1.30274 4.2207,0 0,-1.30274 -4.2207,0 z m -0.5312,2.47461 0,1.52539 5.2597,0 0,-1.52539 -5.2597,0 z m -0.6856,2.98242 0,1.92383 6.6074,0 0,-1.92383 -6.6074,0 z m -0.2637,3.29297 0,2.01172 7.1368,0 0,-2.01172 -7.1368,0 z\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         inkscape:connector-curvature=\"0\" />\n    </g>\n    <g\n       transform=\"translate(-497.28667,421.1402)\"\n       id=\"g4283\">\n      <path\n         transform=\"translate(0,308.26771)\"\n         inkscape:connector-curvature=\"0\"\n         style=\"fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         d=\"m 1301.6094,221.97852 c -1.8188,0 -3.2832,1.46446 -3.2832,3.2832 l 0,18.65625 c 0,1.81874 1.4644,3.2832 3.2832,3.2832 1.8187,0 3.2832,-1.46446 3.2832,-3.2832 l 0,-18.65625 c 0,-1.81874 -1.4645,-3.2832 -3.2832,-3.2832 z m -52.3594,0.11523 a 32.749995,32.749995 0 0 0 -32.75,32.75 32.749995,32.749995 0 0 0 0.7793,7 l -0.9141,0 c -5.8114,0 -10.4902,4.48854 -10.4902,10.0625 l 0,5.50195 c 0,5.57396 4.6788,10.06055 10.4902,10.06055 l 27.7696,0 c 0.5135,0 1.0144,-0.0456 1.5078,-0.11328 a 32.749995,32.749995 0 0 0 3.6074,0.23828 32.749995,32.749995 0 0 0 32.75,-32.75 32.749995,32.749995 0 0 0 -0.8105,-7.125 l 1.5878,0 c 5.7292,0 10.3418,-4.53195 10.3418,-10.16211 l 0,-5.29883 c 0,-5.63016 -4.6126,-10.16406 -10.3418,-10.16406 l -33.1855,0 c -0.048,0 -0.095,0.007 -0.1426,0.008 a 32.749995,32.749995 0 0 0 -0.1992,-0.008 z m -0.1289,4.38086 a 28.369928,28.369928 0 0 1 27.4414,21.24414 l 0.01,0 a 28.25,28.25 0 0 1 0.076,0.36523 28.369928,28.369928 0 0 1 0.4727,2.23829 28.25,28.25 0 0 1 0.1484,1.22461 28.369928,28.369928 0 0 1 0.1641,1.52929 28.25,28.25 0 0 1 0.07,1.76758 28.25,28.25 0 0 1 -0.5703,5.61133 28.369928,28.369928 0 0 1 -27.8086,22.75781 28.369928,28.369928 0 0 1 -28.3691,-28.36914 28.369928,28.369928 0 0 1 28.3691,-28.36914 z m 16.5703,0.0918 17.2637,0 c 3.1523,0 5.6894,2.45459 5.6894,5.5039 l 0,5.54883 c 0,3.04931 -2.5371,5.50391 -5.6894,5.50391 l -3.1641,0 a 32.749995,32.749995 0 0 0 -14.0996,-16.55664 z m -68.2695,35.59961 c -1.8188,0 -3.2832,1.46446 -3.2832,3.2832 l 0,18.65625 c 0,1.81874 1.4644,3.2832 3.2832,3.2832 1.8187,0 3.2832,-1.46446 3.2832,-3.2832 l 0,-18.65625 c 0,-1.81874 -1.4645,-3.2832 -3.2832,-3.2832 z m 18.8066,4.30273 2.4453,0 a 32.749995,32.749995 0 0 0 14.086,16.625 l -16.5313,0 c -3.2426,0 -5.8535,-2.35357 -5.8535,-5.27734 l 0,-6.07032 c 0,-2.92377 2.6109,-5.27734 5.8535,-5.27734 z\"\n         id=\"pump4_body\" />\n      <path\n         inkscape:connector-curvature=\"0\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         d=\"m 1248.6309,233.35352 a 21.058348,21.058348 0 0 0 -15.8555,7.54101 l 0.5371,-0.30078 0.4375,0.125 7.8125,7.5625 c -0.6114,0.69546 -1.1098,1.49029 -1.4687,2.34375 -0.3713,0.882 -0.5942,1.8263 -0.6563,2.78125 l -11.5703,0.0293 a 21.058348,21.058348 0 0 0 7.0742,16.74414 l 7.9746,-8.17774 c 0.6401,0.52143 1.3535,0.95366 2.1113,1.28125 0.9401,0.40639 1.9507,0.65105 2.9727,0.71875 l 0,11.4375 a 21.058348,21.058348 0 0 0 16.6426,-7.08203 l -8.2364,-7.99804 c 0.619,-0.6921 1.1136,-1.49515 1.4532,-2.35938 0.3054,-0.77728 0.4852,-1.60363 0.5312,-2.4375 l 11.5,0.0273 a 21.058348,21.058348 0 0 0 0.059,-1.17968 21.058348,21.058348 0 0 0 -6.9277,-15.57618 l -8.0078,8.33008 c -0.7,-0.6413 -1.512,-1.15929 -2.3887,-1.52344 -0.7822,-0.32487 -1.6168,-0.52725 -2.4609,-0.59765 l 0.045,-11.56836 -0.01,-0.0606 a 21.058348,21.058348 0 0 0 -1.5703,-0.0605 z m 0.3183,15.22656 a 0,0 0 0 0 0,0 5.8310951,5.8310951 0 0 1 5.9023,5.83008 5.8310951,5.8310951 0 1 1 -5.9043,-5.83008 z m 0.025,1.94531 a 3.8865515,3.8865515 0 1 0 3.9356,3.88477 3.8865515,3.8865515 0 0 0 -3.9356,-3.88477 z\"\n         transform=\"translate(0,308.26771)\"\n         id=\"pump4_fan\" />\n      <path\n         inkscape:connector-curvature=\"0\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         d=\"m 1250.9609,234.33594 0,2.01172 7.1368,0 0,-2.01172 -7.1368,0 z m 0.2637,3.38086 0,1.92382 6.6074,0 0,-1.92382 -6.6074,0 z m 0.6856,3.38086 0,1.52539 5.2597,0 0,-1.52539 -5.2597,0 z m 0.5312,2.69726 0,1.30274 4.2207,0 0,-1.30274 -4.2207,0 z m -24.1094,1.81055 0,7.13672 2.0137,0 0,-7.13672 -2.0137,0 z m 3.3828,0.26562 0,6.60743 1.9219,0 0,-6.60743 -1.9219,0 z m 3.3809,0.66211 0,5.25977 1.5254,0 0,-5.25977 -1.5254,0 z m 2.6953,0.50782 0,4.2207 1.3047,0 0,-4.2207 -1.3047,0 z m 29.5645,8.95117 0,7.13672 2.0117,0 0,-7.13672 -2.0117,0 z m -3.293,0.26562 0,6.60742 1.9238,0 0,-6.60742 -1.9238,0 z m -2.9824,0.66211 0,5.25977 1.5254,0 0,-5.25977 -1.5254,0 z m -2.4746,0.50781 0,4.22071 1.3027,0 0,-4.22071 -1.3027,0 z m -17.0352,6.62891 0,1.30274 4.2207,0 0,-1.30274 -4.2207,0 z m -0.5312,2.47461 0,1.52539 5.2597,0 0,-1.52539 -5.2597,0 z m -0.6856,2.98242 0,1.92383 6.6074,0 0,-1.92383 -6.6074,0 z m -0.2637,3.29297 0,2.01172 7.1368,0 0,-2.01172 -7.1368,0 z\"\n         transform=\"translate(0,308.26771)\"\n         id=\"path4289\" />\n    </g>\n    <g\n       transform=\"translate(-12.7123,409.825)\"\n       id=\"g4541\">\n      <rect\n         y=\"431.62592\"\n         x=\"204.0101\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4543\"\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4545\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"611.08368\" />\n      <rect\n         y=\"-612.67468\"\n         x=\"213.32701\"\n         height=\"181.04878\"\n         width=\"0.79799539\"\n         id=\"rect4547\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         inkscape:label=\"{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;tank1_height&quot;}\"\n         transform=\"scale(1,-1)\" />\n      <rect\n         y=\"539.3006\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4549\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4551\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"575.19214\" />\n      <rect\n         y=\"593.13788\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4553\"\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4555\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"557.24634\" />\n      <rect\n         y=\"467.51746\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4557\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4559\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"449.57169\" />\n      <rect\n         y=\"503.40903\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4561\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4563\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"521.3548\" />\n      <rect\n         y=\"485.46326\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4565\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4567\"\n         y=\"612.71851\"\n         x=\"195.33824\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"612.71851\"\n           x=\"195.33824\"\n           id=\"tspan4569\"\n           sodipodi:role=\"line\">0</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4571\"\n         y=\"598.57635\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"598.57635\"\n           x=\"187.37926\"\n           id=\"tspan4573\"\n           sodipodi:role=\"line\">10</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"580.89868\"\n         id=\"text4575\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4577\"\n           x=\"187.37926\"\n           y=\"580.89868\">20</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4579\"\n         y=\"562.86749\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"562.86749\"\n           x=\"187.37926\"\n           id=\"tspan4581\"\n           sodipodi:role=\"line\">30</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"545.01306\"\n         id=\"text4583\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4585\"\n           x=\"187.37926\"\n           y=\"545.01306\">40</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4587\"\n         y=\"527.15857\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"527.15857\"\n           x=\"187.37926\"\n           id=\"tspan4589\"\n           sodipodi:role=\"line\">50</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"509.30414\"\n         id=\"text4591\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4593\"\n           x=\"187.37926\"\n           y=\"509.30414\">60</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4595\"\n         y=\"491.27292\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"491.27292\"\n           x=\"187.37926\"\n           id=\"tspan4597\"\n           sodipodi:role=\"line\">70</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"473.2417\"\n         id=\"text4599\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4601\"\n           x=\"187.37926\"\n           y=\"473.2417\">80</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4603\"\n         y=\"455.38727\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"455.38727\"\n           x=\"187.37926\"\n           id=\"tspan4605\"\n           sodipodi:role=\"line\">90</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"179.42027\"\n         y=\"440.53802\"\n         id=\"text4607\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4609\"\n           x=\"179.42027\"\n           y=\"440.53802\">100</tspan></text>\n    </g>\n    <g\n       id=\"g4688\"\n       transform=\"translate(776.40778,33.942927)\">\n      <rect\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4690\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.0101\"\n         y=\"431.62592\" />\n      <rect\n         y=\"611.08368\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4692\"\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         transform=\"scale(1,-1)\"\n         inkscape:label=\"{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;tank1_height&quot;}\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4694\"\n         width=\"0.79799539\"\n         height=\"181.04878\"\n         x=\"213.32701\"\n         y=\"-612.67468\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4696\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"539.3006\" />\n      <rect\n         y=\"575.19214\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4698\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4700\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"593.13788\" />\n      <rect\n         y=\"557.24634\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4702\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4704\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"467.51746\" />\n      <rect\n         y=\"449.57169\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4706\"\n         style=\"fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4708\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"503.40903\" />\n      <rect\n         y=\"521.3548\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4710\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4712\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"485.46326\" />\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"195.33824\"\n         y=\"612.71851\"\n         id=\"text4714\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4716\"\n           x=\"195.33824\"\n           y=\"612.71851\">0</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"598.57635\"\n         id=\"text4718\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4720\"\n           x=\"187.37926\"\n           y=\"598.57635\">10</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4722\"\n         y=\"580.89868\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"580.89868\"\n           x=\"187.37926\"\n           id=\"tspan4724\"\n           sodipodi:role=\"line\">20</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"562.86749\"\n         id=\"text4726\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4728\"\n           x=\"187.37926\"\n           y=\"562.86749\">30</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4730\"\n         y=\"545.01306\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"545.01306\"\n           x=\"187.37926\"\n           id=\"tspan4732\"\n           sodipodi:role=\"line\">40</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"527.15857\"\n         id=\"text4734\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4736\"\n           x=\"187.37926\"\n           y=\"527.15857\">50</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4738\"\n         y=\"509.30414\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"509.30414\"\n           x=\"187.37926\"\n           id=\"tspan4740\"\n           sodipodi:role=\"line\">60</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"491.27292\"\n         id=\"text4742\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4744\"\n           x=\"187.37926\"\n           y=\"491.27292\">70</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4746\"\n         y=\"473.2417\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"473.2417\"\n           x=\"187.37926\"\n           id=\"tspan4748\"\n           sodipodi:role=\"line\">80</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"455.38727\"\n         id=\"text4750\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4752\"\n           x=\"187.37926\"\n           y=\"455.38727\">90</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4754\"\n         y=\"440.53802\"\n         x=\"179.42027\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"440.53802\"\n           x=\"179.42027\"\n           id=\"tspan4756\"\n           sodipodi:role=\"line\">100</tspan></text>\n    </g>\n    <g\n       transform=\"translate(776.41614,399.93866)\"\n       id=\"g4758\">\n      <rect\n         y=\"431.62592\"\n         x=\"204.0101\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4760\"\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4762\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"611.08368\" />\n      <rect\n         y=\"-612.67468\"\n         x=\"213.32701\"\n         height=\"181.04878\"\n         width=\"0.79799539\"\n         id=\"rect4764\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         inkscape:label=\"{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;tank1_height&quot;}\"\n         transform=\"scale(1,-1)\" />\n      <rect\n         y=\"539.3006\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4766\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4768\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"575.19214\" />\n      <rect\n         y=\"593.13788\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4770\"\n         style=\"fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4772\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"557.24634\" />\n      <rect\n         y=\"467.51746\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4774\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4776\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"449.57169\" />\n      <rect\n         y=\"503.40903\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4778\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <rect\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect4780\"\n         width=\"10.078112\"\n         height=\"1.5909903\"\n         x=\"204.04181\"\n         y=\"521.3548\" />\n      <rect\n         y=\"485.46326\"\n         x=\"204.04181\"\n         height=\"1.5909903\"\n         width=\"10.078112\"\n         id=\"rect4782\"\n         style=\"fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4784\"\n         y=\"612.71851\"\n         x=\"195.33824\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"612.71851\"\n           x=\"195.33824\"\n           id=\"tspan4786\"\n           sodipodi:role=\"line\">0</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4788\"\n         y=\"598.57635\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"598.57635\"\n           x=\"187.37926\"\n           id=\"tspan4790\"\n           sodipodi:role=\"line\">10</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"580.89868\"\n         id=\"text4792\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4794\"\n           x=\"187.37926\"\n           y=\"580.89868\">20</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4796\"\n         y=\"562.86749\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"562.86749\"\n           x=\"187.37926\"\n           id=\"tspan4798\"\n           sodipodi:role=\"line\">30</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"545.01306\"\n         id=\"text4800\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4802\"\n           x=\"187.37926\"\n           y=\"545.01306\">40</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4804\"\n         y=\"527.15857\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"527.15857\"\n           x=\"187.37926\"\n           id=\"tspan4806\"\n           sodipodi:role=\"line\">50</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"509.30414\"\n         id=\"text4808\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4810\"\n           x=\"187.37926\"\n           y=\"509.30414\">60</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4812\"\n         y=\"491.27292\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"491.27292\"\n           x=\"187.37926\"\n           id=\"tspan4814\"\n           sodipodi:role=\"line\">70</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"187.37926\"\n         y=\"473.2417\"\n         id=\"text4816\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4818\"\n           x=\"187.37926\"\n           y=\"473.2417\">80</tspan></text>\n      <text\n         sodipodi:linespacing=\"125%\"\n         id=\"text4820\"\n         y=\"455.38727\"\n         x=\"187.37926\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         xml:space=\"preserve\"><tspan\n           y=\"455.38727\"\n           x=\"187.37926\"\n           id=\"tspan4822\"\n           sodipodi:role=\"line\">90</tspan></text>\n      <text\n         xml:space=\"preserve\"\n         style=\"font-size:12.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n         x=\"179.42027\"\n         y=\"440.53802\"\n         id=\"text4824\"\n         sodipodi:linespacing=\"125%\"><tspan\n           sodipodi:role=\"line\"\n           id=\"tspan4826\"\n           x=\"179.42027\"\n           y=\"440.53802\">100</tspan></text>\n    </g>\n  </g>\n<script type=\"text/ecmascript\"><![CDATA[\nvar watertreatmentsvg = document.getElementById('watertreatmentsvg');\nconsole.log(watertreatmentsvg);\nvar tank1_level = watertreatmentsvg.getElementById('tank1_level');\nvar tank2_level = watertreatmentsvg.getElementById('tank2_level');\nvar tank3_level = watertreatmentsvg.getElementById('tank3_level');\nvar tank4_level = watertreatmentsvg.getElementById('tank4_level');\n\nvar rotor1 = watertreatmentsvg.getElementById('filter_rotor_rec1');\nvar rotor2 = watertreatmentsvg.getElementById('filter_rotor_rec2');\n\nvar pump1_fan = watertreatmentsvg.getElementById('pump1_fan');\nvar pump2_fan = watertreatmentsvg.getElementById('pump2_fan');\nvar pump3_fan = watertreatmentsvg.getElementById('pump3_fan');\nvar pump4_fan = watertreatmentsvg.getElementById('pump4_fan');\n\nvar pump1_body = watertreatmentsvg.getElementById('pump1_body');\nvar pump2_body = watertreatmentsvg.getElementById('pump2_body');\nvar pump3_body = watertreatmentsvg.getElementById('pump3_body');\nvar pump4_body = watertreatmentsvg.getElementById('pump4_body');\nvar pumprunning = false;\nvar filterrunning =false;\n\n(function(scope) {\nscope.$watch('msg', function(data) {\n  console.dir(data);\n  switch (scope.msg.topic) {\n    case \"tank/level\":\n    var newlevel = (scope.msg.payload * 181.04878)/100;\n    tank1_level.setAttributeNS(null, 'height', newlevel);\n    tank2_level.setAttributeNS(null, 'height', newlevel);\n    tank3_level.setAttributeNS(null, 'height', newlevel);\n    tank4_level.setAttributeNS(null, 'height', newlevel);\n    break;\n    case \"tank2/level\":\n    var newlevel = (scope.msg.payload * 181.04878)/100;\n    tank2_level.setAttributeNS(null, 'height', newlevel);\n    break;\n    case \"tank3/level\":\n    var newlevel = (scope.msg.payload * 181.04878)/100;\n    tank3_level.setAttributeNS(null, 'height', newlevel);\n    break;\n    case \"tank4/level\":\n    var newlevel = (scope.msg.payload * 181.04878)/100;\n    tank4_level.setAttributeNS(null, 'height', newlevel);\n    break;\n    default:\n  }\n  if(scope.msg.payload == \"run_filter\"){\n    if(filterrunning){\n        return;\n    }else{  \n    RotateFilter();\n    filterrunning = true;\n    }\n  }\n  if(scope.msg.payload == \"stop_filter\"){\n    if(!filterrunning){\n        return;\n    }else{\n    RotateFilter();\n    filterrunning = false;\n    }\n  }\n  if(scope.msg.payload == \"run_pump\"){\n    if(pumprunning){\n        return;\n    }else{  \n    RotatePump();\n    pumprunning = true;\n    }\n  }\n  if(scope.msg.payload == \"stop_pump\"){\n    if(!pumprunning){\n        return;\n    }else{  \n    RotatePump();\n    pumprunning = false;\n    }\n  }\n});\n})(scope);\n\nvar animator;\nvar angle = 0;\nvar nangle = 360\nfunction RotateFilter()\n{\n  if (animator != null)\n  {\n      // Just stop\n      clearInterval(animator);\n      animator = null;\n      return;\n  }\n  animator = setInterval(\n      function ()\n      {\n          angle += 5;\n          nangle -= 5\n          rotor1.setAttributeNS(null, 'transform', \"rotate(\" + angle + \" 396.6433484790466 485.1910445144043)\");\n          rotor2.setAttributeNS(null, 'transform', \"rotate(\" + nangle + \" 396.6433484790466 485.1910445144043)\");\n      }, 80);\n}\nvar animator2;\nvar angle2 = 0;\nvar nangle2 = 360\nfunction RotatePump()\n{\n  if (animator2 != null)\n  {\n      // Just stop\n      clearInterval(animator2);\n      animator2 = null;\n      pump1_body.setAttributeNS(null, 'style', \"fill:#d40000\");\n      pump2_body.setAttributeNS(null, 'style', \"fill:#d40000\");\n      pump3_body.setAttributeNS(null, 'style', \"fill:#d40000\");\n      pump4_body.setAttributeNS(null, 'style', \"fill:#d40000\");\n      return;\n  }\n  animator2 = setInterval(\n      function ()\n      {\n          angle2 += 5;\n          nangle2 -= 5\n          pump1_fan.setAttributeNS(null, 'transform', \"translate(0,308.26771) rotate(\" + angle2 + \" 1248.89697265625 254.40554809570312)\");\n          pump2_fan.setAttributeNS(null, 'transform', \"translate(0,308.26771) rotate(\" + angle2 + \" 1248.89697265625 254.40554809570312)\");\n          pump3_fan.setAttributeNS(null, 'transform', \"translate(0,308.26771) rotate(\" + angle2 + \" 1248.89697265625 254.40554809570312)\");\n          pump4_fan.setAttributeNS(null, 'transform', \"translate(0,308.26771) rotate(\" + angle2 + \" 1248.89697265625 254.40554809570312)\");\n          pump1_body.setAttributeNS(null, 'style', \"fill:#008000\");\n          pump2_body.setAttributeNS(null, 'style', \"fill:#008000\");\n          pump3_body.setAttributeNS(null, 'style', \"fill:#008000\");\n          pump4_body.setAttributeNS(null, 'style', \"fill:#008000\");\n       }, 90);\n}\n]]></script>\n</svg>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 200,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34ec31e8.cc65ce",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "tank1/level",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 1250,
+        "y": 300,
+        "wires": [
+            [
+                "da218b16.59d708"
+            ]
+        ]
+    },
+    {
+        "id": "71af147.8f9d0ec",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "20",
+                "vt": "num"
+            },
+            {
+                "p": "topic",
+                "v": "tank1/level",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "tank1/level",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 1250,
+        "y": 260,
+        "wires": [
+            [
+                "da218b16.59d708"
+            ]
+        ]
+    },
+    {
+        "id": "d261b0cf.47fe2",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "tank1/level",
+        "payload": "80",
+        "payloadType": "num",
+        "x": 1250,
+        "y": 340,
+        "wires": [
+            [
+                "da218b16.59d708"
+            ]
+        ]
+    },
+    {
+        "id": "351cb57d.de5b1a",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "tank2/level",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 1250,
+        "y": 500,
+        "wires": [
+            [
+                "da218b16.59d708"
+            ]
+        ]
+    },
+    {
+        "id": "7327e0c8.b3156",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "20",
+                "vt": "num"
+            },
+            {
+                "p": "topic",
+                "v": "tank2/level",
+                "vt": "string"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "tank2/level",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 1250,
+        "y": 460,
+        "wires": [
+            [
+                "da218b16.59d708"
+            ]
+        ]
+    },
+    {
+        "id": "3cac82f5.f33bfe",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "tank3/level",
+        "payload": "80",
+        "payloadType": "num",
+        "x": 1250,
+        "y": 540,
+        "wires": [
+            [
+                "da218b16.59d708"
+            ]
+        ]
+    },
+    {
+        "id": "7ba415b7.7ee10c",
+        "type": "switch",
+        "z": "e55d01fc.fed8e",
+        "g": "758d86fe.c6a168",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "run_all",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "stop_all",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 330,
+        "y": 500,
+        "wires": [
+            [
+                "4ed69029.bbe1d",
+                "4c9157a3.ade2f8"
+            ],
+            [
+                "4c43e49c.bc005c",
+                "79d346f2.8a1818"
+            ]
+        ]
+    },
+    {
+        "id": "4ed69029.bbe1d",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "758d86fe.c6a168",
+        "name": "Command",
+        "func": "msg.payload = \"run_filter\";\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 440,
+        "wires": [
+            [
+                "fb5853d.5de2fb"
+            ]
+        ]
+    },
+    {
+        "id": "4c9157a3.ade2f8",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "758d86fe.c6a168",
+        "name": "Command",
+        "func": "msg.payload = \"run_pump\";\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 480,
+        "wires": [
+            [
+                "fb5853d.5de2fb"
+            ]
+        ]
+    },
+    {
+        "id": "4c43e49c.bc005c",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "758d86fe.c6a168",
+        "name": "Command",
+        "func": "msg.payload = \"stop_filter\";\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 520,
+        "wires": [
+            [
+                "fb5853d.5de2fb"
+            ]
+        ]
+    },
+    {
+        "id": "79d346f2.8a1818",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "758d86fe.c6a168",
+        "name": "Command",
+        "func": "msg.payload = \"stop_pump\";\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 560,
+        "wires": [
+            [
+                "fb5853d.5de2fb"
+            ]
+        ]
+    },
+    {
+        "id": "8f515b3.cab8ea8",
+        "type": "link in",
+        "z": "e55d01fc.fed8e",
+        "g": "a115fa9d.86f438",
+        "name": "water_treatment_control",
+        "links": [
+            "2242163.14fb1ea",
+            "9e58e499.bea9f8",
+            "8f3be358.9a301"
+        ],
+        "x": 95,
+        "y": 280,
+        "wires": [
+            [
+                "abc8db9a.95ddc8"
+            ]
+        ]
+    },
+    {
+        "id": "74ee8ca7.e4f3b4",
+        "type": "link in",
+        "z": "e55d01fc.fed8e",
+        "g": "a115fa9d.86f438",
+        "name": "water_treratment_graphics",
+        "links": [
+            "2242163.14fb1ea",
+            "9e58e499.bea9f8",
+            "fb5853d.5de2fb",
+            "da218b16.59d708"
+        ],
+        "x": 95,
+        "y": 220,
+        "wires": [
+            [
+                "c779d84f.14aaf8"
+            ]
+        ]
+    },
+    {
+        "id": "2242163.14fb1ea",
+        "type": "link out",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "",
+        "links": [
+            "74ee8ca7.e4f3b4",
+            "8f515b3.cab8ea8"
+        ],
+        "x": 1015,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "9e58e499.bea9f8",
+        "type": "link out",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "",
+        "links": [
+            "74ee8ca7.e4f3b4",
+            "8f515b3.cab8ea8"
+        ],
+        "x": 1035,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "8f3be358.9a301",
+        "type": "link out",
+        "z": "e55d01fc.fed8e",
+        "g": "758d86fe.c6a168",
+        "name": "",
+        "links": [
+            "8f515b3.cab8ea8"
+        ],
+        "x": 295,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "fb5853d.5de2fb",
+        "type": "link out",
+        "z": "e55d01fc.fed8e",
+        "g": "758d86fe.c6a168",
+        "name": "",
+        "links": [
+            "74ee8ca7.e4f3b4"
+        ],
+        "x": 655,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "da218b16.59d708",
+        "type": "link out",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "links": [
+            "74ee8ca7.e4f3b4"
+        ],
+        "x": 1175,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "4278c58de91ab1eb",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "Command",
+        "func": "var obtaindata = msg.payload\nif (obtaindata == \"1\"){msg.payload = 111}\nif (obtaindata == \"0\"){msg.payload = 333}\nif (obtaindata == \"run_filter\"){msg.payload = 111}\nif (obtaindata == \"stop_filter\"){msg.payload = 333}\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 840,
+        "wires": [
+            [
+                "d40cbeb42b554d26"
+            ]
+        ]
+    },
+    {
+        "id": "d40cbeb42b554d26",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "Modbus PDU",
+        "func": "msg.payload = { \n    value: msg.payload, \n    'fc': 6, \n    'unitid': 1, \n    'address': 0, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 840,
+        "wires": [
+            [
+                "006474b38cef682d"
+            ]
+        ]
+    },
+    {
+        "id": "006474b38cef682d",
+        "type": "modbus-flex-write",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "ModbusClient",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "61a5f2df87f1ca9b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 960,
+        "y": 840,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "20737e1ce943da76",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "Command",
+        "func": "var obtaindata = msg.payload\nif (obtaindata == \"1\"){msg.payload = 111}\nif (obtaindata == \"0\"){msg.payload = 333}\nif (obtaindata == \"run_pump\"){msg.payload = 111}\nif (obtaindata == \"stop_pump\"){msg.payload = 333}\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 1120,
+        "wires": [
+            [
+                "5067a00ecf991bff"
+            ]
+        ]
+    },
+    {
+        "id": "5067a00ecf991bff",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "Mobus PDU",
+        "func": "msg.payload = { \n    value: msg.payload, \n    'fc': 6, \n    'unitid': 1, \n    'address': 1, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1120,
+        "wires": [
+            [
+                "e8af3d169638b33b"
+            ]
+        ]
+    },
+    {
+        "id": "e8af3d169638b33b",
+        "type": "modbus-flex-write",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "ModbusClient",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "61a5f2df87f1ca9b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 960,
+        "y": 1120,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "46067d846446d0f1",
+        "type": "modbus-flex-getter",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "GetLevel",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "server": "61a5f2df87f1ca9b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 860,
+        "y": 320,
+        "wires": [
+            [
+                "168ae6c18a20fb8c",
+                "3b8b70e2ba7fb4f2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a535f902c585cbb0",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "Read",
+        "func": "msg.payload = { \n    value: msg.payload, \n    'fc': 3, \n    'unitid': 1, \n    'address': 6, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 280,
+        "wires": [
+            [
+                "46067d846446d0f1"
+            ]
+        ]
+    },
+    {
+        "id": "5462b550d398a80b",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 870,
+        "y": 240,
+        "wires": [
+            [
+                "a535f902c585cbb0"
+            ]
+        ]
+    },
+    {
+        "id": "168ae6c18a20fb8c",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "Level",
+        "func": "msg.payload = msg.payload[0];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 360,
+        "wires": [
+            [
+                "1bc9102ee30784d7"
+            ]
+        ]
+    },
+    {
+        "id": "1bc9102ee30784d7",
+        "type": "switch",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "20",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "40",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "60",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "80",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "100",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 850,
+        "y": 420,
+        "wires": [
+            [
+                "de03db57985311ae"
+            ],
+            [
+                "1ad8518424663fcf"
+            ],
+            [
+                "e22070dd44a09f16"
+            ],
+            [
+                "1d3ac42a842f59ff"
+            ],
+            [
+                "605443f524c805b1"
+            ]
+        ]
+    },
+    {
+        "id": "de03db57985311ae",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "func": "msg.payload = 20;\nmsg.topic = \"tank/level\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 340,
+        "wires": [
+            [
+                "da218b16.59d708"
+            ]
+        ]
+    },
+    {
+        "id": "1ad8518424663fcf",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "func": "msg.payload = 40;\nmsg.topic = \"tank/level\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 380,
+        "wires": [
+            [
+                "da218b16.59d708"
+            ]
+        ]
+    },
+    {
+        "id": "e22070dd44a09f16",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "func": "msg.payload = 60;\nmsg.topic = \"tank/level\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 420,
+        "wires": [
+            [
+                "da218b16.59d708"
+            ]
+        ]
+    },
+    {
+        "id": "1d3ac42a842f59ff",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "func": "msg.payload = 80;\nmsg.topic = \"tank/level\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 460,
+        "wires": [
+            [
+                "da218b16.59d708"
+            ]
+        ]
+    },
+    {
+        "id": "605443f524c805b1",
+        "type": "function",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "",
+        "func": "msg.payload = 100;\nmsg.topic = \"tank/level\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 500,
+        "wires": [
+            [
+                "da218b16.59d708"
+            ]
+        ]
+    },
+    {
+        "id": "33b43e38cfcb68a3",
+        "type": "mqtt in",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "",
+        "topic": "waterTreatment/control/alexa",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 660,
+        "y": 760,
+        "wires": [
+            [
+                "4278c58de91ab1eb",
+                "9e58e499.bea9f8"
+            ]
+        ]
+    },
+    {
+        "id": "0373da533a9aef1c",
+        "type": "mqtt in",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "",
+        "topic": "waterTreatment/control/alexa",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 600,
+        "y": 1040,
+        "wires": [
+            [
+                "20737e1ce943da76",
+                "2242163.14fb1ea"
+            ]
+        ]
+    },
+    {
+        "id": "a65ec310189e7edd",
+        "type": "comment",
+        "z": "e55d01fc.fed8e",
+        "g": "dac83cb6.696da",
+        "name": "Filter",
+        "info": "",
+        "x": 470,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "854d656acf645fc7",
+        "type": "comment",
+        "z": "e55d01fc.fed8e",
+        "g": "b0250709.521cc8",
+        "name": "Pump",
+        "info": "",
+        "x": 510,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "287f4ce81254de77",
+        "type": "inject",
+        "z": "e55d01fc.fed8e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "hello world ",
+        "payloadType": "str",
+        "x": 430,
+        "y": 1440,
+        "wires": [
+            [
+                "2de349ee067cb269"
+            ]
+        ]
+    },
+    {
+        "id": "2de349ee067cb269",
+        "type": "debug",
+        "z": "e55d01fc.fed8e",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "b7d4741e.e238f8",
+        "type": "ui_led",
+        "z": "e55d01fc.fed8e",
+        "g": "9fdf7678.88ac18",
+        "order": 2,
+        "group": "1369121d.5439be",
+        "width": 0,
+        "height": 0,
+        "label": "Status",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "greenTrue",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "redTrue",
+                "valueType": "str"
+            }
+        ],
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1090,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "3b8b70e2ba7fb4f2",
+        "type": "debug",
+        "z": "e55d01fc.fed8e",
+        "g": "5e7bf2191a37ac12",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 280,
+        "wires": []
+    }
+]
