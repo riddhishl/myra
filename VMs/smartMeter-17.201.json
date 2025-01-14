@@ -1,0 +1,1138 @@
+[
+    {
+        "id": "0d8c883ef61cac33",
+        "type": "tab",
+        "label": "Local Broker",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3435c52e.1f3f8a",
+        "type": "tab",
+        "label": "Smart Meter",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4731a04bc89f5b47",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5c8bcd75.2ee194",
+        "type": "ui_group",
+        "name": "Villa 1",
+        "tab": "96aad4fc.168178",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "adcc32de.4bd3d",
+        "type": "ui_group",
+        "name": "Villa 2 ",
+        "tab": "96aad4fc.168178",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bff486e0.6442c8",
+        "type": "ui_group",
+        "name": "Smart Villas",
+        "tab": "96aad4fc.168178",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "15ba0606.c5006a",
+        "type": "mqtt-broker",
+        "name": "mqttBroker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "96aad4fc.168178",
+        "type": "ui_tab",
+        "name": "Smart Meter ",
+        "icon": "smartphone",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "eea7f98382942fc4",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "7285e29f964e8936",
+        "type": "coap-server",
+        "name": "localhost",
+        "port": "5683",
+        "ipv6": false
+    },
+    {
+        "id": "5ce48f6ca8b0898a",
+        "type": "aedes broker",
+        "z": "0d8c883ef61cac33",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": null,
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "persistence_bind": "memory",
+        "dburl": "",
+        "usetls": false,
+        "x": 150,
+        "y": 60,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7af7e91c.75e688",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "5c8bcd75.2ee194",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rs. 100",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "100",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 100,
+        "wires": [
+            [
+                "52af9b64c9ccba74"
+            ]
+        ]
+    },
+    {
+        "id": "855b2978.f40398",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "5c8bcd75.2ee194",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rs. 150",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "150",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 140,
+        "wires": [
+            [
+                "52af9b64c9ccba74"
+            ]
+        ]
+    },
+    {
+        "id": "7353e084.32c5",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "5c8bcd75.2ee194",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rs. 200",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "200",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 180,
+        "wires": [
+            [
+                "52af9b64c9ccba74"
+            ]
+        ]
+    },
+    {
+        "id": "79e386e3.4b6af8",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "5c8bcd75.2ee194",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rs. 300",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "300",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 220,
+        "wires": [
+            [
+                "52af9b64c9ccba74"
+            ]
+        ]
+    },
+    {
+        "id": "d2fe69b8.d30388",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "5c8bcd75.2ee194",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rs. 1000",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1000",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 260,
+        "wires": [
+            [
+                "52af9b64c9ccba74"
+            ]
+        ]
+    },
+    {
+        "id": "f4eda507.edd728",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "adcc32de.4bd3d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rs. 100",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "100",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 400,
+        "wires": [
+            [
+                "b6e94c73d558df47"
+            ]
+        ]
+    },
+    {
+        "id": "b0c29269.d125e",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "adcc32de.4bd3d",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rs. 150",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "150",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 440,
+        "wires": [
+            [
+                "b6e94c73d558df47"
+            ]
+        ]
+    },
+    {
+        "id": "cd2eec10.92cc2",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "adcc32de.4bd3d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rs. 200",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "200",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 480,
+        "wires": [
+            [
+                "b6e94c73d558df47"
+            ]
+        ]
+    },
+    {
+        "id": "889dfb20.db5118",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "adcc32de.4bd3d",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rs. 300",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "300",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 520,
+        "wires": [
+            [
+                "b6e94c73d558df47"
+            ]
+        ]
+    },
+    {
+        "id": "bbed7343.834c5",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "adcc32de.4bd3d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rs. 1000",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1000",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 560,
+        "wires": [
+            [
+                "b6e94c73d558df47"
+            ]
+        ]
+    },
+    {
+        "id": "430159b9.51d998",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "adcc32de.4bd3d",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 90,
+        "y": 600,
+        "wires": [
+            [
+                "b6e94c73d558df47"
+            ]
+        ]
+    },
+    {
+        "id": "cf4f06fa.4c79b8",
+        "type": "ui_button",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "name": "",
+        "group": "5c8bcd75.2ee194",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 90,
+        "y": 300,
+        "wires": [
+            [
+                "52af9b64c9ccba74"
+            ]
+        ]
+    },
+    {
+        "id": "95fdd2bb.fdcde",
+        "type": "ui_template",
+        "z": "3435c52e.1f3f8a",
+        "d": true,
+        "group": "bff486e0.6442c8",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<svg\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n   xmlns:cc=\"http://creativecommons.org/ns#\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n   width=\"1052.3622\"\n   height=\"744.09448\"\n   id=\"smartmetersvg\"\n   version=\"1.1\"\n   inkscape:version=\"0.48+devel \"\n   onload=\"var src; if (document.documentURI) src = document.documentURI; else if (this.getSrc) src = this.getSrc(); else src = document.location.href + ''; try {parent.preload.load(src);}catch(e) {}\"\n   viewBox=\"0 0 1052.3622 744.09449\"\n   sodipodi:docname=\"Smartmeter.svg\">\n  <defs\n     id=\"defs4\" />\n  <sodipodi:namedview\n     id=\"base\"\n     pagecolor=\"#ffffff\"\n     bordercolor=\"#666666\"\n     borderopacity=\"1.0\"\n     inkscape:pageopacity=\"0.0\"\n     inkscape:pageshadow=\"2\"\n     inkscape:zoom=\"0.90509668\"\n     inkscape:cx=\"501.02597\"\n     inkscape:cy=\"369.88678\"\n     inkscape:document-units=\"px\"\n     inkscape:current-layer=\"layer1\"\n     showgrid=\"false\"\n     inkscape:window-width=\"1366\"\n     inkscape:window-height=\"745\"\n     inkscape:window-x=\"-8\"\n     inkscape:window-y=\"-8\"\n     inkscape:window-maximized=\"1\" />\n  <metadata\n     id=\"metadata7\">\n    <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n        <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n        <dc:title />\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n  <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\"\n     transform=\"translate(0,-308.26771)\">\n    <path\n       inkscape:connector-curvature=\"0\"\n       id=\"path3418\"\n       d=\"m 161.80273,385.07044 c -8.85727,0 -15.98632,8.44614 -15.98632,18.93727 l 0,169.26629 c 0,10.49112 7.12905,18.9353 15.98632,18.9353 l 16.83204,0 182.26171,97.37286 -125.33398,-97.37286 176.06836,0 c 8.85728,0 15.98828,-8.44418 15.98828,-18.9353 l 0,-169.26629 c 0,-10.49113 -7.131,-18.93727 -15.98828,-18.93727 l -249.82813,0 z\"\n       style=\"fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n    <rect\n       style=\"fill:#c8b7b7;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       id=\"rect3381\"\n       width=\"57.364037\"\n       height=\"46.315495\"\n       x=\"816.68768\"\n       y=\"701.67548\" />\n    <rect\n       style=\"fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       id=\"villa2_light\"\n       width=\"179\"\n       height=\"177.5\"\n       x=\"689.5\"\n       y=\"773.86218\" />\n    <path\n       style=\"fill:#c8b7b7;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"m 682.97461,747.63685 0,208.86715 191.16406,0 0,-208.86715 -191.16406,0 z m 15.91797,37.17969 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z m 63,0 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z m 63,0 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z m -126,114 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z m 63,0 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z m 63,0 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z\"\n       id=\"rect3262\"\n       inkscape:connector-curvature=\"0\" />\n    <path\n       inkscape:connector-curvature=\"0\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"m 760.47852,783.75599 0,46.66797 37.47656,0 0,-46.66797 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       id=\"rect3266\" />\n    <rect\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       id=\"rect3270\"\n       width=\"191.16898\"\n       height=\"17.001944\"\n       x=\"682.96149\"\n       y=\"747.49005\" />\n    <path\n       id=\"path3311\"\n       d=\"m 823.47852,783.75599 0,46.66797 37.47656,0 0,-46.66797 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       inkscape:connector-curvature=\"0\" />\n    <path\n       inkscape:connector-curvature=\"0\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"m 697.47852,783.75599 0,46.66797 37.47656,0 0,-46.66797 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       id=\"path3315\" />\n    <path\n       id=\"path3351\"\n       d=\"m 760.47852,897.75599 0,46.66801 37.47656,0 0,-46.66801 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       inkscape:connector-curvature=\"0\" />\n    <path\n       inkscape:connector-curvature=\"0\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"m 823.47852,897.75599 0,46.66801 37.47656,0 0,-46.66801 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       id=\"path3357\" />\n    <path\n       id=\"path3363\"\n       d=\"m 697.47852,897.75599 0,46.66801 37.47656,0 0,-46.66801 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       inkscape:connector-curvature=\"0\" />\n    <rect\n       y=\"699.67548\"\n       x=\"814.47803\"\n       height=\"4.5961938\"\n       width=\"61.783455\"\n       id=\"rect3383\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n    <g\n       id=\"g3411\"\n       transform=\"matrix(0.53629033,0,0,0.41106432,532.65388,471.29064)\">\n      <path\n         id=\"rect3385\"\n         transform=\"translate(0,308.26771)\"\n         d=\"m 411.16992,490.94922 0,81.23633 214.27735,0 0,-81.23633 -214.27735,0 z m 7.39063,7.12695 19.57422,0 0,66.98242 -19.57422,0 0,-66.98242 z m 26.14257,0 19.26563,0 0,66.98242 -19.26563,0 0,-66.98242 z m 25.83399,0 19.26367,0 0,66.98242 -19.26367,0 0,-66.98242 z m 25.83203,0 19.26563,0 0,66.98242 -19.26563,0 0,-66.98242 z m 25.83398,0 19.26563,0 0,66.98242 -19.26563,0 0,-66.98242 z m 25.83399,0 19.26367,0 0,66.98242 -19.26367,0 0,-66.98242 z m 25.83203,0 19.26563,0 0,66.98242 -19.26563,0 0,-66.98242 z m 25.83398,0 18.35547,0 0,66.98242 -18.35547,0 0,-66.98242 z\"\n         style=\"fill:#aa8800;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         inkscape:connector-curvature=\"0\" />\n      <rect\n         y=\"876.89008\"\n         x=\"408.7077\"\n         height=\"14.251774\"\n         width=\"219.20311\"\n         id=\"rect3390\"\n         style=\"fill:#916f6f;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n    </g>\n    <rect\n       y=\"701.67548\"\n       x=\"362.68768\"\n       height=\"46.315495\"\n       width=\"57.364037\"\n       id=\"rect3415\"\n       style=\"fill:#c8b7b7;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n    <rect\n       y=\"773.86218\"\n       x=\"235.5\"\n       height=\"177.5\"\n       width=\"179\"\n       id=\"villa1_light\"\n       style=\"fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n    <path\n       id=\"path3419\"\n       d=\"m 228.97461,747.63685 0,208.86715 191.16406,0 0,-208.86715 -191.16406,0 z m 15.91797,37.17969 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z m 63,0 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z m 63,0 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z m -126,114 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z m 63,0 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z m 63,0 34.64844,0 0,44.54687 -34.64844,0 0,-44.54687 z\"\n       style=\"fill:#c8b7b7;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       inkscape:connector-curvature=\"0\" />\n    <path\n       id=\"path3421\"\n       d=\"m 306.47852,783.75599 0,46.66797 37.47656,0 0,-46.66797 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       inkscape:connector-curvature=\"0\" />\n    <rect\n       y=\"747.49005\"\n       x=\"228.96149\"\n       height=\"17.001944\"\n       width=\"191.16898\"\n       id=\"rect3423\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\" />\n    <path\n       inkscape:connector-curvature=\"0\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"m 369.47852,783.75599 0,46.66797 37.47656,0 0,-46.66797 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       id=\"path3425\" />\n    <path\n       id=\"path3427\"\n       d=\"m 243.47852,783.75599 0,46.66797 37.47656,0 0,-46.66797 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       inkscape:connector-curvature=\"0\" />\n    <path\n       inkscape:connector-curvature=\"0\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"m 306.47852,897.75599 0,46.66801 37.47656,0 0,-46.66801 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       id=\"path3429\" />\n    <path\n       id=\"path3431\"\n       d=\"m 369.47852,897.75599 0,46.66801 37.47656,0 0,-46.66801 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       inkscape:connector-curvature=\"0\" />\n    <path\n       inkscape:connector-curvature=\"0\"\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"m 243.47852,897.75599 0,46.66801 37.47656,0 0,-46.66801 -37.47656,0 z m 1.41406,1.06055 17.08594,0 0,14.1289 -17.08594,0 0,-14.1289 z m 18.21094,0 16.4375,0 0,14.1289 -16.4375,0 0,-14.1289 z m -18.21094,15.2539 17.08594,0 0,14.08399 -17.08594,0 0,-14.08399 z m 18.21094,0 16.4375,0 0,14.08399 -16.4375,0 0,-14.08399 z m -18.21094,15.20899 17.08594,0 0,14.08398 -17.08594,0 0,-14.08398 z m 18.21094,0 16.4375,0 0,14.08398 -16.4375,0 0,-14.08398 z\"\n       id=\"path3433\" />\n    <rect\n       style=\"fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       id=\"rect3435\"\n       width=\"61.783455\"\n       height=\"4.5961938\"\n       x=\"360.47803\"\n       y=\"699.67548\" />\n    <g\n       transform=\"matrix(0.53629033,0,0,0.41106432,78.65388,471.29064)\"\n       id=\"g3437\">\n      <path\n         inkscape:connector-curvature=\"0\"\n         style=\"fill:#aa8800;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         d=\"m 411.16992,490.94922 0,81.23633 214.27735,0 0,-81.23633 -214.27735,0 z m 7.39063,7.12695 19.57422,0 0,66.98242 -19.57422,0 0,-66.98242 z m 26.14257,0 19.26563,0 0,66.98242 -19.26563,0 0,-66.98242 z m 25.83399,0 19.26367,0 0,66.98242 -19.26367,0 0,-66.98242 z m 25.83203,0 19.26563,0 0,66.98242 -19.26563,0 0,-66.98242 z m 25.83398,0 19.26563,0 0,66.98242 -19.26563,0 0,-66.98242 z m 25.83399,0 19.26367,0 0,66.98242 -19.26367,0 0,-66.98242 z m 25.83203,0 19.26563,0 0,66.98242 -19.26563,0 0,-66.98242 z m 25.83398,0 18.35547,0 0,66.98242 -18.35547,0 0,-66.98242 z\"\n         transform=\"translate(0,308.26771)\"\n         id=\"path3439\" />\n      <rect\n         style=\"fill:#916f6f;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n         id=\"rect3441\"\n         width=\"219.20311\"\n         height=\"14.251774\"\n         x=\"408.7077\"\n         y=\"876.89008\" />\n    </g>\n    <text\n       xml:space=\"preserve\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       x=\"167.75\"\n       y=\"427.48718\"\n       id=\"text3295\"\n       sodipodi:linespacing=\"125%\"><tspan\n         sodipodi:role=\"line\"\n         id=\"tspan3297\"\n         x=\"167.75\"\n         y=\"427.48718\">Owner: </tspan></text>\n    <text\n       xml:space=\"preserve\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       x=\"241.1875\"\n       y=\"427.48718\"\n       id=\"owner1_name\"\n       sodipodi:linespacing=\"125%\"\n       inkscape:label=\"\"><tspan\n         sodipodi:role=\"line\"\n         id=\"owner1_tspan\"\n         x=\"241.1875\"\n         y=\"427.48718\">Name</tspan></text>\n    <text\n       sodipodi:linespacing=\"125%\"\n       id=\"text3307\"\n       y=\"471.48718\"\n       x=\"167.75\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       xml:space=\"preserve\"><tspan\n         y=\"471.48718\"\n         x=\"167.75\"\n         id=\"tspan3309\"\n         sodipodi:role=\"line\">Unit Consumption: </tspan></text>\n    <text\n       inkscape:label=\"{&quot;attr&quot;:&quot;text&quot;,&quot;map&quot;:[&quot;Unit1Consumption=0W&quot;],&quot;tag&quot;:&quot;OwnerName&quot;}\"\n       sodipodi:linespacing=\"125%\"\n       id=\"unit1_consumption\"\n       y=\"471.48718\"\n       x=\"353.1875\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       xml:space=\"preserve\"><tspan\n         y=\"471.48718\"\n         x=\"353.1875\"\n         id=\"unit1_tspan\"\n         sodipodi:role=\"line\">0W</tspan></text>\n    <text\n       xml:space=\"preserve\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       x=\"167.75\"\n       y=\"517.48718\"\n       id=\"text3315\"\n       sodipodi:linespacing=\"125%\"><tspan\n         sodipodi:role=\"line\"\n         id=\"tspan3317\"\n         x=\"167.75\"\n         y=\"517.48718\">Balance: </tspan></text>\n    <text\n       xml:space=\"preserve\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       x=\"259.1875\"\n       y=\"517.48718\"\n       id=\"balance1_amount\"\n       sodipodi:linespacing=\"125%\"\n       inkscape:label=\"{&quot;attr&quot;:&quot;text&quot;,&quot;map&quot;:[&quot;Balance1Amount=0 INR&quot;],&quot;tag&quot;:&quot;OwnerName&quot;}\"><tspan\n         sodipodi:role=\"line\"\n         id=\"balance1_tspan\"\n         x=\"259.1875\"\n         y=\"517.48718\">0 INR</tspan></text>\n    <text\n       sodipodi:linespacing=\"125%\"\n       id=\"text3323\"\n       y=\"561.48718\"\n       x=\"167.75\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       xml:space=\"preserve\"><tspan\n         y=\"561.48718\"\n         x=\"167.75\"\n         id=\"tspan3325\"\n         sodipodi:role=\"line\">Message: </tspan></text>\n    <text\n       inkscape:label=\"{&quot;attr&quot;:&quot;text&quot;,&quot;map&quot;:[&quot;Error1Message=None&quot;],&quot;tag&quot;:&quot;OwnerName&quot;}\"\n       sodipodi:linespacing=\"125%\"\n       id=\"error1_message\"\n       y=\"561.48718\"\n       x=\"263.1875\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       xml:space=\"preserve\"><tspan\n         y=\"561.48718\"\n         x=\"263.1875\"\n         id=\"msg1_tspan\"\n         sodipodi:role=\"line\">None</tspan></text>\n    <path\n       id=\"path3371\"\n       d=\"m 615.80273,385.07044 c -8.85727,0 -15.98632,8.42447 -15.98632,18.88868 l 0,168.83203 c 0,10.4642 7.12905,18.88672 15.98632,18.88672 l 16.83204,0 182.26171,97.12304 -125.33398,-97.12304 176.06836,0 c 8.85728,0 15.98828,-8.42252 15.98828,-18.88672 l 0,-168.83203 c 0,-10.46421 -7.131,-18.88868 -15.98828,-18.88868 l -249.82813,0 z\"\n       style=\"fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       inkscape:connector-curvature=\"0\" />\n    <text\n       sodipodi:linespacing=\"125%\"\n       id=\"text3373\"\n       y=\"427.48718\"\n       x=\"621.75\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       xml:space=\"preserve\"><tspan\n         y=\"427.48718\"\n         x=\"621.75\"\n         id=\"tspan3375\"\n         sodipodi:role=\"line\">Owner: </tspan></text>\n    <text\n       inkscape:label=\"{&quot;attr&quot;:&quot;text&quot;,&quot;map&quot;:[&quot;Owner2Name=Name&quot;],&quot;tag&quot;:&quot;OwnerName&quot;}\"\n       sodipodi:linespacing=\"125%\"\n       id=\"owner2_name\"\n       y=\"427.48718\"\n       x=\"695.1875\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       xml:space=\"preserve\"><tspan\n         y=\"427.48718\"\n         x=\"695.1875\"\n         id=\"owner2_tspan\"\n         sodipodi:role=\"line\">Name</tspan></text>\n    <text\n       xml:space=\"preserve\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       x=\"621.75\"\n       y=\"471.48718\"\n       id=\"text3381\"\n       sodipodi:linespacing=\"125%\"><tspan\n         sodipodi:role=\"line\"\n         id=\"tspan3383\"\n         x=\"621.75\"\n         y=\"471.48718\">Unit Consumption: </tspan></text>\n    <text\n       xml:space=\"preserve\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       x=\"807.1875\"\n       y=\"471.48718\"\n       id=\"unit2_consumption\"\n       sodipodi:linespacing=\"125%\"\n       inkscape:label=\"{&quot;attr&quot;:&quot;text&quot;,&quot;map&quot;:[&quot;Unit2Consumption=0W&quot;],&quot;tag&quot;:&quot;OwnerName&quot;}\"><tspan\n         sodipodi:role=\"line\"\n         id=\"unit2_tspan\"\n         x=\"807.1875\"\n         y=\"471.48718\">0W</tspan></text>\n    <text\n       sodipodi:linespacing=\"125%\"\n       id=\"text3389\"\n       y=\"517.48718\"\n       x=\"621.75\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       xml:space=\"preserve\"><tspan\n         y=\"517.48718\"\n         x=\"621.75\"\n         id=\"tspan3391\"\n         sodipodi:role=\"line\">Balance: </tspan></text>\n    <text\n       inkscape:label=\"{&quot;attr&quot;:&quot;text&quot;,&quot;map&quot;:[&quot;Balance2Amount=0 INR&quot;],&quot;tag&quot;:&quot;OwnerName&quot;}\"\n       sodipodi:linespacing=\"125%\"\n       id=\"balance2_amount\"\n       y=\"517.48718\"\n       x=\"713.1875\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       xml:space=\"preserve\"><tspan\n         y=\"517.48718\"\n         x=\"713.1875\"\n         id=\"balance2_tspan\"\n         sodipodi:role=\"line\">0 INR</tspan></text>\n    <text\n       xml:space=\"preserve\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       x=\"621.75\"\n       y=\"561.48718\"\n       id=\"text3397\"\n       sodipodi:linespacing=\"125%\"><tspan\n         sodipodi:role=\"line\"\n         id=\"tspan3399\"\n         x=\"621.75\"\n         y=\"561.48718\">Message: </tspan></text>\n    <text\n       xml:space=\"preserve\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       x=\"717.1875\"\n       y=\"561.48718\"\n       id=\"error2_message\"\n       sodipodi:linespacing=\"125%\"\n       inkscape:label=\"{&quot;attr&quot;:&quot;text&quot;,&quot;map&quot;:[&quot;Error2Message=None&quot;],&quot;tag&quot;:&quot;OwnerName&quot;}\"><tspan\n         sodipodi:role=\"line\"\n         id=\"message2_tspan\"\n         x=\"717.1875\"\n         y=\"561.48718\">None</tspan></text>\n    <text\n       xml:space=\"preserve\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       x=\"271.79419\"\n       y=\"1012.5874\"\n       id=\"text3407\"\n       sodipodi:linespacing=\"125%\"><tspan\n         sodipodi:role=\"line\"\n         id=\"tspan3409\"\n         x=\"271.79419\"\n         y=\"1012.5874\"\n         style=\"font-size:35px;fill:#ffff00\">Villa 1</tspan></text>\n    <text\n       sodipodi:linespacing=\"125%\"\n       id=\"text3411\"\n       y=\"1014.7971\"\n       x=\"729.20392\"\n       style=\"font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif\"\n       xml:space=\"preserve\"><tspan\n         style=\"font-size:35px;fill:#ffff00\"\n         y=\"1014.7971\"\n         x=\"729.20392\"\n         id=\"tspan3413\"\n         sodipodi:role=\"line\">Villa 2</tspan></text>\n    <path\n       style=\"fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"M 162.61719 76.761719 C 153.32251 76.761719 145.83984 85.142088 145.83984 95.550781 L 145.83984 265.13477 C 145.83984 275.54346 153.32251 283.92188 162.61719 283.92188 L 410.80078 283.92188 C 420.09545 283.92188 427.57812 275.54346 427.57812 265.13477 L 427.57812 95.550781 C 427.57812 85.142088 420.09545 76.761719 410.80078 76.761719 L 162.61719 76.761719 z M 165.99219 80.628906 L 406.875 80.628906 C 415.8963 80.628906 423.16016 88.696694 423.16016 98.716797 L 423.16016 261.96875 C 423.16016 271.98885 415.8963 280.05664 406.875 280.05664 L 165.99219 280.05664 C 156.97089 280.05664 149.70703 271.98885 149.70703 261.96875 L 149.70703 98.716797 C 149.70703 88.696694 156.97089 80.628906 165.99219 80.628906 z \"\n       transform=\"translate(0,308.26771)\"\n       id=\"rect4230\" />\n    <path\n       style=\"fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"M 165.99219 80.628906 C 156.97089 80.628906 149.70703 88.696694 149.70703 98.716797 L 149.70703 261.96875 C 149.70703 271.98885 156.97089 280.05664 165.99219 280.05664 L 406.875 280.05664 C 415.8963 280.05664 423.16016 271.98885 423.16016 261.96875 L 423.16016 98.716797 C 423.16016 88.696694 415.8963 80.628906 406.875 80.628906 L 165.99219 80.628906 z M 168.7207 83.753906 L 403.75586 83.753906 C 412.55808 83.753906 419.64453 91.584847 419.64453 101.31055 L 419.64453 259.76562 C 419.64453 269.49133 412.55808 277.32227 403.75586 277.32227 L 168.7207 277.32227 C 159.91848 277.32227 152.83203 269.49133 152.83203 259.76562 L 152.83203 101.31055 C 152.83203 91.584847 159.91848 83.753906 168.7207 83.753906 z \"\n       transform=\"translate(0,308.26771)\"\n       id=\"rect4232\" />\n    <path\n       style=\"fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"M 616.43359 76.761719 C 606.98798 76.761719 599.38281 84.829507 599.38281 94.849609 L 599.38281 265.2832 C 599.38281 275.30331 606.98798 283.37109 616.43359 283.37109 L 865.17578 283.37109 C 874.6214 283.37109 882.22656 275.30331 882.22656 265.2832 L 882.22656 94.849609 C 882.22656 84.829507 874.6214 76.761719 865.17578 76.761719 L 616.43359 76.761719 z M 621.29102 81.181641 L 860.31836 81.181641 C 869.39501 81.181641 876.70117 88.860586 876.70117 98.398438 L 876.70117 260.62891 C 876.70117 270.16676 869.39501 277.8457 860.31836 277.8457 L 621.29102 277.8457 C 612.21437 277.8457 604.9082 270.16676 604.9082 260.62891 L 604.9082 98.398438 C 604.9082 88.860586 612.21437 81.181641 621.29102 81.181641 z \"\n       transform=\"translate(0,308.26771)\"\n       id=\"rect4241\" />\n    <path\n       style=\"fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none\"\n       d=\"M 621.29102 81.181641 C 612.21437 81.181641 604.9082 88.860586 604.9082 98.398438 L 604.9082 260.62891 C 604.9082 270.16676 612.21437 277.8457 621.29102 277.8457 L 860.31836 277.8457 C 869.39501 277.8457 876.70117 270.16676 876.70117 260.62891 L 876.70117 98.398438 C 876.70117 88.860586 869.39501 81.181641 860.31836 81.181641 L 621.29102 81.181641 z M 624.6582 84.496094 L 856.39844 84.496094 C 865.19836 84.496094 872.2832 91.894425 872.2832 101.08398 L 872.2832 257.39062 C 872.2832 266.58018 865.19836 273.97852 856.39844 273.97852 L 624.6582 273.97852 C 615.85828 273.97852 608.77539 266.58018 608.77539 257.39062 L 608.77539 101.08398 C 608.77539 91.894425 615.85828 84.496094 624.6582 84.496094 z \"\n       transform=\"translate(0,308.26771)\"\n       id=\"rect4243\" />\n  </g>\n  <script type=\"text/ecmascript\"><![CDATA[\nvar smartmetersvg = document.getElementById('smartmetersvg');\nvar villa1_light = smartmetersvg.getElementById('villa1_light');\nvar villa2_light = smartmetersvg.getElementById('villa2_light');\nvar owner1_name = smartmetersvg.getElementById('owner1_tspan');\nvar owner2_name = smartmetersvg.getElementById('owner2_tspan');\nvar unit1 = smartmetersvg.getElementById('unit1_tspan');\nvar unit2 = smartmetersvg.getElementById('unit2_tspan');\nvar balance1 = smartmetersvg.getElementById('balance1_tspan');\nvar balance2 = smartmetersvg.getElementById('balance2_tspan');\nvar message1 = smartmetersvg.getElementById('msg1_tspan');\nvar message2 = smartmetersvg.getElementById('message2_tspan');\n\n(function(scope) {\nscope.$watch('msg', function(data) {\nconsole.dir(data);\nswitch (scope.msg.topic) {\n        case \"owner1\":\n        owner1_name.textContent = scope.msg.payload;\n        break;\n        case \"unitConsumed1\":\n        unit1.textContent = scope.msg.payload;\n        break;\n        case \"balance1\":\n        balance1.textContent = scope.msg.payload;\n        break;\n        case \"message1\":\n        message1.textContent = scope.msg.payload;\n        break;\n        case \"light1\":\n        if(scope.msg.payload == 0){\n          villa1_light.setAttributeNS(null, 'style', \"fill:#1a1a1a\");\n        }else if (scope.msg.payload == 1) {\n          villa1_light.setAttributeNS(null, 'style', \"fill:#ffff00\");\n        }\n        break;\n        case \"owner2\":\n        owner2_name.textContent = scope.msg.payload;\n        break;\n        case \"unitConsumed2\":\n        unit2.textContent = scope.msg.payload;\n        break;\n        case \"balance2\":\n        balance2.textContent = scope.msg.payload;\n        break;\n        case \"message2\":\n        message2.textContent = scope.msg.payload;\n        break;\n        case \"light2\":\n        if(scope.msg.payload == 0){\n          villa2_light.setAttributeNS(null, 'style', \"fill:#1a1a1a\");\n        }else if (scope.msg.payload == 1) {\n          villa2_light.setAttributeNS(null, 'style', \"fill:#ffff00\");\n        }\n        break;\n        default:\n      }\n    });\n})(scope);\n]]></script>\n</svg>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 600,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a3acf658.4e28e8",
+        "type": "mqtt in",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "villa1/owner",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 130,
+        "y": 740,
+        "wires": [
+            [
+                "386d2021.d0432"
+            ]
+        ]
+    },
+    {
+        "id": "96ee5a75.21d1a8",
+        "type": "mqtt in",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "villa1/consumption",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 150,
+        "y": 780,
+        "wires": [
+            [
+                "716a266c.5204a8"
+            ]
+        ]
+    },
+    {
+        "id": "6196062b.18a588",
+        "type": "mqtt in",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "villa1/balance",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 130,
+        "y": 820,
+        "wires": [
+            [
+                "5d9a33bd.3a5f8c"
+            ]
+        ]
+    },
+    {
+        "id": "1ed70e0a.d17192",
+        "type": "mqtt in",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "villa1/message",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 140,
+        "y": 860,
+        "wires": [
+            [
+                "a4e999a3.96dad8"
+            ]
+        ]
+    },
+    {
+        "id": "102cbf35.7ec301",
+        "type": "mqtt in",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "villa1/light",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 120,
+        "y": 900,
+        "wires": [
+            [
+                "4c4966c2.b028f8"
+            ]
+        ]
+    },
+    {
+        "id": "386d2021.d0432",
+        "type": "function",
+        "z": "3435c52e.1f3f8a",
+        "name": "getOwner",
+        "func": "msg.topic = \"owner1\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 380,
+        "y": 740,
+        "wires": [
+            [
+                "95fdd2bb.fdcde"
+            ]
+        ]
+    },
+    {
+        "id": "716a266c.5204a8",
+        "type": "function",
+        "z": "3435c52e.1f3f8a",
+        "name": "getConsumption",
+        "func": "msg.topic = \"unitConsumed1\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 400,
+        "y": 780,
+        "wires": [
+            [
+                "95fdd2bb.fdcde"
+            ]
+        ]
+    },
+    {
+        "id": "5d9a33bd.3a5f8c",
+        "type": "function",
+        "z": "3435c52e.1f3f8a",
+        "name": "getBalance",
+        "func": "msg.topic = \"balance1\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 390,
+        "y": 820,
+        "wires": [
+            [
+                "95fdd2bb.fdcde"
+            ]
+        ]
+    },
+    {
+        "id": "a4e999a3.96dad8",
+        "type": "function",
+        "z": "3435c52e.1f3f8a",
+        "name": "getMessage",
+        "func": "msg.topic = \"message1\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 390,
+        "y": 860,
+        "wires": [
+            [
+                "95fdd2bb.fdcde"
+            ]
+        ]
+    },
+    {
+        "id": "4c4966c2.b028f8",
+        "type": "function",
+        "z": "3435c52e.1f3f8a",
+        "name": "getLight",
+        "func": "msg.topic = \"light1\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 380,
+        "y": 900,
+        "wires": [
+            [
+                "95fdd2bb.fdcde"
+            ]
+        ]
+    },
+    {
+        "id": "8807bf1e.89e7a",
+        "type": "mqtt in",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "villa2/owner",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 130,
+        "y": 940,
+        "wires": [
+            [
+                "94eba642.5be1d8"
+            ]
+        ]
+    },
+    {
+        "id": "60751b6d.faad34",
+        "type": "mqtt in",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "villa2/consumption",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 150,
+        "y": 980,
+        "wires": [
+            [
+                "d25e4ecd.d0c4a"
+            ]
+        ]
+    },
+    {
+        "id": "7d68c12a.b6ba3",
+        "type": "mqtt in",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "villa2/balance",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 130,
+        "y": 1020,
+        "wires": [
+            [
+                "c1634d0f.ebaa8"
+            ]
+        ]
+    },
+    {
+        "id": "9477b913.4063c8",
+        "type": "mqtt in",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "villa2/message",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 140,
+        "y": 1060,
+        "wires": [
+            [
+                "a7296f68.81a09"
+            ]
+        ]
+    },
+    {
+        "id": "20642393.d5f9dc",
+        "type": "mqtt in",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "villa2/light",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 120,
+        "y": 1100,
+        "wires": [
+            [
+                "b935c5bf.4673d8"
+            ]
+        ]
+    },
+    {
+        "id": "94eba642.5be1d8",
+        "type": "function",
+        "z": "3435c52e.1f3f8a",
+        "name": "getOwner",
+        "func": "msg.topic = \"owner2\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 380,
+        "y": 940,
+        "wires": [
+            [
+                "95fdd2bb.fdcde"
+            ]
+        ]
+    },
+    {
+        "id": "d25e4ecd.d0c4a",
+        "type": "function",
+        "z": "3435c52e.1f3f8a",
+        "name": "getConsumption",
+        "func": "msg.topic = \"unitConsumed2\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 400,
+        "y": 980,
+        "wires": [
+            [
+                "95fdd2bb.fdcde"
+            ]
+        ]
+    },
+    {
+        "id": "c1634d0f.ebaa8",
+        "type": "function",
+        "z": "3435c52e.1f3f8a",
+        "name": "getBalance",
+        "func": "msg.topic = \"balance2\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 390,
+        "y": 1020,
+        "wires": [
+            [
+                "95fdd2bb.fdcde"
+            ]
+        ]
+    },
+    {
+        "id": "a7296f68.81a09",
+        "type": "function",
+        "z": "3435c52e.1f3f8a",
+        "name": "getMessage",
+        "func": "msg.topic = \"message2\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 390,
+        "y": 1060,
+        "wires": [
+            [
+                "95fdd2bb.fdcde"
+            ]
+        ]
+    },
+    {
+        "id": "b935c5bf.4673d8",
+        "type": "function",
+        "z": "3435c52e.1f3f8a",
+        "name": "getLight",
+        "func": "msg.topic = \"light2\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 380,
+        "y": 1100,
+        "wires": [
+            [
+                "95fdd2bb.fdcde"
+            ]
+        ]
+    },
+    {
+        "id": "52af9b64c9ccba74",
+        "type": "http request",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://172.16.17.201/smart_meter/recharge.php?user=Reshma&balance={{{payload}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 350,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6e94c73d558df47",
+        "type": "http request",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://172.16.17.201/smart_meter/recharge.php?user=Mukesh&balance={{{payload}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 330,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d7ebeb1a5dfcbdee",
+        "type": "ui_switch",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "label": "User18 lights",
+        "tooltip": "",
+        "group": "5c8bcd75.2ee194",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [
+                "a8dece1533dafe19"
+            ]
+        ]
+    },
+    {
+        "id": "a8dece1533dafe19",
+        "type": "mqtt out",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "/light/button1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "15ba0606.c5006a",
+        "x": 350,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "228dd6956e46d4cc",
+        "type": "ui_switch",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "label": "User19 lights",
+        "tooltip": "",
+        "group": "adcc32de.4bd3d",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 110,
+        "y": 360,
+        "wires": [
+            [
+                "36afe554623ff9c0"
+            ]
+        ]
+    },
+    {
+        "id": "36afe554623ff9c0",
+        "type": "mqtt out",
+        "z": "3435c52e.1f3f8a",
+        "name": "",
+        "topic": "/light/button2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "15ba0606.c5006a",
+        "x": 350,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "function_process_alert",
+        "type": "function",
+        "z": "4731a04bc89f5b47",
+        "name": "Process Fire Detection",
+        "func": "if (msg.payload.fire_detected) {\n    msg.payload = \"Fire detected at \" + msg.payload.timestamp;\n} else {\n    msg.payload = \"No fire detected at \" + msg.payload.timestamp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 340,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "debug_output",
+        "type": "debug",
+        "z": "4731a04bc89f5b47",
+        "name": "Fire Detection Log",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "complete": "payload",
+        "x": 370,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "coap_input",
+        "type": "coap in",
+        "z": "4731a04bc89f5b47",
+        "method": "POST",
+        "name": "CoAP Fire Detection",
+        "server": "7285e29f964e8936",
+        "url": "/fire_alert",
+        "x": 90,
+        "y": 180,
+        "wires": [
+            [
+                "function_process_alert",
+                "debug_output"
+            ]
+        ]
+    }
+]
