@@ -1,0 +1,2015 @@
+[
+    {
+        "id": "99d063176714595a",
+        "type": "tab",
+        "label": "Local Broker",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7770ad206109ad5c",
+        "type": "tab",
+        "label": "Airquality",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "831649e1d856c61d",
+        "type": "tab",
+        "label": "AlertTower",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "97e1e4746517cce8",
+        "type": "tab",
+        "label": "Sensors",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "01cd98f3450c0e9f",
+        "type": "tab",
+        "label": "Sensors",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "15ba0606.c5006a",
+        "type": "mqtt-broker",
+        "name": "mqttBroker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "83592728.d85318",
+        "type": "ui_group",
+        "name": "PM1.0",
+        "tab": "67fd059a.4e025c",
+        "order": 1,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "721401bd.1d26f",
+        "type": "ui_group",
+        "name": "PM2.5",
+        "tab": "67fd059a.4e025c",
+        "order": 2,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "7b0bec0d.f35ea4",
+        "type": "ui_group",
+        "name": "PM10",
+        "tab": "67fd059a.4e025c",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "2857c3e7.4681bc",
+        "type": "ui_group",
+        "name": "CO2",
+        "tab": "67fd059a.4e025c",
+        "order": 4,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "613634e8.ca6d9c",
+        "type": "ui_group",
+        "name": "VOC",
+        "tab": "67fd059a.4e025c",
+        "order": 5,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "7791a8d0845a47df",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "67fd059a.4e025c",
+        "order": 11,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fe77e929.baefb8",
+        "type": "ui_group",
+        "name": "Humidity",
+        "tab": "67fd059a.4e025c",
+        "order": 6,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "466e6f1f.51214",
+        "type": "ui_group",
+        "name": "CH2O",
+        "tab": "67fd059a.4e025c",
+        "order": 7,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "8cefc846.88e3a8",
+        "type": "ui_group",
+        "name": "CO",
+        "tab": "67fd059a.4e025c",
+        "order": 8,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "cb0f94ae.5ef818",
+        "type": "ui_group",
+        "name": "O3",
+        "tab": "67fd059a.4e025c",
+        "order": 9,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "225100c2.fe792",
+        "type": "ui_group",
+        "name": "NO2",
+        "tab": "67fd059a.4e025c",
+        "order": 10,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "67fd059a.4e025c",
+        "type": "ui_tab",
+        "name": "Air Quality",
+        "icon": "dashboard",
+        "order": 10,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e09f944b394df4c7",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "83c98cbc651df364",
+        "type": "modbus-client",
+        "name": "AlertTowerPLC",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "172.16.17.132",
+        "tcpPort": "503",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "2194fb494dcad148",
+        "type": "modbus-client",
+        "name": "MetalDetectorPLC",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "172.16.17.131",
+        "tcpPort": "503",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "4555832f260ab62b",
+        "type": "ui_group",
+        "name": "LPG",
+        "tab": "67fd059a.4e025c",
+        "order": 12,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "70961bab025e7a5b",
+        "type": "ui_group",
+        "name": "Alcohol",
+        "tab": "67fd059a.4e025c",
+        "order": 13,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "18feaaa1a1b06e7f",
+        "type": "ui_group",
+        "name": "Flameable",
+        "tab": "67fd059a.4e025c",
+        "order": 14,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f9c87d41d6f5b367",
+        "type": "ui_group",
+        "name": "CH4",
+        "tab": "67fd059a.4e025c",
+        "order": 15,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "693a0d570b24e9bf",
+        "type": "ui_group",
+        "name": "H2",
+        "tab": "67fd059a.4e025c",
+        "order": 16,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "094bca2b6c12d0f2",
+        "type": "ui_group",
+        "name": "CO",
+        "tab": "67fd059a.4e025c",
+        "order": 17,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9beab80eecbdca19",
+        "type": "ui_link",
+        "name": "Link 2",
+        "icon": "open_in_browser",
+        "target": "newtab",
+        "order": 2
+    },
+    {
+        "id": "053e868e2fa73d70",
+        "type": "websocket-listener",
+        "path": "test/val",
+        "wholemsg": "false"
+    },
+    {
+        "id": "567f0f73e88711b4",
+        "type": "websocket-listener",
+        "path": "/gas/LPG",
+        "wholemsg": "false"
+    },
+    {
+        "id": "6d59ba2dbbc7d2bb",
+        "type": "websocket-listener",
+        "path": "/gas/Alcohol",
+        "wholemsg": "false"
+    },
+    {
+        "id": "04c9c4bab3a8840f",
+        "type": "websocket-listener",
+        "path": "/gas/Flameable",
+        "wholemsg": "false"
+    },
+    {
+        "id": "ef868338c45b164d",
+        "type": "websocket-listener",
+        "path": "/gas/CH4",
+        "wholemsg": "false"
+    },
+    {
+        "id": "f2e7bcf403cc450c",
+        "type": "websocket-listener",
+        "path": "/gas/CO",
+        "wholemsg": "false"
+    },
+    {
+        "id": "69e69986d6c34ed4",
+        "type": "websocket-listener",
+        "path": "/gas/H2",
+        "wholemsg": "false"
+    },
+    {
+        "id": "d7905cbea4c85ce8",
+        "type": "aedes broker",
+        "z": "99d063176714595a",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "persistence_bind": "memory",
+        "dburl": "",
+        "usetls": false,
+        "x": 110,
+        "y": 40,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1a04ffe3.e3892",
+        "type": "mqtt in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "ZPHS01B/P1.0",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 60,
+        "wires": [
+            [
+                "69a65d11.c086f4",
+                "3051ef3bf0411c68"
+            ]
+        ]
+    },
+    {
+        "id": "c823ec12.a1348",
+        "type": "mqtt in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "ZPHS01B/P2.5",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 100,
+        "wires": [
+            [
+                "7d5ea00f.6036b",
+                "7c77a77f23a15364"
+            ]
+        ]
+    },
+    {
+        "id": "c8d164a9.6f74f8",
+        "type": "mqtt in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "ZPHS01B/P10",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 140,
+        "wires": [
+            [
+                "7b38c02c.65832",
+                "083a0454bae11488"
+            ]
+        ]
+    },
+    {
+        "id": "b0aa9760.ff9488",
+        "type": "mqtt in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "ZPHS01B/CO2",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 180,
+        "wires": [
+            [
+                "366bee60.e4aee2",
+                "b39a299b7d6134fc"
+            ]
+        ]
+    },
+    {
+        "id": "836ea915.eaebb8",
+        "type": "mqtt in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "ZPHS01B/VOC",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 220,
+        "wires": [
+            [
+                "6d3e5e41.6d6ef",
+                "a5a3ae53b8b06185"
+            ]
+        ]
+    },
+    {
+        "id": "eec0eda9.cbdb3",
+        "type": "mqtt in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "ZPHS01B/TEMP",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 260,
+        "wires": [
+            [
+                "bc1669ce.cbd248"
+            ]
+        ]
+    },
+    {
+        "id": "66e98d8.7b66674",
+        "type": "mqtt in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "ZPHS01B/HUM",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 300,
+        "wires": [
+            [
+                "31725719.e4c8b8"
+            ]
+        ]
+    },
+    {
+        "id": "ae00fc8d.affa4",
+        "type": "mqtt in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "ZPHS01B/CH2O",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 340,
+        "wires": [
+            [
+                "f88c7990.2a0a58",
+                "3bdb744d0e8dd183"
+            ]
+        ]
+    },
+    {
+        "id": "b39a5b31.ee3c48",
+        "type": "mqtt in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "ZPHS01B/CO",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 380,
+        "wires": [
+            [
+                "2e8c197.2a2eee6",
+                "25e1aa7c76f1aa10",
+                "0cab789e06f087ca"
+            ]
+        ]
+    },
+    {
+        "id": "e8acf5ff.3f0268",
+        "type": "mqtt in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "ZPHS01B/O3",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 420,
+        "wires": [
+            [
+                "b9b89087.fef2d",
+                "81587474b82ed557"
+            ]
+        ]
+    },
+    {
+        "id": "3c163acf.055d06",
+        "type": "mqtt in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "ZPHS01B/NO2",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 460,
+        "wires": [
+            [
+                "31d72515.dc7bda",
+                "95bee03988c5d652"
+            ]
+        ]
+    },
+    {
+        "id": "69a65d11.c086f4",
+        "type": "ui_gauge",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "group": "83592728.d85318",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "PM 1.0",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "className": "",
+        "x": 400,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "7d5ea00f.6036b",
+        "type": "ui_gauge",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "group": "721401bd.1d26f",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "PM 2.5",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "className": "",
+        "x": 400,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "7b38c02c.65832",
+        "type": "ui_gauge",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "group": "7b0bec0d.f35ea4",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "PM 10",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "200",
+        "className": "",
+        "x": 390,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "366bee60.e4aee2",
+        "type": "ui_gauge",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "group": "2857c3e7.4681bc",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "CO2",
+        "label": "ppm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "5000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "1000",
+        "seg2": "2000",
+        "className": "",
+        "x": 390,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "6d3e5e41.6d6ef",
+        "type": "ui_gauge",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "group": "613634e8.ca6d9c",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "VOC",
+        "label": "grade",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "5",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "1",
+        "seg2": "4",
+        "className": "",
+        "x": 390,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "bc1669ce.cbd248",
+        "type": "ui_gauge",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "group": "7791a8d0845a47df",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "C",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "27",
+        "seg2": "35",
+        "className": "",
+        "x": 390,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "31725719.e4c8b8",
+        "type": "ui_gauge",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "group": "fe77e929.baefb8",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humidity",
+        "label": "%RH",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 380,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f88c7990.2a0a58",
+        "type": "ui_gauge",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "group": "466e6f1f.51214",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "CH2O",
+        "label": "mg/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "7",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "0.75",
+        "seg2": "2",
+        "className": "",
+        "x": 390,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "2e8c197.2a2eee6",
+        "type": "ui_gauge",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "group": "8cefc846.88e3a8",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "CO",
+        "label": "ppm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "9",
+        "seg2": "35",
+        "className": "",
+        "x": 390,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "b9b89087.fef2d",
+        "type": "ui_gauge",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "group": "cb0f94ae.5ef818",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "O3",
+        "label": "ppm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "0.5",
+        "seg2": "2",
+        "className": "",
+        "x": 390,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "31d72515.dc7bda",
+        "type": "ui_gauge",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "group": "225100c2.fe792",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "NO2",
+        "label": "ppm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": ".5",
+        "seg2": "2",
+        "className": "",
+        "x": 390,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "3051ef3bf0411c68",
+        "type": "function",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "func": "if (msg.payload>150){msg.payload = \"11\"}\nelse{msg.payload = \"33\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 60,
+        "wires": [
+            [
+                "5848a5dd999e3bc1"
+            ]
+        ]
+    },
+    {
+        "id": "7c77a77f23a15364",
+        "type": "function",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "func": "if (msg.payload>150){msg.payload = \"11\"}\nelse{msg.payload = \"33\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 100,
+        "wires": [
+            [
+                "5848a5dd999e3bc1"
+            ]
+        ]
+    },
+    {
+        "id": "083a0454bae11488",
+        "type": "function",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "func": "if (msg.payload>200){msg.payload = \"11\"}\nelse{msg.payload = \"33\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 140,
+        "wires": [
+            [
+                "5848a5dd999e3bc1"
+            ]
+        ]
+    },
+    {
+        "id": "b39a299b7d6134fc",
+        "type": "function",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "func": "if (msg.payload>3000){msg.payload = \"11\"}\nelse{msg.payload = \"33\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 180,
+        "wires": [
+            [
+                "5848a5dd999e3bc1"
+            ]
+        ]
+    },
+    {
+        "id": "a5a3ae53b8b06185",
+        "type": "function",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "func": "if (msg.payload>5){msg.payload = \"11\"}\nelse{msg.payload = \"33\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 220,
+        "wires": [
+            [
+                "5848a5dd999e3bc1"
+            ]
+        ]
+    },
+    {
+        "id": "3bdb744d0e8dd183",
+        "type": "function",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "func": "if (msg.payload>2){msg.payload = \"11\"}\nelse{msg.payload = \"33\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 340,
+        "wires": [
+            [
+                "5848a5dd999e3bc1"
+            ]
+        ]
+    },
+    {
+        "id": "25e1aa7c76f1aa10",
+        "type": "function",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "func": "if (msg.payload>35){msg.payload = \"11\"}\nelse{msg.payload = \"33\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 380,
+        "wires": [
+            [
+                "5848a5dd999e3bc1"
+            ]
+        ]
+    },
+    {
+        "id": "81587474b82ed557",
+        "type": "function",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "func": "if (msg.payload>2){msg.payload = \"11\"}\nelse{msg.payload = \"33\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 420,
+        "wires": [
+            [
+                "5848a5dd999e3bc1"
+            ]
+        ]
+    },
+    {
+        "id": "95bee03988c5d652",
+        "type": "function",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "func": "if (msg.payload>2){msg.payload = \"11\"}\nelse{msg.payload = \"33\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 460,
+        "wires": [
+            [
+                "5848a5dd999e3bc1"
+            ]
+        ]
+    },
+    {
+        "id": "5848a5dd999e3bc1",
+        "type": "mqtt out",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "topic": "sensor/value/alert",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "15ba0606.c5006a",
+        "x": 830,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "0cab789e06f087ca",
+        "type": "debug",
+        "z": "7770ad206109ad5c",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "8c4515cf2e17c24e",
+        "type": "websocket in",
+        "z": "7770ad206109ad5c",
+        "name": "",
+        "server": "053e868e2fa73d70",
+        "client": "",
+        "x": 210,
+        "y": 580,
+        "wires": [
+            [
+                "2cea8ef7b6a76fc2"
+            ]
+        ]
+    },
+    {
+        "id": "2cea8ef7b6a76fc2",
+        "type": "debug",
+        "z": "7770ad206109ad5c",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "69987434abef31d5",
+        "type": "modbus-flex-write",
+        "z": "831649e1d856c61d",
+        "name": "Nuclear",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "server": "83c98cbc651df364",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 620,
+        "y": 180,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f5f288ab64766d45",
+        "type": "function",
+        "z": "831649e1d856c61d",
+        "name": "",
+        "func": "msg.payload = { \n    value: msg.payload, \n    'fc': 6, \n    'unitid': 1, \n    'address': 2, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 180,
+        "wires": [
+            [
+                "69987434abef31d5"
+            ]
+        ]
+    },
+    {
+        "id": "324796b910b4c4ac",
+        "type": "inject",
+        "z": "831649e1d856c61d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "11",
+        "payloadType": "str",
+        "x": 270,
+        "y": 180,
+        "wires": [
+            [
+                "f5f288ab64766d45",
+                "0ce68524c2431f0a"
+            ]
+        ]
+    },
+    {
+        "id": "a5b4382e4517cb4c",
+        "type": "inject",
+        "z": "831649e1d856c61d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "33",
+        "payloadType": "str",
+        "x": 270,
+        "y": 260,
+        "wires": [
+            [
+                "f5f288ab64766d45",
+                "0ce68524c2431f0a"
+            ]
+        ]
+    },
+    {
+        "id": "0ce68524c2431f0a",
+        "type": "function",
+        "z": "831649e1d856c61d",
+        "name": "",
+        "func": "msg.payload = { \n    value: msg.payload, \n    'fc': 6, \n    'unitid': 1, \n    'address': 2, \n    'quantity': 1 } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 260,
+        "wires": [
+            [
+                "418ed616dcd10e06"
+            ]
+        ]
+    },
+    {
+        "id": "418ed616dcd10e06",
+        "type": "modbus-flex-write",
+        "z": "831649e1d856c61d",
+        "name": "Airport",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "server": "2194fb494dcad148",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 610,
+        "y": 260,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5fbb904c70f75845",
+        "type": "mqtt in",
+        "z": "831649e1d856c61d",
+        "name": "",
+        "topic": "alarm/control/alexa",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 220,
+        "wires": [
+            [
+                "f5f288ab64766d45",
+                "0ce68524c2431f0a"
+            ]
+        ]
+    },
+    {
+        "id": "09648285d287436d",
+        "type": "mqtt in",
+        "z": "831649e1d856c61d",
+        "name": "",
+        "topic": "sensor/value/alert",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 300,
+        "wires": [
+            [
+                "f5f288ab64766d45",
+                "0ce68524c2431f0a"
+            ]
+        ]
+    },
+    {
+        "id": "55777d2ff823fcf1",
+        "type": "mqtt in",
+        "z": "831649e1d856c61d",
+        "name": "",
+        "topic": "sensor/value/alert",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 320,
+        "y": 380,
+        "wires": [
+            [
+                "f5f288ab64766d45",
+                "0ce68524c2431f0a"
+            ]
+        ]
+    },
+    {
+        "id": "94167a2f99a62a49",
+        "type": "ui_gauge",
+        "z": "97e1e4746517cce8",
+        "name": "",
+        "group": "4555832f260ab62b",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "LPG",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c23352f4cef9a291",
+        "type": "ui_gauge",
+        "z": "97e1e4746517cce8",
+        "name": "",
+        "group": "70961bab025e7a5b",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Alcohol",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 440,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9eff6f06e6e9c593",
+        "type": "ui_gauge",
+        "z": "97e1e4746517cce8",
+        "name": "",
+        "group": "18feaaa1a1b06e7f",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Flameable",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 450,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "cb75bee941d8d838",
+        "type": "ui_gauge",
+        "z": "97e1e4746517cce8",
+        "name": "",
+        "group": "f9c87d41d6f5b367",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "CH4",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "5f7dbefe8cb1d1da",
+        "type": "ui_gauge",
+        "z": "97e1e4746517cce8",
+        "name": "",
+        "group": "094bca2b6c12d0f2",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "CO",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "1e9173a382043736",
+        "type": "ui_gauge",
+        "z": "97e1e4746517cce8",
+        "name": "",
+        "group": "693a0d570b24e9bf",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "H2",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "37b790b417b94e30",
+        "type": "websocket in",
+        "z": "97e1e4746517cce8",
+        "name": "LPG",
+        "server": "567f0f73e88711b4",
+        "client": "",
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "94167a2f99a62a49"
+            ]
+        ]
+    },
+    {
+        "id": "a0bed649ddee7f6f",
+        "type": "websocket in",
+        "z": "97e1e4746517cce8",
+        "name": "Alcohol",
+        "server": "6d59ba2dbbc7d2bb",
+        "client": "",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "c23352f4cef9a291"
+            ]
+        ]
+    },
+    {
+        "id": "1db80c6a4b0b43db",
+        "type": "websocket in",
+        "z": "97e1e4746517cce8",
+        "name": "Flameable",
+        "server": "04c9c4bab3a8840f",
+        "client": "",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "9eff6f06e6e9c593"
+            ]
+        ]
+    },
+    {
+        "id": "249c89f07f3d8771",
+        "type": "websocket in",
+        "z": "97e1e4746517cce8",
+        "name": "CH4",
+        "server": "ef868338c45b164d",
+        "client": "",
+        "x": 170,
+        "y": 360,
+        "wires": [
+            [
+                "cb75bee941d8d838"
+            ]
+        ]
+    },
+    {
+        "id": "ce0ad1518a2d103d",
+        "type": "websocket in",
+        "z": "97e1e4746517cce8",
+        "name": "CO",
+        "server": "f2e7bcf403cc450c",
+        "client": "",
+        "x": 170,
+        "y": 420,
+        "wires": [
+            [
+                "5f7dbefe8cb1d1da"
+            ]
+        ]
+    },
+    {
+        "id": "b268af2f40238c55",
+        "type": "websocket in",
+        "z": "97e1e4746517cce8",
+        "name": "H2",
+        "server": "69e69986d6c34ed4",
+        "client": "",
+        "x": 170,
+        "y": 480,
+        "wires": [
+            [
+                "1e9173a382043736",
+                "6c3037e9bb5b0846"
+            ]
+        ]
+    },
+    {
+        "id": "6c3037e9bb5b0846",
+        "type": "debug",
+        "z": "97e1e4746517cce8",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "bda66cb9ac3066f2",
+        "type": "mqtt in",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "topic": "gas/LPG",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 180,
+        "wires": [
+            [
+                "5eecc6afaccdb81c"
+            ]
+        ]
+    },
+    {
+        "id": "4631721e54fe58ef",
+        "type": "mqtt in",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "topic": "gas/Alcohol",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 240,
+        "wires": [
+            [
+                "c94c9ae804cdb563"
+            ]
+        ]
+    },
+    {
+        "id": "6572707989d0f06f",
+        "type": "mqtt in",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "topic": "gas/CH4",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 360,
+        "wires": [
+            [
+                "8eb130486195be06"
+            ]
+        ]
+    },
+    {
+        "id": "afeddf7bbc1cb4a2",
+        "type": "mqtt in",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "topic": "gas/Flameable",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 300,
+        "wires": [
+            [
+                "53e2a68d77a6e863"
+            ]
+        ]
+    },
+    {
+        "id": "2d5d03bc89ca17bb",
+        "type": "mqtt in",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "topic": "gas/CO",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 440,
+        "wires": [
+            [
+                "d8b0bbafd8a3909e"
+            ]
+        ]
+    },
+    {
+        "id": "f114d27048a1970c",
+        "type": "mqtt in",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "topic": "gas/H2",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "15ba0606.c5006a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 520,
+        "wires": [
+            [
+                "6968036018473fbc"
+            ]
+        ]
+    },
+    {
+        "id": "5eecc6afaccdb81c",
+        "type": "ui_gauge",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "group": "4555832f260ab62b",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "LPG",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c94c9ae804cdb563",
+        "type": "ui_gauge",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "group": "70961bab025e7a5b",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Alcohol",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 440,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "53e2a68d77a6e863",
+        "type": "ui_gauge",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "group": "18feaaa1a1b06e7f",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Flameable",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 450,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8eb130486195be06",
+        "type": "ui_gauge",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "group": "f9c87d41d6f5b367",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "CH4",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "d8b0bbafd8a3909e",
+        "type": "ui_gauge",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "group": "094bca2b6c12d0f2",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "CO",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "6968036018473fbc",
+        "type": "ui_gauge",
+        "z": "01cd98f3450c0e9f",
+        "name": "",
+        "group": "693a0d570b24e9bf",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "H2",
+        "label": "ug/m3",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 520,
+        "wires": []
+    }
+]
