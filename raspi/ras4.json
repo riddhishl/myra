@@ -1,0 +1,1154 @@
+[
+    {
+        "id": "b21fd3c5594196ef",
+        "type": "tab",
+        "label": "Fire Sensor",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c78830a.11b24d",
+        "type": "tab",
+        "label": "Gas Sensors",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "71493234c0d0a6a5",
+        "type": "tab",
+        "label": "Fire Sensor",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2aa4dd97b5d63d02",
+        "type": "tab",
+        "label": "Gas Sensors",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "c685d675.992f28",
+        "type": "serial-port",
+        "serialport": "/dev/ttyACM0",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": ",",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "45ac892e.57e4e8",
+        "type": "mqtt-broker",
+        "name": "ServerBroker",
+        "broker": "172.16.17.100",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "4dab475e8218c12e",
+        "type": "mqtt-broker",
+        "name": "IndustryVMbroker",
+        "broker": "172.16.17.207",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a43e5bc08b221664",
+        "type": "websocket-client",
+        "path": "ws:172.16.17.207/test/val",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": ""
+    },
+    {
+        "id": "94167414159808e9",
+        "type": "websocket-listener",
+        "path": "test/val",
+        "wholemsg": "false"
+    },
+    {
+        "id": "99f54195261118c8",
+        "type": "coap-server",
+        "name": "localhost",
+        "port": "5683",
+        "ipv6": false
+    },
+    {
+        "id": "7ef0cd88de61994b",
+        "type": "websocket-listener",
+        "path": "/gas/LPG",
+        "wholemsg": "false"
+    },
+    {
+        "id": "5718a4e0fdc86b7a",
+        "type": "websocket-listener",
+        "path": "gas/Alcohol",
+        "wholemsg": "false"
+    },
+    {
+        "id": "56bf543766eb5080",
+        "type": "websocket-listener",
+        "path": "/gas/Flameable",
+        "wholemsg": "false"
+    },
+    {
+        "id": "ac90ee9c245a1bf2",
+        "type": "websocket-listener",
+        "path": "/gas/CH4",
+        "wholemsg": "false"
+    },
+    {
+        "id": "8c62404a87a20905",
+        "type": "websocket-listener",
+        "path": "/gas/H2",
+        "wholemsg": "false"
+    },
+    {
+        "id": "a3c3a84c07146579",
+        "type": "websocket-client",
+        "path": "ws://172.16.17.207:1880/gas/LPG",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": ""
+    },
+    {
+        "id": "bec3ad87e83f516d",
+        "type": "websocket-client",
+        "path": "ws://172.16.17.207:1880/gas/Alcohol",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": ""
+    },
+    {
+        "id": "d00f4d3586935e32",
+        "type": "websocket-client",
+        "path": "ws://172.16.17.207:1880/gas/Flameable",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": ""
+    },
+    {
+        "id": "3d01549874f819f1",
+        "type": "websocket-client",
+        "path": "ws://172.16.17.207:1880/gas/CH4",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": ""
+    },
+    {
+        "id": "3f24c18828691646",
+        "type": "websocket-client",
+        "path": "ws://172.16.17.207:1880/gas/CO",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": ""
+    },
+    {
+        "id": "9c9b0bda66a086c8",
+        "type": "websocket-client",
+        "path": "ws://172.16.17.207:1880/gas/H2",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": ""
+    },
+    {
+        "id": "7320d7b62a3f837c",
+        "type": "rpi-gpio in",
+        "z": "b21fd3c5594196ef",
+        "name": "Fire Sensor",
+        "pin": "21",
+        "intype": "down",
+        "debounce": "25",
+        "read": true,
+        "bcm": true,
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "130f7abe7de88f68",
+                "d43049f10a0c50a4"
+            ]
+        ]
+    },
+    {
+        "id": "9202541c073ab22f",
+        "type": "rpi-gpio out",
+        "z": "b21fd3c5594196ef",
+        "name": "Buzzer  pin 40",
+        "pin": "20",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 700,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "130f7abe7de88f68",
+        "type": "switch",
+        "z": "b21fd3c5594196ef",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 340,
+        "wires": [
+            [
+                "5ab7780bb3890249"
+            ],
+            [
+                "af3caad516387dce"
+            ]
+        ]
+    },
+    {
+        "id": "5ab7780bb3890249",
+        "type": "change",
+        "z": "b21fd3c5594196ef",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 300,
+        "wires": [
+            [
+                "9202541c073ab22f"
+            ]
+        ]
+    },
+    {
+        "id": "af3caad516387dce",
+        "type": "change",
+        "z": "b21fd3c5594196ef",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 380,
+        "wires": [
+            [
+                "9202541c073ab22f"
+            ]
+        ]
+    },
+    {
+        "id": "d43049f10a0c50a4",
+        "type": "trigger",
+        "z": "b21fd3c5594196ef",
+        "name": "",
+        "op1": "",
+        "op2": "firesupport",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "1",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 340,
+        "y": 460,
+        "wires": [
+            [
+                "a89dab0b6922cad1"
+            ]
+        ]
+    },
+    {
+        "id": "a89dab0b6922cad1",
+        "type": "coap request",
+        "z": "b21fd3c5594196ef",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.113:5683/hotelfire",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "SoS",
+        "x": 530,
+        "y": 460,
+        "wires": [
+            [
+                "06b17010aacd4bc0"
+            ]
+        ]
+    },
+    {
+        "id": "06b17010aacd4bc0",
+        "type": "debug",
+        "z": "b21fd3c5594196ef",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "445f7c4828fe4948",
+        "type": "inject",
+        "z": "b21fd3c5594196ef",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "v": "false",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 540,
+        "wires": [
+            [
+                "a89dab0b6922cad1"
+            ]
+        ]
+    },
+    {
+        "id": "e66c466acb79de8e",
+        "type": "inject",
+        "z": "b21fd3c5594196ef",
+        "name": "1",
+        "props": [
+            {
+                "p": "topic",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 250,
+        "y": 600,
+        "wires": [
+            [
+                "a89dab0b6922cad1"
+            ]
+        ]
+    },
+    {
+        "id": "ed98fb49.ce7458",
+        "type": "serial in",
+        "z": "c78830a.11b24d",
+        "name": "",
+        "serial": "c685d675.992f28",
+        "x": 150,
+        "y": 260,
+        "wires": [
+            [
+                "11d0e94a.f7c477",
+                "a763bd5fbb22b16e"
+            ]
+        ]
+    },
+    {
+        "id": "11d0e94a.f7c477",
+        "type": "function",
+        "z": "c78830a.11b24d",
+        "name": "",
+        "func": "var msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\nvar msg4 = {};\nvar msg5 = {};\nvar msg6 = {};\nstr = msg.payload.slice(0, -1)\nif(str.split(\":\")[0]==\"LPG\"){\n    msg1.payload=str.split(\":\")[1];\n}else if(str.split(\":\")[0]==\"Alcohol\"){\n    msg2.payload=str.split(\":\")[1];\n}else if(str.split(\":\")[0]==\"Flameable\"){\n    msg3.payload=str.split(\":\")[1];\n}else if(str.split(\":\")[0]==\"CH4\"){\n    msg4.payload=str.split(\":\")[1];\n}else if(str.split(\":\")[0]==\"CO\"){\n    msg5.payload=str.split(\":\")[1];\n}else if(str.split(\":\")[0]==\"H2\"){\n    msg6.payload=str.split(\":\")[1];\n}\nreturn [msg1,msg2,msg3,msg4,msg5,msg6];",
+        "outputs": 6,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 260,
+        "wires": [
+            [
+                "33fcb416640a4b23",
+                "70bfa1bd7f52d4cd"
+            ],
+            [
+                "2be9020f7df4a7b3",
+                "a90fbb8d06567d22"
+            ],
+            [
+                "58bbbbec7ae7dbf0",
+                "a149c5c230b6d9ee"
+            ],
+            [
+                "7b82f2be10493558",
+                "5a1f8e73a663f87f"
+            ],
+            [
+                "7eb4b7da10a39c0e",
+                "7f1137966b443c86"
+            ],
+            [
+                "2f2bba3e274b3785",
+                "dba8eec69d80d560"
+            ]
+        ]
+    },
+    {
+        "id": "a763bd5fbb22b16e",
+        "type": "debug",
+        "z": "c78830a.11b24d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "33fcb416640a4b23",
+        "type": "debug",
+        "z": "c78830a.11b24d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "2be9020f7df4a7b3",
+        "type": "debug",
+        "z": "c78830a.11b24d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "58bbbbec7ae7dbf0",
+        "type": "debug",
+        "z": "c78830a.11b24d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "7b82f2be10493558",
+        "type": "debug",
+        "z": "c78830a.11b24d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "7eb4b7da10a39c0e",
+        "type": "debug",
+        "z": "c78830a.11b24d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "2f2bba3e274b3785",
+        "type": "debug",
+        "z": "c78830a.11b24d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "70bfa1bd7f52d4cd",
+        "type": "websocket out",
+        "z": "c78830a.11b24d",
+        "name": "LPG",
+        "server": "",
+        "client": "a3c3a84c07146579",
+        "x": 550,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "a90fbb8d06567d22",
+        "type": "websocket out",
+        "z": "c78830a.11b24d",
+        "name": "Alcohol",
+        "server": "",
+        "client": "bec3ad87e83f516d",
+        "x": 560,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a149c5c230b6d9ee",
+        "type": "websocket out",
+        "z": "c78830a.11b24d",
+        "name": "Flammable",
+        "server": "",
+        "client": "d00f4d3586935e32",
+        "x": 570,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "5a1f8e73a663f87f",
+        "type": "websocket out",
+        "z": "c78830a.11b24d",
+        "name": "CH4",
+        "server": "",
+        "client": "3d01549874f819f1",
+        "x": 550,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "7f1137966b443c86",
+        "type": "websocket out",
+        "z": "c78830a.11b24d",
+        "name": "CO",
+        "server": "",
+        "client": "3f24c18828691646",
+        "x": 550,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "dba8eec69d80d560",
+        "type": "websocket out",
+        "z": "c78830a.11b24d",
+        "name": "H2",
+        "server": "",
+        "client": "9c9b0bda66a086c8",
+        "x": 570,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "cab0a3d9982192a1",
+        "type": "rpi-gpio in",
+        "z": "71493234c0d0a6a5",
+        "name": "Fire Sensor",
+        "pin": "21",
+        "intype": "down",
+        "debounce": "25",
+        "read": true,
+        "bcm": true,
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "0696dd3dd17b97a9",
+                "4f6cb31de6dba396"
+            ]
+        ]
+    },
+    {
+        "id": "fef445e8f85cdc63",
+        "type": "rpi-gpio out",
+        "z": "71493234c0d0a6a5",
+        "name": "Buzzer  pin 40",
+        "pin": "20",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 700,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "0696dd3dd17b97a9",
+        "type": "switch",
+        "z": "71493234c0d0a6a5",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "c6454606de7421c8"
+            ],
+            [
+                "754956e7df1bea06"
+            ]
+        ]
+    },
+    {
+        "id": "c6454606de7421c8",
+        "type": "change",
+        "z": "71493234c0d0a6a5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 60,
+        "wires": [
+            [
+                "fef445e8f85cdc63"
+            ]
+        ]
+    },
+    {
+        "id": "754956e7df1bea06",
+        "type": "change",
+        "z": "71493234c0d0a6a5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 100,
+        "wires": [
+            [
+                "fef445e8f85cdc63"
+            ]
+        ]
+    },
+    {
+        "id": "4f6cb31de6dba396",
+        "type": "trigger",
+        "z": "71493234c0d0a6a5",
+        "name": "",
+        "op1": "",
+        "op2": "firesupport",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "1",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 280,
+        "y": 140,
+        "wires": [
+            [
+                "8afbb6829284f217"
+            ]
+        ]
+    },
+    {
+        "id": "8afbb6829284f217",
+        "type": "mqtt out",
+        "z": "71493234c0d0a6a5",
+        "name": "Fire SoS",
+        "topic": "hotel/fire/sos",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4dab475e8218c12e",
+        "x": 460,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "955382aa3f9b0ee1",
+        "type": "serial in",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "serial": "c685d675.992f28",
+        "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "d2caaa87a0a21f14",
+                "1612475f50d57e23"
+            ]
+        ]
+    },
+    {
+        "id": "d2caaa87a0a21f14",
+        "type": "function",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "func": "var msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\nvar msg4 = {};\nvar msg5 = {};\nvar msg6 = {};\nstr = msg.payload.slice(0, -1)\nif(str.split(\":\")[0]==\"LPG\"){\n    msg1.payload=str.split(\":\")[1];\n}else if(str.split(\":\")[0]==\"Alcohol\"){\n    msg2.payload=str.split(\":\")[1];\n}else if(str.split(\":\")[0]==\"Flameable\"){\n    msg3.payload=str.split(\":\")[1];\n}else if(str.split(\":\")[0]==\"CH4\"){\n    msg4.payload=str.split(\":\")[1];\n}else if(str.split(\":\")[0]==\"CO\"){\n    msg5.payload=str.split(\":\")[1];\n}else if(str.split(\":\")[0]==\"H2\"){\n    msg6.payload=str.split(\":\")[1];\n}\nreturn [msg1,msg2,msg3,msg4,msg5,msg6];",
+        "outputs": 6,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 140,
+        "wires": [
+            [
+                "2a78181b4538e8ae",
+                "fe40dfa6b434b531"
+            ],
+            [
+                "6a93ad7dff4f441b",
+                "67e5594b407587db"
+            ],
+            [
+                "018646443897f528",
+                "083e35b2d92874c1"
+            ],
+            [
+                "5f95c211b74f72b1",
+                "bc51b020a45c1c6e"
+            ],
+            [
+                "6baf5c1ad83ed432",
+                "2ddd60583bf721f3"
+            ],
+            [
+                "7b6f7aa05eeb327c",
+                "7dbeff75dd515f3a"
+            ]
+        ]
+    },
+    {
+        "id": "2a78181b4538e8ae",
+        "type": "mqtt out",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "topic": "gas/LPG",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4dab475e8218c12e",
+        "x": 540,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "6a93ad7dff4f441b",
+        "type": "mqtt out",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "topic": "gas/Alcohol",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4dab475e8218c12e",
+        "x": 550,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "018646443897f528",
+        "type": "mqtt out",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "topic": "gas/Flameable",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4dab475e8218c12e",
+        "x": 560,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "5f95c211b74f72b1",
+        "type": "mqtt out",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "topic": "gas/CH4",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4dab475e8218c12e",
+        "x": 540,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "6baf5c1ad83ed432",
+        "type": "mqtt out",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "topic": "gas/CO",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4dab475e8218c12e",
+        "x": 540,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "7b6f7aa05eeb327c",
+        "type": "mqtt out",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "topic": "gas/H2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4dab475e8218c12e",
+        "x": 540,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "1612475f50d57e23",
+        "type": "debug",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "fe40dfa6b434b531",
+        "type": "debug",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "67e5594b407587db",
+        "type": "debug",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "083e35b2d92874c1",
+        "type": "debug",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "bc51b020a45c1c6e",
+        "type": "debug",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "2ddd60583bf721f3",
+        "type": "debug",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "7dbeff75dd515f3a",
+        "type": "debug",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "8827790169093495",
+        "type": "websocket out",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "server": "94167414159808e9",
+        "client": "",
+        "x": 550,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "def45c0e09fe48cb",
+        "type": "inject",
+        "z": "2aa4dd97b5d63d02",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "111",
+        "payloadType": "num",
+        "x": 270,
+        "y": 420,
+        "wires": [
+            [
+                "8827790169093495"
+            ]
+        ]
+    }
+]
