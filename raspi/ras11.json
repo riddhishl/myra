@@ -1,0 +1,1713 @@
+[
+    {
+        "id": "e9d23179.7f9b1",
+        "type": "tab",
+        "label": "Departure Display",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c7a7556ae7c3f0a8",
+        "type": "tab",
+        "label": "CheckInSensor",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "10ab0a2c.e698c6",
+        "type": "group",
+        "z": "e9d23179.7f9b1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1c5cb26f.75c7ee",
+            "d2d91a71.d1e3b8",
+            "10b94add.99e6e5",
+            "e029430d.6bbd2",
+            "8f26608c.e40e",
+            "f2fcf1a9.0611f",
+            "d7b5695c.892aa8",
+            "638d2ec3.cb097",
+            "a1286f1b.8ec74",
+            "d909229.7a641e",
+            "6ffcbccf.5569e4",
+            "326def09.1fe29",
+            "53fc1c8a.3c36b4",
+            "f37eeab2.1d10d8",
+            "b589cc75.e189",
+            "2df37af4.febe46",
+            "32ec3ade.9a0156",
+            "64e31ba4.d1e564",
+            "64eba376.bc8bac",
+            "4b69a097.76c71",
+            "a1a10f1c.a4954"
+        ],
+        "x": 14,
+        "y": 599,
+        "w": 922,
+        "h": 442
+    },
+    {
+        "id": "b10ad014.87166",
+        "type": "group",
+        "z": "e9d23179.7f9b1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "43c23373.3fce8c",
+            "6985c81d.e2d7e8",
+            "92812969.fbd398",
+            "4ef8d3bf.d9181c",
+            "30aae753.083d28",
+            "d43a0626.2351d8",
+            "79615514.5eaccc",
+            "903351a4.9ea6f",
+            "c23ad9ab.6189e8"
+        ],
+        "x": 14,
+        "y": 339,
+        "w": 942,
+        "h": 202
+    },
+    {
+        "id": "bc594367.a6791",
+        "type": "group",
+        "z": "e9d23179.7f9b1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9704a7ae.2f7248",
+            "1fc11dfc.7ba9d2",
+            "bc2274e1.b3b968",
+            "ed0da3f9.97d41",
+            "a16d7622.1a9608",
+            "43d99c20.2f0614",
+            "19bfdbf6.fcc124",
+            "a24509f0.a48148",
+            "6aedf9a2.c3fee8",
+            "6105b953.f954d8",
+            "2d892e4d.954d72",
+            "aac0857d.c89098",
+            "2b6f5c1a.0e6724",
+            "da0de966.5bd328",
+            "3930b320.4e82cc",
+            "8022087c.7699a8",
+            "c038b8cf.a74ca8",
+            "4fdc48cb.843de8",
+            "9200c7f9.e3a958",
+            "805ef586.31e488",
+            "d7db5d65.15494",
+            "76ed04fd.ce91ac",
+            "d582357b.cafdd8"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 972,
+        "h": 282
+    },
+    {
+        "id": "61a5f2df87f1ca9b",
+        "type": "modbus-client",
+        "name": "CheckInPLC",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "192.168.50.158",
+        "tcpPort": "503",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "4b03815d97114fb9",
+        "type": "mqtt-broker",
+        "name": "serverBroker",
+        "broker": "172.16.17.100",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "8c2418b5048256b6",
+        "type": "mqtt-broker",
+        "name": "Airport vm",
+        "broker": "172.16.20.101",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "1c5cb26f.75c7ee",
+        "type": "function",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "Display Data",
+        "func": "msg.payload = [\n \t{logonumber:{ src: 'indigo.png', number: global.get(\"flightNo\")[0].flight }, carrier:global.get(\"carrier\")[0], destination:global.get(\"destination\")[0].destination, via:\"--\", time:global.get(\"departureTime\")[0].departureTime1, terminal:\"T3\", gate:global.get(\"gate\")[0].gate, status:global.get(\"statusData\")[0].s1},\n \t{logonumber:{ src: 'spicejet.png', number: global.get(\"flightNo\")[1].flight }, carrier:global.get(\"carrier\")[1], destination:global.get(\"destination\")[1].destination, via:\"--\", time:global.get(\"departureTime\")[1].departureTime2, terminal:\"T3\", gate:global.get(\"gate\")[1].gate, status:global.get(\"statusData\")[1].s2},\n \t{logonumber:{ src: 'go Air.png', number: global.get(\"flightNo\")[2].flight }, carrier:global.get(\"carrier\")[2], destination:global.get(\"destination\")[2].destination, via:\"--\", time:global.get(\"departureTime\")[2].departureTime3, terminal:\"T3\", gate:global.get(\"gate\")[2].gate, status:global.get(\"statusData\")[2].s3},\n \t{logonumber:{ src: 'air india.png', number: global.get(\"flightNo\")[3].flight }, carrier:global.get(\"carrier\")[3], destination:global.get(\"destination\")[3].destination, via:\"--\", time:global.get(\"departureTime\")[3].departureTime4, terminal:\"T3\", gate:global.get(\"gate\")[3].gate, status:global.get(\"statusData\")[3].s4},\n \t{logonumber:{ src: 'vistara.png', number: global.get(\"flightNo\")[4].flight }, carrier:global.get(\"carrier\")[4], destination:global.get(\"destination\")[4].destination, via:\"--\", time:global.get(\"departureTime\")[4].departureTime5, terminal:\"T3\", gate:global.get(\"gate\")[4].gate, status:global.get(\"statusData\")[4].s5},\n \t{logonumber:{ src: 'air asia.png', number: global.get(\"flightNo\")[5].flight }, carrier:global.get(\"carrier\")[5], destination:global.get(\"destination\")[5].destination, via:\"--\", time:global.get(\"departureTime\")[5].departureTime6, terminal:\"T3\", gate:global.get(\"gate\")[5].gate, status:global.get(\"statusData\")[5].s6},\n \t{logonumber:{ src: 'alliance air.png', number: global.get(\"flightNo\")[6].flight }, carrier:global.get(\"carrier\")[6], destination:global.get(\"destination\")[6].destination, via:\"--\", time:global.get(\"departureTime\")[6].departureTime7, terminal:\"T3\", gate:global.get(\"gate\")[6].gate, status:global.get(\"statusData\")[6].s7},\n \t{logonumber:{ src: 'air india.png', number: global.get(\"flightNo\")[7].flight }, carrier:global.get(\"carrier\")[7], destination:global.get(\"destination\")[7].destination, via:\"--\", time:global.get(\"departureTime\")[7].departureTime8, terminal:\"T3\", gate:global.get(\"gate\")[7].gate, status:global.get(\"statusData\")[7].s8},\n \t{logonumber:{ src: 'spicejet.png', number: global.get(\"flightNo\")[8].flight }, carrier:global.get(\"carrier\")[8], destination:global.get(\"destination\")[8].destination, via:\"--\", time:global.get(\"departureTime\")[8].departureTime9, terminal:\"T3\", gate:global.get(\"gate\")[8].gate, status:global.get(\"statusData\")[8].s9},\n \t{logonumber:{ src: 'indigo.png', number: global.get(\"flightNo\")[9].flight }, carrier:global.get(\"carrier\")[9], destination:global.get(\"destination\")[9].destination, via:\"--\", time:global.get(\"departureTime\")[9].departureTime10, terminal:\"T3\",gate:global.get(\"gate\")[9].gate, status:global.get(\"statusData\")[9].s10},\n ];\n return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 940,
+        "wires": [
+            [
+                "f2fcf1a9.0611f"
+            ]
+        ]
+    },
+    {
+        "id": "d2d91a71.d1e3b8",
+        "type": "inject",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "30 min",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1800",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payloadType": "str",
+        "x": 120,
+        "y": 720,
+        "wires": [
+            [
+                "e029430d.6bbd2"
+            ]
+        ]
+    },
+    {
+        "id": "10b94add.99e6e5",
+        "type": "uibuilder",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "",
+        "topic": "",
+        "url": "departureinfo",
+        "fwdInMessages": false,
+        "allowScripts": false,
+        "allowStyles": false,
+        "copyIndex": true,
+        "templateFolder": "blank",
+        "extTemplate": "",
+        "showfolder": false,
+        "oldUrl": "uibuilder",
+        "reload": false,
+        "sourceFolder": "src",
+        "deployedVersion": "5.0.2",
+        "x": 830,
+        "y": 1000,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "9704a7ae.2f7248",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "City Group 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cityGroup1",
+                "pt": "global",
+                "to": "[\"Delhi\", \"Ranchi\", \"Visakhapatnam\", \"Udaipur\", \"Port Blair\"]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1fc11dfc.7ba9d2",
+        "type": "inject",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "Initialise",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "805ef586.31e488"
+            ]
+        ]
+    },
+    {
+        "id": "bc2274e1.b3b968",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "City Group 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cityGroup2",
+                "pt": "global",
+                "to": "[\"Mumbai\",\"Chandigarh\",\"Raipur\",\"Bhopal\",\"Dibrugarh\"]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed0da3f9.97d41",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "City Group 3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cityGroup3",
+                "pt": "global",
+                "to": "[\"Bangaluru\", \"Varanasi\", \"Nagpur\", \"Kannur\", \"Belgaum\"]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a16d7622.1a9608",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "City Group 4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cityGroup4",
+                "pt": "global",
+                "to": "[\"Hyderabad\", \"Bagdogra\", \"Thiruvananthapuram\", \"Imphal\", \"Tiruchirappalli\"]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43d99c20.2f0614",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "City Group 5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cityGroup5",
+                "pt": "global",
+                "to": "[\"Kolkata\", \"Bhubaneshwar\", \"Kozhikode\", \"Gorakphur\", \"Tirupati\"]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "19bfdbf6.fcc124",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "City Group 6",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cityGroup6",
+                "pt": "global",
+                "to": "[\"Chennai\",\"Srinagar\",\"Indore\",\"Vijaywada\",\"Allahabad\"]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a24509f0.a48148",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "City Group 7",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cityGroup7",
+                "pt": "global",
+                "to": "[\"Ahmedabad\", \"Jaipur\", \"Amritsar\", \"Surat\", \"Leh\"]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6aedf9a2.c3fee8",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "City Group 8",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cityGroup8",
+                "pt": "global",
+                "to": "[\"Goa\", \"Pune\", \"Jammu\", \"Madurai\", \"Jodhpur\"]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6105b953.f954d8",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "City Group 9",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cityGroup9",
+                "pt": "global",
+                "to": "[\"Patna\", \"Guwahati\", \"Coimbatore\", \"Agartala\", \"Vadodara\"]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2d892e4d.954d72",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "City Group 10",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cityGroup10",
+                "pt": "global",
+                "to": "[\"Cochin\", \"Lucknow\", \"Dehradun\", \"Manglore\", \"Silchar\"]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e029430d.6bbd2",
+        "type": "function",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "Time",
+        "func": "const today = new Date();\nconst date = (today.getDate()<10?'0':'')+today.getDate()+'-'+((today.getMonth()+1)<10?'0':'')+(today.getMonth()+1)+'-'+today.getFullYear();\nconst time = (today.getHours()<10?'0':'')+today.getHours() + \":\" + (today.getMinutes()<10?'0':'')+today.getMinutes() + \":\" + (today.getSeconds()<10?'0':'')+today.getSeconds();\n\nvar dt = new Date();\n// change the minutes to add depending on requirements\ndt.setMinutes( dt.getMinutes() + 120 );\nconst time30 = (dt.getHours()<10?'0':'')+dt.getHours() + \":\" + (dt.getMinutes()<10?'0':'')+dt.getMinutes() + \":\" + (dt.getSeconds()<10?'0':'')+dt.getSeconds();\n\nconst fromTime = today.getTime();\nconst toTime = dt.getTime();\nconst t1 = new Date(fromTime + Math.random() * (toTime - fromTime));\nconst departureTime1 = (t1.getHours()<10?'0':'')+t1.getHours() + \":\" + (t1.getMinutes()<10?'0':'')+t1.getMinutes();// + \":\" + t1.getSeconds();\nmsg.t1 = t1;\n\nconst t2 = new Date(fromTime + Math.random() * (toTime - fromTime));\nconst departureTime2 = (t2.getHours()<10?'0':'')+t2.getHours() + \":\" + (t2.getMinutes()<10?'0':'')+t2.getMinutes();// + \":\" + t2.getSeconds();\nmsg.t2 = t2;\n\nconst t3 = new Date(fromTime + Math.random() * (toTime - fromTime));\nconst departureTime3 = (t3.getHours()<10?'0':'')+t3.getHours() + \":\" + (t3.getMinutes()<10?'0':'')+t3.getMinutes();// + \":\" + t3.getSeconds();\nmsg.t3 = t3;\n\nconst t4 = new Date(fromTime + Math.random() * (toTime - fromTime));\nconst departureTime4 = (t4.getHours()<10?'0':'')+t4.getHours() + \":\" + (t4.getMinutes()<10?'0':'')+t4.getMinutes();// + \":\" + t4.getSeconds();\nmsg.t4 = t4;\n\nconst t5 = new Date(fromTime + Math.random() * (toTime - fromTime));\nconst departureTime5 = (t5.getHours()<10?'0':'')+t5.getHours() + \":\" + (t5.getMinutes()<10?'0':'')+t5.getMinutes();// + \":\" + t5.getSeconds();\nmsg.t5 = t5;\n\nconst t6 = new Date(fromTime + Math.random() * (toTime - fromTime));\nconst departureTime6 = (t6.getHours()<10?'0':'')+t6.getHours() + \":\" + (t6.getMinutes()<10?'0':'')+t6.getMinutes();// + \":\" + t6.getSeconds();\nmsg.t6 = t6;\n\nconst t7 = new Date(fromTime + Math.random() * (toTime - fromTime));\nconst departureTime7 = (t7.getHours()<10?'0':'')+t7.getHours() + \":\" + (t7.getMinutes()<10?'0':'')+t7.getMinutes();// + \":\" + t7.getSeconds();\nmsg.t7 = t7;\n\nconst t8 = new Date(fromTime + Math.random() * (toTime - fromTime));\nconst departureTime8 = (t8.getHours()<10?'0':'')+t8.getHours() + \":\" + (t8.getMinutes()<10?'0':'')+t8.getMinutes();// + \":\" + t8.getSeconds();\nmsg.t8 = t8;\n\nconst t9 = new Date(fromTime + Math.random() * (toTime - fromTime));\nconst departureTime9 = (t9.getHours()<10?'0':'')+t9.getHours() + \":\" + (t9.getMinutes()<10?'0':'')+t9.getMinutes()// + \":\" + t9.getSeconds();\nmsg.t9 = t9;\n\nconst t10 = new Date(fromTime + Math.random() * (toTime - fromTime));\nconst departureTime10 = (t10.getHours()<10?'0':'')+t10.getHours() + \":\" + (t10.getMinutes()<10?'0':'')+t10.getMinutes();// + \":\" + t10.getSeconds();\nmsg.t10 = t10;\n\nmsg.currentTime = time;\nmsg.after30min = time30;\nmsg.departureTime1 = departureTime1;\nmsg.departureTime2 = departureTime2;\nmsg.departureTime3 = departureTime3;\nmsg.departureTime4 = departureTime4;\nmsg.departureTime5 = departureTime5;\nmsg.departureTime6 = departureTime6;\nmsg.departureTime7 = departureTime7;\nmsg.departureTime8 = departureTime8;\nmsg.departureTime9 = departureTime9;\nmsg.departureTime10 = departureTime10;\nmsg.departureTime = [\n    {departureTime1},\n    {departureTime2},\n    {departureTime3},\n    {departureTime4},\n    {departureTime5},\n    {departureTime6},\n    {departureTime7},\n    {departureTime8},\n    {departureTime9},\n    {departureTime10},\n    ];\nmsg.departureTimeObject = [\n    {t1},\n    {t2},\n    {t3},\n    {t4},\n    {t5},\n    {t6},\n    {t7},\n    {t8},\n    {t9},\n    {t10},\n    ];    \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 720,
+        "wires": [
+            [
+                "d7b5695c.892aa8",
+                "326def09.1fe29",
+                "32ec3ade.9a0156",
+                "53fc1c8a.3c36b4",
+                "f37eeab2.1d10d8",
+                "b589cc75.e189",
+                "2df37af4.febe46"
+            ]
+        ]
+    },
+    {
+        "id": "8f26608c.e40e",
+        "type": "function",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "Status ",
+        "func": "t1 = new Date(global.get(\"timeDataO\")[0].t1);\nt2 = new Date(global.get(\"timeDataO\")[1].t2);\nt3 = new Date(global.get(\"timeDataO\")[2].t3);\nt4 = new Date(global.get(\"timeDataO\")[3].t4);\nt5 = new Date(global.get(\"timeDataO\")[4].t5);\nt6 = new Date(global.get(\"timeDataO\")[5].t6);\nt7 = new Date(global.get(\"timeDataO\")[6].t7);\nt8 = new Date(global.get(\"timeDataO\")[7].t8);\nt9 = new Date(global.get(\"timeDataO\")[8].t9);\nt10 = new Date(global.get(\"timeDataO\")[9].t10);\n\nif ((new Date().setMinutes(new Date().getMinutes() + 60))  < t1 ){\n    msg.status1 = \"on time\";\n}else if (t1>=(new Date().setMinutes(new Date().getMinutes() + 30)) && t1 <= (new Date().setMinutes(new Date().getMinutes() + 60)) ){\n    msg.status1 = \"Check-in Open\";\n}else if (t1>=(new Date().setMinutes(new Date().getMinutes() + 23)) && t1 <= (new Date().setMinutes(new Date().getMinutes() + 30)) ){\n    msg.status1 = \"Check-in Closed\";\n}else if (t1>=(new Date().setMinutes(new Date().getMinutes() + 10)) && t1 <= (new Date().setMinutes(new Date().getMinutes() + 23)) ){\n    msg.status1 = \"Boarding started\";\n}else if (t1>=(new Date().setMinutes(new Date().getMinutes() + 1)) && t1 <= (new Date().setMinutes(new Date().getMinutes() + 10)) ){\n    msg.status1 = \"Boarding Closed\";\n}else if((new Date())  > t1){\n    msg.status1 = \"Departed\";\n}\n\n\nif ((new Date().setMinutes(new Date().getMinutes() + 60))  < t2 ){\n    msg.status2 = \"on time\";\n}else if (t2>=(new Date().setMinutes(new Date().getMinutes() + 30)) && t2 <= (new Date().setMinutes(new Date().getMinutes() + 60)) ){\n    msg.status2 = \"Check-in Open\";\n}else if (t2>=(new Date().setMinutes(new Date().getMinutes() + 23)) && t2 <= (new Date().setMinutes(new Date().getMinutes() + 30)) ){\n    msg.status2 = \"Check-in Closed\";\n}else if (t2>=(new Date().setMinutes(new Date().getMinutes() + 10)) && t2 <= (new Date().setMinutes(new Date().getMinutes() + 23)) ){\n    msg.status2 = \"Boarding started\";\n}else if (t2>=(new Date().setMinutes(new Date().getMinutes() + 1)) && t2 <= (new Date().setMinutes(new Date().getMinutes() + 10)) ){\n    msg.status2 = \"Boarding Closed\";\n}else if((new Date())  > t2){\n    msg.status2 = \"Departed\";\n}\n\nif ((new Date().setMinutes(new Date().getMinutes() + 60))  < t3 ){\n    msg.status3 = \"on time\";\n}else if (t3>=(new Date().setMinutes(new Date().getMinutes() + 30)) && t3 <= (new Date().setMinutes(new Date().getMinutes() + 60)) ){\n    msg.status3 = \"Check-in Open\";\n}else if (t3>=(new Date().setMinutes(new Date().getMinutes() + 23)) && t3 <= (new Date().setMinutes(new Date().getMinutes() + 30)) ){\n    msg.status3 = \"Check-in Closed\";\n}else if (t3>=(new Date().setMinutes(new Date().getMinutes() + 10)) && t3 <= (new Date().setMinutes(new Date().getMinutes() + 23)) ){\n    msg.status3 = \"Boarding started\";\n}else if (t3>=(new Date().setMinutes(new Date().getMinutes() + 1)) && t3 <= (new Date().setMinutes(new Date().getMinutes() + 10)) ){\n    msg.status3 = \"Boarding Closed\";\n}else if((new Date())  > t3){\n    msg.status3 = \"Departed\";\n}\n\nif ((new Date().setMinutes(new Date().getMinutes() + 60))  < t4 ){\n    msg.status4 = \"on time\";\n}else if (t4>=(new Date().setMinutes(new Date().getMinutes() + 30)) && t4 <= (new Date().setMinutes(new Date().getMinutes() + 60)) ){\n    msg.status4 = \"Check-in Open\";\n}else if (t4>=(new Date().setMinutes(new Date().getMinutes() + 23)) && t4 <= (new Date().setMinutes(new Date().getMinutes() + 30)) ){\n    msg.status4 = \"Check-in Closed\";\n}else if (t4>=(new Date().setMinutes(new Date().getMinutes() + 10)) && t4 <= (new Date().setMinutes(new Date().getMinutes() + 23)) ){\n    msg.status4 = \"Boarding started\";\n}else if (t4>=(new Date().setMinutes(new Date().getMinutes() + 1)) && t4 <= (new Date().setMinutes(new Date().getMinutes() + 10)) ){\n    msg.status4 = \"Boarding Closed\";\n}else if((new Date())  > t4){\n    msg.status4 = \"Departed\";\n}\n\nif ((new Date().setMinutes(new Date().getMinutes() + 60))  < t5 ){\n    msg.status5 = \"on time\";\n}else if (t5>=(new Date().setMinutes(new Date().getMinutes() + 30)) && t5 <= (new Date().setMinutes(new Date().getMinutes() + 60)) ){\n    msg.status5 = \"Check-in Open\";\n}else if (t5>=(new Date().setMinutes(new Date().getMinutes() + 23)) && t5 <= (new Date().setMinutes(new Date().getMinutes() + 30)) ){\n    msg.status5 = \"Check-in Closed\";\n}else if (t5>=(new Date().setMinutes(new Date().getMinutes() + 10)) && t5 <= (new Date().setMinutes(new Date().getMinutes() + 23)) ){\n    msg.status5 = \"Boarding started\";\n}else if (t5>=(new Date().setMinutes(new Date().getMinutes() + 1)) && t5 <= (new Date().setMinutes(new Date().getMinutes() + 10)) ){\n    msg.status5 = \"Boarding Closed\";\n}else if((new Date())  > t5){\n    msg.status5 = \"Departed\";\n}\n\nif ((new Date().setMinutes(new Date().getMinutes() + 60))  < t6 ){\n    msg.status6 = \"on time\";\n}else if (t6>=(new Date().setMinutes(new Date().getMinutes() + 30)) && t6 <= (new Date().setMinutes(new Date().getMinutes() + 60)) ){\n    msg.status6 = \"Check-in Open\";\n}else if (t6>=(new Date().setMinutes(new Date().getMinutes() + 23)) && t6 <= (new Date().setMinutes(new Date().getMinutes() + 30)) ){\n    msg.status6 = \"Check-in Closed\";\n}else if (t6>=(new Date().setMinutes(new Date().getMinutes() + 10)) && t6 <= (new Date().setMinutes(new Date().getMinutes() + 23)) ){\n    msg.status6 = \"Boarding started\";\n}else if (t6>=(new Date().setMinutes(new Date().getMinutes() + 1)) && t6 <= (new Date().setMinutes(new Date().getMinutes() + 10)) ){\n    msg.status6 = \"Boarding Closed\";\n}else if((new Date())  > t6){\n    msg.status6 = \"Departed\";\n}\n\n\nif ((new Date().setMinutes(new Date().getMinutes() + 60))  < t7 ){\n    msg.status7 = \"on time\";\n}else if (t7>=(new Date().setMinutes(new Date().getMinutes() + 30)) && t7 <= (new Date().setMinutes(new Date().getMinutes() + 60)) ){\n    msg.status7 = \"Check-in Open\";\n}else if (t7>=(new Date().setMinutes(new Date().getMinutes() + 23)) && t7 <= (new Date().setMinutes(new Date().getMinutes() + 30)) ){\n    msg.status7 = \"Check-in Closed\";\n}else if (t7>=(new Date().setMinutes(new Date().getMinutes() + 10)) && t7 <= (new Date().setMinutes(new Date().getMinutes() + 23)) ){\n    msg.status7 = \"Boarding started\";\n}else if (t7>=(new Date().setMinutes(new Date().getMinutes() + 1)) && t7 <= (new Date().setMinutes(new Date().getMinutes() + 10)) ){\n    msg.status7 = \"Boarding Closed\";\n}else if((new Date())  > t7){\n    msg.status7 = \"Departed\";\n}\n\n\nif ((new Date().setMinutes(new Date().getMinutes() + 60))  < t8 ){\n    msg.status8 = \"on time\";\n}else if (t8>=(new Date().setMinutes(new Date().getMinutes() + 30)) && t8 <= (new Date().setMinutes(new Date().getMinutes() + 60)) ){\n    msg.status8 = \"Check-in Open\";\n}else if (t8>=(new Date().setMinutes(new Date().getMinutes() + 23)) && t8 <= (new Date().setMinutes(new Date().getMinutes() + 30)) ){\n    msg.status8 = \"Check-in Closed\";\n}else if (t8>=(new Date().setMinutes(new Date().getMinutes() + 10)) && t8 <= (new Date().setMinutes(new Date().getMinutes() + 23)) ){\n    msg.status8 = \"Boarding started\";\n}else if (t8>=(new Date().setMinutes(new Date().getMinutes() + 1)) && t8 <= (new Date().setMinutes(new Date().getMinutes() + 10)) ){\n    msg.status8 = \"Boarding Closed\";\n}else if((new Date())  > t8){\n    msg.status8 = \"Departed\";\n}\n\n\nif ((new Date().setMinutes(new Date().getMinutes() + 60))  < t9 ){\n    msg.status9 = \"on time\";\n}else if (t9>=(new Date().setMinutes(new Date().getMinutes() + 30)) && t9 <= (new Date().setMinutes(new Date().getMinutes() + 60)) ){\n    msg.status9 = \"Check-in Open\";\n}else if (t9>=(new Date().setMinutes(new Date().getMinutes() + 23)) && t9 <= (new Date().setMinutes(new Date().getMinutes() + 30)) ){\n    msg.status9 = \"Check-in Closed\";\n}else if (t9>=(new Date().setMinutes(new Date().getMinutes() + 10)) && t9 <= (new Date().setMinutes(new Date().getMinutes() + 23)) ){\n    msg.status9 = \"Boarding started\";\n}else if (t9>=(new Date().setMinutes(new Date().getMinutes() + 1)) && t9 <= (new Date().setMinutes(new Date().getMinutes() + 10)) ){\n    msg.status9 = \"Boarding Closed\";\n}else if((new Date())  > t9){\n    msg.status9 = \"Departed\";\n}\n\n\nif ((new Date().setMinutes(new Date().getMinutes() + 60))  < t10 ){\n    msg.status10 = \"on time\";\n}else if (t10>=(new Date().setMinutes(new Date().getMinutes() + 30)) && t10 <= (new Date().setMinutes(new Date().getMinutes() + 60)) ){\n    msg.status10 = \"Check-in Open\";\n}else if (t10>=(new Date().setMinutes(new Date().getMinutes() + 23)) && t10 <= (new Date().setMinutes(new Date().getMinutes() + 30)) ){\n    msg.status10 = \"Check-in Closed\";\n}else if (t10>=(new Date().setMinutes(new Date().getMinutes() + 10)) && t10 <= (new Date().setMinutes(new Date().getMinutes() + 23)) ){\n    msg.status10 = \"Boarding started\";\n}else if (t10>=(new Date().setMinutes(new Date().getMinutes() + 1)) && t10 <= (new Date().setMinutes(new Date().getMinutes() + 10)) ){\n    msg.status10 = \"Boarding Closed\";\n}else if((new Date())  > t10){\n    msg.status10 = \"Departed\";\n}\nmsg.statusArray = [\n    {s1 : msg.status1},\n    {s2 : msg.status2},\n    {s3 : msg.status3},\n    {s4 : msg.status4},\n    {s5 : msg.status5},\n    {s6 : msg.status6},\n    {s7 : msg.status7},\n    {s8 : msg.status8},\n    {s9 : msg.status9},\n    {s10 : msg.status10},\n    ];    \nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 720,
+        "wires": [
+            [
+                "638d2ec3.cb097"
+            ]
+        ]
+    },
+    {
+        "id": "43c23373.3fce8c",
+        "type": "exec",
+        "z": "e9d23179.7f9b1",
+        "g": "b10ad014.87166",
+        "command": "DISPLAY=:0 /usr/bin/chromium-browser --force-device-scale-factor=1.318 --kiosk  http://127.0.0.1:1880/departureinfo/",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 500,
+        "y": 440,
+        "wires": [
+            [],
+            [],
+            [
+                "92812969.fbd398"
+            ]
+        ]
+    },
+    {
+        "id": "6985c81d.e2d7e8",
+        "type": "inject",
+        "z": "e9d23179.7f9b1",
+        "g": "b10ad014.87166",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "x": 230,
+        "y": 380,
+        "wires": [
+            [
+                "30aae753.083d28"
+            ]
+        ]
+    },
+    {
+        "id": "92812969.fbd398",
+        "type": "switch",
+        "z": "e9d23179.7f9b1",
+        "g": "b10ad014.87166",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 790,
+        "y": 500,
+        "wires": [
+            [
+                "903351a4.9ea6f"
+            ]
+        ]
+    },
+    {
+        "id": "4ef8d3bf.d9181c",
+        "type": "delay",
+        "z": "e9d23179.7f9b1",
+        "g": "b10ad014.87166",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 580,
+        "y": 380,
+        "wires": [
+            [
+                "79615514.5eaccc"
+            ]
+        ]
+    },
+    {
+        "id": "aac0857d.c89098",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "Display data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "displayData",
+                "pt": "global",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b6f5c1a.0e6724",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "Status data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "statusData",
+                "pt": "global",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2fcf1a9.0611f",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "set display data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "displayData",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 940,
+        "wires": [
+            [
+                "a1286f1b.8ec74"
+            ]
+        ]
+    },
+    {
+        "id": "d7b5695c.892aa8",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "Set Time Object",
+        "rules": [
+            {
+                "t": "set",
+                "p": "timeDataO",
+                "pt": "global",
+                "to": "departureTimeObject",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 720,
+        "wires": [
+            [
+                "8f26608c.e40e"
+            ]
+        ]
+    },
+    {
+        "id": "638d2ec3.cb097",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "set status data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "statusData",
+                "pt": "global",
+                "to": "statusArray",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 720,
+        "wires": [
+            [
+                "1c5cb26f.75c7ee"
+            ]
+        ]
+    },
+    {
+        "id": "a1286f1b.8ec74",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "get display data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "displayData",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "url",
+                "pt": "msg",
+                "to": "http://localhost:1880/uibuilder/indigo.png",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1000,
+        "wires": [
+            [
+                "10b94add.99e6e5"
+            ]
+        ]
+    },
+    {
+        "id": "d909229.7a641e",
+        "type": "inject",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 310,
+        "y": 1000,
+        "wires": [
+            [
+                "a1286f1b.8ec74"
+            ]
+        ]
+    },
+    {
+        "id": "da0de966.5bd328",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "Time data Object",
+        "rules": [
+            {
+                "t": "set",
+                "p": "timeDataO",
+                "pt": "global",
+                "to": "{}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6ffcbccf.5569e4",
+        "type": "inject",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "one min",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 460,
+        "y": 640,
+        "wires": [
+            [
+                "8f26608c.e40e"
+            ]
+        ]
+    },
+    {
+        "id": "326def09.1fe29",
+        "type": "delay",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "4",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 280,
+        "y": 940,
+        "wires": [
+            [
+                "1c5cb26f.75c7ee"
+            ]
+        ]
+    },
+    {
+        "id": "3930b320.4e82cc",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "Flight no",
+        "rules": [
+            {
+                "t": "set",
+                "p": "flightNo",
+                "pt": "global",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8022087c.7699a8",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "Carrier",
+        "rules": [
+            {
+                "t": "set",
+                "p": "carrier",
+                "pt": "global",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c038b8cf.a74ca8",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "Gate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "gate",
+                "pt": "global",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4fdc48cb.843de8",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "Destination",
+        "rules": [
+            {
+                "t": "set",
+                "p": "destination",
+                "pt": "global",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9200c7f9.e3a958",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "Departure time",
+        "rules": [
+            {
+                "t": "set",
+                "p": "departureTime",
+                "pt": "global",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53fc1c8a.3c36b4",
+        "type": "function",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "Flight no",
+        "func": "msg.payload = [\n{flight:\"6E \"+Math.floor(1000 + Math.random() * 9000)},\n{flight:\"SG \"+Math.floor(1000 + Math.random() * 9000)},\n{flight:\"G8 \"+Math.floor(1000 + Math.random() * 9000)},\n{flight:\"AI \"+Math.floor(1000 + Math.random() * 9000)},\n{flight:\"UK \"+Math.floor(1000 + Math.random() * 9000)},\n{flight:\"I5 \"+Math.floor(1000 + Math.random() * 9000)},\n{flight:\"AI \"+Math.floor(1000 + Math.random() * 9000)},\n{flight:\"AI \"+Math.floor(1000 + Math.random() * 9000)},\n{flight:\"SG \"+Math.floor(1000 + Math.random() * 9000)},\n{flight:\"6E \"+Math.floor(1000 + Math.random() * 9000)},\n];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 760,
+        "wires": [
+            [
+                "64e31ba4.d1e564"
+            ]
+        ]
+    },
+    {
+        "id": "f37eeab2.1d10d8",
+        "type": "function",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "Carrier",
+        "func": "msg.payload = [\n\"Indigo\",\n\"Spice Jet\",\n\"GoAir\",\n\"Air India\",\n\"Vistara\",\n\"AirAsia India\",\n\"Alliance Air\",\n\"Air India\",\n\"Spice Jet\",\n\"Indigo\",\n];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 800,
+        "wires": [
+            [
+                "64eba376.bc8bac"
+            ]
+        ]
+    },
+    {
+        "id": "b589cc75.e189",
+        "type": "function",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "Destination",
+        "func": "msg.payload = [\n \t{destination:global.get(\"cityGroup1\")[Math.floor(Math.random()*global.get(\"cityGroup1\").length)]},\n \t{destination:global.get(\"cityGroup2\")[Math.floor(Math.random()*global.get(\"cityGroup2\").length)]},\n \t{destination:global.get(\"cityGroup3\")[Math.floor(Math.random()*global.get(\"cityGroup3\").length)]},\n \t{destination:global.get(\"cityGroup4\")[Math.floor(Math.random()*global.get(\"cityGroup4\").length)]},\n \t{destination:global.get(\"cityGroup5\")[Math.floor(Math.random()*global.get(\"cityGroup5\").length)]},\n \t{destination:global.get(\"cityGroup6\")[Math.floor(Math.random()*global.get(\"cityGroup6\").length)]},\n \t{destination:global.get(\"cityGroup7\")[Math.floor(Math.random()*global.get(\"cityGroup7\").length)]},\n \t{destination:global.get(\"cityGroup8\")[Math.floor(Math.random()*global.get(\"cityGroup8\").length)]},\n \t{destination:global.get(\"cityGroup9\")[Math.floor(Math.random()*global.get(\"cityGroup9\").length)]},\n \t{destination:global.get(\"cityGroup10\")[Math.floor(Math.random()*global.get(\"cityGroup10\").length)]},\n ];\n return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 840,
+        "wires": [
+            [
+                "4b69a097.76c71"
+            ]
+        ]
+    },
+    {
+        "id": "2df37af4.febe46",
+        "type": "function",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "Gate no",
+        "func": "msg.payload = [\n \t{gate:Math.floor(Math.random()*9 + 1)},\n \t{gate:Math.floor(Math.random()*9 + 1)},\n \t{gate:Math.floor(Math.random()*9 + 1)},\n \t{gate:Math.floor(Math.random()*9 + 1)},\n \t{gate:Math.floor(Math.random()*9 + 1)},\n \t{gate:Math.floor(Math.random()*9 + 1)},\n \t{gate:Math.floor(Math.random()*9 + 1)},\n \t{gate:Math.floor(Math.random()*9 + 1)},\n \t{gate:Math.floor(Math.random()*9 + 1)},\n \t{gate:Math.floor(Math.random()*9 + 1)},\n ];\n return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 880,
+        "wires": [
+            [
+                "a1a10f1c.a4954"
+            ]
+        ]
+    },
+    {
+        "id": "32ec3ade.9a0156",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "Set dep time",
+        "rules": [
+            {
+                "t": "set",
+                "p": "departureTime",
+                "pt": "global",
+                "to": "departureTime",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64e31ba4.d1e564",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "set flight no",
+        "rules": [
+            {
+                "t": "set",
+                "p": "flightNo",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64eba376.bc8bac",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "set carrier data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "carrier",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b69a097.76c71",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "set destination data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "destination",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a1a10f1c.a4954",
+        "type": "change",
+        "z": "e9d23179.7f9b1",
+        "g": "10ab0a2c.e698c6",
+        "name": "set gate data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "gate",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "805ef586.31e488",
+        "type": "link out",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "",
+        "links": [
+            "ca707908.d90638",
+            "48ec28cd.5b98e8",
+            "b924238c.48ef1",
+            "dc89de5a.a6d1c",
+            "d7db5d65.15494",
+            "16f0fa3c.2e0836",
+            "1ebf45c0.0a459a",
+            "76ed04fd.ce91ac",
+            "d582357b.cafdd8",
+            "da6a18f2.3087c8"
+        ],
+        "x": 215,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d7db5d65.15494",
+        "type": "link in",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "initialize global",
+        "links": [
+            "805ef586.31e488"
+        ],
+        "x": 475,
+        "y": 180,
+        "wires": [
+            [
+                "19bfdbf6.fcc124",
+                "a24509f0.a48148",
+                "6aedf9a2.c3fee8",
+                "6105b953.f954d8",
+                "2d892e4d.954d72",
+                "da0de966.5bd328"
+            ]
+        ]
+    },
+    {
+        "id": "76ed04fd.ce91ac",
+        "type": "link in",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "initialize global",
+        "links": [
+            "805ef586.31e488"
+        ],
+        "x": 735,
+        "y": 180,
+        "wires": [
+            [
+                "3930b320.4e82cc",
+                "8022087c.7699a8",
+                "4fdc48cb.843de8",
+                "9200c7f9.e3a958",
+                "c038b8cf.a74ca8",
+                "2b6f5c1a.0e6724"
+            ]
+        ]
+    },
+    {
+        "id": "d582357b.cafdd8",
+        "type": "link in",
+        "z": "e9d23179.7f9b1",
+        "g": "bc594367.a6791",
+        "name": "initialize global",
+        "links": [
+            "805ef586.31e488"
+        ],
+        "x": 255,
+        "y": 180,
+        "wires": [
+            [
+                "9704a7ae.2f7248",
+                "bc2274e1.b3b968",
+                "ed0da3f9.97d41",
+                "a16d7622.1a9608",
+                "43d99c20.2f0614",
+                "aac0857d.c89098"
+            ]
+        ]
+    },
+    {
+        "id": "30aae753.083d28",
+        "type": "link out",
+        "z": "e9d23179.7f9b1",
+        "g": "b10ad014.87166",
+        "name": "",
+        "links": [
+            "d43a0626.2351d8"
+        ],
+        "x": 335,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "d43a0626.2351d8",
+        "type": "link in",
+        "z": "e9d23179.7f9b1",
+        "g": "b10ad014.87166",
+        "name": "kiosk start cmd",
+        "links": [
+            "30aae753.083d28",
+            "79615514.5eaccc"
+        ],
+        "x": 55,
+        "y": 440,
+        "wires": [
+            [
+                "43c23373.3fce8c"
+            ]
+        ]
+    },
+    {
+        "id": "79615514.5eaccc",
+        "type": "link out",
+        "z": "e9d23179.7f9b1",
+        "g": "b10ad014.87166",
+        "name": "",
+        "links": [
+            "d43a0626.2351d8"
+        ],
+        "x": 675,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "903351a4.9ea6f",
+        "type": "link out",
+        "z": "e9d23179.7f9b1",
+        "g": "b10ad014.87166",
+        "name": "try after 5 sec",
+        "links": [
+            "c23ad9ab.6189e8"
+        ],
+        "x": 915,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "c23ad9ab.6189e8",
+        "type": "link in",
+        "z": "e9d23179.7f9b1",
+        "g": "b10ad014.87166",
+        "name": "",
+        "links": [
+            "903351a4.9ea6f"
+        ],
+        "x": 475,
+        "y": 380,
+        "wires": [
+            [
+                "4ef8d3bf.d9181c"
+            ]
+        ]
+    },
+    {
+        "id": "0fe961ab8c3e5bf9",
+        "type": "rpi-gpio in",
+        "z": "c7a7556ae7c3f0a8",
+        "name": "",
+        "pin": "21",
+        "intype": "up",
+        "debounce": "250",
+        "read": false,
+        "bcm": true,
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "88dfc34793b26657"
+            ]
+        ]
+    },
+    {
+        "id": "f86b60a1e1e0d18a",
+        "type": "rpi-gpio in",
+        "z": "c7a7556ae7c3f0a8",
+        "name": "",
+        "pin": "20",
+        "intype": "up",
+        "debounce": "250",
+        "read": false,
+        "bcm": true,
+        "x": 140,
+        "y": 140,
+        "wires": [
+            [
+                "4d9d20e2b71eb36c"
+            ]
+        ]
+    },
+    {
+        "id": "c22f0c5ee44ad841",
+        "type": "mqtt out",
+        "z": "c7a7556ae7c3f0a8",
+        "name": "",
+        "topic": "checkin2/sensor",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8c2418b5048256b6",
+        "x": 680,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "d046ad0c284f791e",
+        "type": "mqtt out",
+        "z": "c7a7556ae7c3f0a8",
+        "name": "",
+        "topic": "checkin1/sensor",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8c2418b5048256b6",
+        "x": 680,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "88dfc34793b26657",
+        "type": "switch",
+        "z": "c7a7556ae7c3f0a8",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 290,
+        "y": 80,
+        "wires": [
+            [
+                "957ce1e3df870802"
+            ],
+            [
+                "081550b6b64a1e1e"
+            ]
+        ]
+    },
+    {
+        "id": "957ce1e3df870802",
+        "type": "function",
+        "z": "c7a7556ae7c3f0a8",
+        "name": "",
+        "func": "msg.payload = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 40,
+        "wires": [
+            [
+                "d046ad0c284f791e"
+            ]
+        ]
+    },
+    {
+        "id": "4d9d20e2b71eb36c",
+        "type": "switch",
+        "z": "c7a7556ae7c3f0a8",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 290,
+        "y": 140,
+        "wires": [
+            [
+                "af0be0b7be181c5b"
+            ],
+            [
+                "e56330c8ca96fed7"
+            ]
+        ]
+    },
+    {
+        "id": "081550b6b64a1e1e",
+        "type": "function",
+        "z": "c7a7556ae7c3f0a8",
+        "name": "",
+        "func": "msg.payload = 1;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 80,
+        "wires": [
+            [
+                "d046ad0c284f791e"
+            ]
+        ]
+    },
+    {
+        "id": "af0be0b7be181c5b",
+        "type": "function",
+        "z": "c7a7556ae7c3f0a8",
+        "name": "",
+        "func": "msg.payload = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 140,
+        "wires": [
+            [
+                "c22f0c5ee44ad841"
+            ]
+        ]
+    },
+    {
+        "id": "e56330c8ca96fed7",
+        "type": "function",
+        "z": "c7a7556ae7c3f0a8",
+        "name": "",
+        "func": "msg.payload = 1;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 180,
+        "wires": [
+            [
+                "c22f0c5ee44ad841"
+            ]
+        ]
+    }
+]
