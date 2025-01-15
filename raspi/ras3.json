@@ -1,0 +1,490 @@
+[
+    {
+        "id": "d4cec11da682c4b2",
+        "type": "tab",
+        "label": "Fire Sensor",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "96c2eb151f5961b2",
+        "type": "tab",
+        "label": "Light Sensor",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "615315b21f21ddf4",
+        "type": "tab",
+        "label": "Fire Sensor",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "49fe0177bb9e08db",
+        "type": "group",
+        "z": "d4cec11da682c4b2",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7320d7b62a3f837c",
+            "9202541c073ab22f",
+            "130f7abe7de88f68",
+            "5ab7780bb3890249",
+            "af3caad516387dce",
+            "d43049f10a0c50a4",
+            "11a4a5e58737a4ed"
+        ],
+        "x": 14,
+        "y": 79,
+        "w": 792,
+        "h": 182
+    },
+    {
+        "id": "35b01fe89e672b72",
+        "type": "group",
+        "z": "96c2eb151f5961b2",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "923738fff06e9528",
+            "84da271e0fb0637f"
+        ],
+        "x": 14,
+        "y": 19
+    },
+    {
+        "id": "fefd128ed249f9c8",
+        "type": "mqtt-broker",
+        "name": "ServerBroker",
+        "broker": "172.16.17.204",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "7320d7b62a3f837c",
+        "type": "rpi-gpio in",
+        "z": "d4cec11da682c4b2",
+        "g": "49fe0177bb9e08db",
+        "name": "Fire Sensor",
+        "pin": "21",
+        "intype": "up",
+        "debounce": "200",
+        "read": true,
+        "bcm": true,
+        "x": 110,
+        "y": 140,
+        "wires": [
+            [
+                "130f7abe7de88f68",
+                "d43049f10a0c50a4"
+            ]
+        ]
+    },
+    {
+        "id": "9202541c073ab22f",
+        "type": "rpi-gpio out",
+        "z": "d4cec11da682c4b2",
+        "g": "49fe0177bb9e08db",
+        "name": "Buzzer  pin 40",
+        "pin": "20",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 700,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "130f7abe7de88f68",
+        "type": "switch",
+        "z": "d4cec11da682c4b2",
+        "g": "49fe0177bb9e08db",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 270,
+        "y": 140,
+        "wires": [
+            [
+                "5ab7780bb3890249"
+            ],
+            [
+                "af3caad516387dce"
+            ]
+        ]
+    },
+    {
+        "id": "5ab7780bb3890249",
+        "type": "change",
+        "z": "d4cec11da682c4b2",
+        "g": "49fe0177bb9e08db",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 120,
+        "wires": [
+            [
+                "9202541c073ab22f"
+            ]
+        ]
+    },
+    {
+        "id": "af3caad516387dce",
+        "type": "change",
+        "z": "d4cec11da682c4b2",
+        "g": "49fe0177bb9e08db",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 160,
+        "wires": [
+            [
+                "9202541c073ab22f"
+            ]
+        ]
+    },
+    {
+        "id": "d43049f10a0c50a4",
+        "type": "trigger",
+        "z": "d4cec11da682c4b2",
+        "g": "49fe0177bb9e08db",
+        "name": "",
+        "op1": "",
+        "op2": "firesupport",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "1",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 300,
+        "y": 220,
+        "wires": [
+            [
+                "11a4a5e58737a4ed"
+            ]
+        ]
+    },
+    {
+        "id": "11a4a5e58737a4ed",
+        "type": "mqtt out",
+        "z": "d4cec11da682c4b2",
+        "g": "49fe0177bb9e08db",
+        "name": "Fire SoS",
+        "topic": "housing/fire/sos",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "fefd128ed249f9c8",
+        "x": 480,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "923738fff06e9528",
+        "type": "rpi-gpio in",
+        "z": "96c2eb151f5961b2",
+        "g": "35b01fe89e672b72",
+        "name": "Light Sensor",
+        "pin": "26",
+        "intype": "down",
+        "debounce": "200",
+        "read": false,
+        "bcm": true,
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [
+                "84da271e0fb0637f"
+            ]
+        ]
+    },
+    {
+        "id": "84da271e0fb0637f",
+        "type": "mqtt out",
+        "z": "96c2eb151f5961b2",
+        "g": "35b01fe89e672b72",
+        "name": "",
+        "topic": "lightsensor/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "fefd128ed249f9c8",
+        "x": 410,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "492c1fa738f84c19",
+        "type": "rpi-gpio in",
+        "z": "615315b21f21ddf4",
+        "name": "Fire Sensor",
+        "pin": "21",
+        "intype": "down",
+        "debounce": "25",
+        "read": true,
+        "bcm": true,
+        "x": 90,
+        "y": 240,
+        "wires": [
+            [
+                "8c8ddd52053ca94d",
+                "c2cdeab583393e8a"
+            ]
+        ]
+    },
+    {
+        "id": "56b90e7951d2b17c",
+        "type": "rpi-gpio out",
+        "z": "615315b21f21ddf4",
+        "name": "Buzzer  pin 40",
+        "pin": "20",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 640,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8c8ddd52053ca94d",
+        "type": "switch",
+        "z": "615315b21f21ddf4",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "1a4d24d89169ebdb"
+            ],
+            [
+                "433f3eda5ccc4346"
+            ]
+        ]
+    },
+    {
+        "id": "1a4d24d89169ebdb",
+        "type": "change",
+        "z": "615315b21f21ddf4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 200,
+        "wires": [
+            [
+                "56b90e7951d2b17c"
+            ]
+        ]
+    },
+    {
+        "id": "433f3eda5ccc4346",
+        "type": "change",
+        "z": "615315b21f21ddf4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 280,
+        "wires": [
+            [
+                "56b90e7951d2b17c"
+            ]
+        ]
+    },
+    {
+        "id": "c2cdeab583393e8a",
+        "type": "trigger",
+        "z": "615315b21f21ddf4",
+        "name": "",
+        "op1": "",
+        "op2": "firesupport",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "1",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 280,
+        "y": 360,
+        "wires": [
+            [
+                "5417905360aac53c"
+            ]
+        ]
+    },
+    {
+        "id": "5417905360aac53c",
+        "type": "coap request",
+        "z": "615315b21f21ddf4",
+        "method": "POST",
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.113:5683/housingfire",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "SoS",
+        "x": 470,
+        "y": 360,
+        "wires": [
+            [
+                "a3905589ca6069d6"
+            ]
+        ]
+    },
+    {
+        "id": "a3905589ca6069d6",
+        "type": "debug",
+        "z": "615315b21f21ddf4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 360,
+        "wires": []
+    }
+]
