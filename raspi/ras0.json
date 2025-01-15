@@ -1,0 +1,1121 @@
+[
+    {
+        "id": "69d3b24c.5687ec",
+        "type": "tab",
+        "label": "Server",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3ae94cb2.227324",
+        "type": "subflow",
+        "name": "Subflow 1",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 200,
+                "y": 80,
+                "wires": []
+            }
+        ],
+        "out": [
+            {
+                "x": 220,
+                "y": 140,
+                "wires": []
+            },
+            {
+                "x": 215,
+                "y": 30,
+                "wires": []
+            },
+            {
+                "x": 270,
+                "y": 30,
+                "wires": []
+            }
+        ],
+        "env": [],
+        "color": "#DDAA99"
+    },
+    {
+        "id": "9e850237.3fc24",
+        "type": "subflow",
+        "name": "Subflow 2",
+        "info": "",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "b7ea1b936b6205fd",
+        "type": "subflow",
+        "name": "Subflow 3",
+        "info": "",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "d25388dd.4803a8",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#88252d",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "my custom",
+                "default": "#4B7930",
+                "baseColor": "#fa1263",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#88252d",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#88252d",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#c43541",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#88252d",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Cyberagnge Physical Model Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "false",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "b51bd2a5.0fe5d",
+        "type": "ui_group",
+        "name": "RFID Toll Gate 1",
+        "tab": "fa1aa686.206d38",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "fa1aa686.206d38",
+        "type": "ui_tab",
+        "name": "RFID Toll Gate",
+        "icon": "directions_car",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d35ba16f.75a0d",
+        "type": "ui_group",
+        "name": "RFID Toll Gate 2",
+        "tab": "fa1aa686.206d38",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "ee5dd0e5.26d44",
+        "type": "ui_group",
+        "name": "New Registration",
+        "tab": "fa1aa686.206d38",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "cd8dd4b5.972c88",
+        "type": "ui_group",
+        "name": "Report Stolen Car",
+        "tab": "fa1aa686.206d38",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "770c722e.793d8c",
+        "type": "ui_group",
+        "name": "Recharge",
+        "tab": "fa1aa686.206d38",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "66ce41b2.10f69",
+        "type": "ui_tab",
+        "name": "Data Center",
+        "icon": "business",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7b948c72.b868e4",
+        "type": "ui_group",
+        "name": "SubStation Control",
+        "tab": "6e81e29f.6d525c",
+        "order": 4,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "1369121d.5439be",
+        "type": "ui_group",
+        "name": "WaterTreatment",
+        "tab": "b57664be.2e3278",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "20546292.333c9e",
+        "type": "ui_group",
+        "d": true,
+        "name": "Metro Control Room",
+        "tab": "66abfa15.7963e4",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1181ba46.6824f6",
+        "type": "ui_group",
+        "name": "HVAC Control",
+        "tab": "66ce41b2.10f69",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "6e81e29f.6d525c",
+        "type": "ui_tab",
+        "name": "Power Sector",
+        "icon": "fa-plug",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b57664be.2e3278",
+        "type": "ui_tab",
+        "name": "WaterTreatment",
+        "icon": "fa-tint",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4268c69.a988538",
+        "type": "ui_tab",
+        "name": "Sensors Dashboard",
+        "icon": "fa-tachometer",
+        "order": 14,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4ae93df8.2831d4",
+        "type": "ui_group",
+        "name": "Turbine Control",
+        "tab": "6e81e29f.6d525c",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "cf5d9103.54b24",
+        "type": "ui_group",
+        "name": "Temperature ",
+        "tab": "4268c69.a988538",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "15ba0606.c5006a",
+        "type": "mqtt-broker",
+        "name": "mqttBroker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "428d10a9.bfab2",
+        "type": "ui_group",
+        "name": "T1 Status",
+        "tab": "6b5718a7.8b2958",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a33fd7e8.6e95b8",
+        "type": "ui_group",
+        "name": "T2 Status",
+        "tab": "6b5718a7.8b2958",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "3fa097bc.e49f78",
+        "type": "ui_group",
+        "name": "T3 Status",
+        "tab": "6b5718a7.8b2958",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "78cd337.202d6cc",
+        "type": "ui_group",
+        "name": "T4 Status",
+        "tab": "6b5718a7.8b2958",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "6b5718a7.8b2958",
+        "type": "ui_tab",
+        "name": "Traffic Signals",
+        "icon": "traffic",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "66abfa15.7963e4",
+        "type": "ui_tab",
+        "name": "Metro System",
+        "icon": "directions_subway",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "db8e89ad.094d68",
+        "type": "ui_group",
+        "name": "Metro track switch",
+        "tab": "66abfa15.7963e4",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "22f4d140.81036e",
+        "type": "ui_group",
+        "name": "Flame sensor",
+        "tab": "4268c69.a988538",
+        "order": 5,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "c988e662.1bfb98",
+        "type": "ui_group",
+        "name": "Humidity",
+        "tab": "4268c69.a988538",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "96aad4fc.168178",
+        "type": "ui_tab",
+        "name": "Smart Meter ",
+        "icon": "smartphone",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6d2d1864.b0dd78",
+        "type": "ui_tab",
+        "name": "Airport",
+        "icon": "flight",
+        "order": 11,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8be310e1.3d603",
+        "type": "ui_group",
+        "name": "Airport",
+        "tab": "6d2d1864.b0dd78",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "5c8bcd75.2ee194",
+        "type": "ui_group",
+        "name": "Villa 1 Recharge",
+        "tab": "96aad4fc.168178",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ab6021f1.63b68",
+        "type": "ui_group",
+        "name": "Filteration",
+        "tab": "b57664be.2e3278",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "c8547a8a.954368",
+        "type": "ui_group",
+        "name": "Recycle",
+        "tab": "b57664be.2e3278",
+        "order": 4,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "9d2491fc.84d1c",
+        "type": "ui_group",
+        "name": "T5 Status",
+        "tab": "6b5718a7.8b2958",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "fa02d95e.ea2e88",
+        "type": "ui_group",
+        "name": "T6 Status",
+        "tab": "6b5718a7.8b2958",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "561bc063.255b1",
+        "type": "ui_link",
+        "name": "About Cyberverse",
+        "link": "https://cyberversefoundation.org/",
+        "icon": "fa-university",
+        "target": "iframe",
+        "order": 15
+    },
+    {
+        "id": "30de9663.ca43aa",
+        "type": "ui_group",
+        "name": "Metro Graphics",
+        "tab": "66abfa15.7963e4",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "ecc24777.1bd4f8",
+        "type": "ui_group",
+        "name": "Water Treatmeant Plant",
+        "tab": "b57664be.2e3278",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "fcbc068b.8be5f8",
+        "type": "ui_group",
+        "name": "Power Sector",
+        "tab": "6e81e29f.6d525c",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "2ca3c671.76fb1a",
+        "type": "ui_group",
+        "name": "HVAC",
+        "tab": "66ce41b2.10f69",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "adcc32de.4bd3d",
+        "type": "ui_group",
+        "name": "Villa 2 Recharge",
+        "tab": "96aad4fc.168178",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "bff486e0.6442c8",
+        "type": "ui_group",
+        "name": "Smart Villas",
+        "tab": "96aad4fc.168178",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "55da8553.15c26c",
+        "type": "ui_group",
+        "name": "Main door",
+        "tab": "6d2d1864.b0dd78",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "bf06f635.465258",
+        "type": "ui_group",
+        "name": "Departure Door",
+        "tab": "6d2d1864.b0dd78",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2670339a.31fb3c",
+        "type": "ui_group",
+        "name": "Arival Door",
+        "tab": "6d2d1864.b0dd78",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "778bd1de.8325b",
+        "type": "ui_group",
+        "name": "Exit Door",
+        "tab": "6d2d1864.b0dd78",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ce333278.fa2c5",
+        "type": "ui_group",
+        "name": "FlammableGas",
+        "tab": "4268c69.a988538",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "164638f0.7d4dc7",
+        "type": "ui_group",
+        "name": "Methane",
+        "tab": "4268c69.a988538",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "90af1d66.91d33",
+        "type": "ui_group",
+        "name": "Carbon Monoxide",
+        "tab": "4268c69.a988538",
+        "order": 8,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a1143508.6680f8",
+        "type": "ui_group",
+        "name": "Alcohol Level",
+        "tab": "4268c69.a988538",
+        "order": 9,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1213f805.383b58",
+        "type": "ui_group",
+        "name": "LPG Level",
+        "tab": "4268c69.a988538",
+        "order": 10,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "94cd04a0.b93888",
+        "type": "ui_group",
+        "name": "Temperature Graph",
+        "tab": "4268c69.a988538",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "91af078b.324648",
+        "type": "ui_group",
+        "name": "Humidity Graph",
+        "tab": "4268c69.a988538",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c65f23e6.ab79e",
+        "type": "ui_group",
+        "name": "Plane parking",
+        "tab": "6d2d1864.b0dd78",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "7548bee9.dc443",
+        "type": "ui_tab",
+        "name": "Smart Parking",
+        "icon": "dashboard",
+        "order": 9,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "93d5b37a.b0902",
+        "type": "ui_group",
+        "name": "Smart Parking Graphics",
+        "tab": "7548bee9.dc443",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "48973dbd.e42d64",
+        "type": "ui_group",
+        "name": "Gate Control",
+        "tab": "7548bee9.dc443",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "fa2a0e3f.32204",
+        "type": "ui_group",
+        "name": "ATC Tower",
+        "tab": "6d2d1864.b0dd78",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "482db9ad.3d30f8",
+        "type": "ui_group",
+        "name": "Check-in Conveyor1",
+        "tab": "6d2d1864.b0dd78",
+        "order": 8,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "9c48f363.be4f4",
+        "type": "ui_group",
+        "name": "Luggage Belt",
+        "tab": "6d2d1864.b0dd78",
+        "order": 10,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4b4a017f.30cbd",
+        "type": "ui_link",
+        "name": "Departure Info",
+        "link": "http://172.16.17.111:1880/departureinfo/",
+        "icon": "flight",
+        "target": "iframe",
+        "order": 13
+    },
+    {
+        "id": "b8389ae4.52fac8",
+        "type": "ui_link",
+        "name": "Arival Info",
+        "link": "http://172.16.17.101:1880/arivalinfo/",
+        "icon": "flight",
+        "target": "iframe",
+        "order": 12
+    },
+    {
+        "id": "305f61b46af7a7f2",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://172.16.17.125:4840",
+        "secpol": "None",
+        "secmode": "None",
+        "none": false,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "ab8aa727c0d6ad30",
+        "type": "ui_group",
+        "name": "Check In Conveyor 2",
+        "tab": "6d2d1864.b0dd78",
+        "order": 9,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8a3b568b598705f8",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://172.16.17.130:4840",
+        "secpol": "None",
+        "secmode": "None",
+        "none": false,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "27ed33d3.9dcdec",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "83592728.d85318",
+        "type": "ui_group",
+        "name": "PM1.0",
+        "tab": "67fd059a.4e025c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "721401bd.1d26f",
+        "type": "ui_group",
+        "name": "PM2.5",
+        "tab": "67fd059a.4e025c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7b0bec0d.f35ea4",
+        "type": "ui_group",
+        "name": "PM10",
+        "tab": "67fd059a.4e025c",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2857c3e7.4681bc",
+        "type": "ui_group",
+        "name": "CO2",
+        "tab": "67fd059a.4e025c",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "613634e8.ca6d9c",
+        "type": "ui_group",
+        "name": "VOC",
+        "tab": "67fd059a.4e025c",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "5d9e5f43.e5dad",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "fe77e929.baefb8",
+        "type": "ui_group",
+        "name": "Humidity",
+        "tab": "67fd059a.4e025c",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "466e6f1f.51214",
+        "type": "ui_group",
+        "name": "CH2O",
+        "tab": "67fd059a.4e025c",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "8cefc846.88e3a8",
+        "type": "ui_group",
+        "name": "CO",
+        "tab": "67fd059a.4e025c",
+        "order": 8,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "cb0f94ae.5ef818",
+        "type": "ui_group",
+        "name": "O3",
+        "tab": "67fd059a.4e025c",
+        "order": 9,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "225100c2.fe792",
+        "type": "ui_group",
+        "name": "NO2",
+        "tab": "67fd059a.4e025c",
+        "order": 10,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "67fd059a.4e025c",
+        "type": "ui_tab",
+        "name": "Air Quality",
+        "icon": "dashboard",
+        "order": 10,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7791a8d0845a47df",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "67fd059a.4e025c",
+        "order": 11,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "658eea265d6eb3df",
+        "type": "ui_group",
+        "name": "Hydrogen",
+        "tab": "4268c69.a988538",
+        "order": 11,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "83c98cbc651df364",
+        "type": "modbus-client",
+        "name": "AlertTowerPLC",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "172.16.17.132",
+        "tcpPort": "503",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "2194fb494dcad148",
+        "type": "modbus-client",
+        "name": "MetalDetectorPLC",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "172.16.17.131",
+        "tcpPort": "503",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "4d206e3737947811",
+        "type": "modbus-client",
+        "name": "CheckInPLC",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "172.16.17.128",
+        "tcpPort": "503",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "7f52a3679c532636",
+        "type": "ui_tab",
+        "name": "Lift Mechanism",
+        "icon": "dashboard",
+        "order": 7,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3c69092956e439b5",
+        "type": "ui_group",
+        "name": "Lift Control (from inside lift )",
+        "tab": "7f52a3679c532636",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b3b7f0747bc63b6a",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://172.16.17.123:4840",
+        "secpol": "None",
+        "secmode": "None",
+        "none": true,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "49dab7a063a548ec",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://172.16.17.124:4840",
+        "secpol": "None",
+        "secmode": "None",
+        "none": false,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "a7272d6ccd5f7ced",
+        "type": "aedes broker",
+        "z": "69d3b24c.5687ec",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "dburl": "",
+        "usetls": false,
+        "x": 110,
+        "y": 40,
+        "wires": [
+            [],
+            []
+        ]
+    }
+]
