@@ -1,0 +1,2421 @@
+[
+    {
+        "id": "b55be59e.79f208",
+        "type": "tab",
+        "label": "Kiosk",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3c4c2a0046f9d1f4",
+        "type": "group",
+        "z": "b55be59e.79f208",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "44b16055e971c096",
+            "5e504b5baee44f90",
+            "e8a56ec7a0172e8b",
+            "6226e774054a272d",
+            "0bc0d6353f5fd57e",
+            "13c785ebda07186d",
+            "88f39bd531fef324",
+            "a05db570a673b839"
+        ],
+        "x": 34,
+        "y": 1639,
+        "w": 352,
+        "h": 322
+    },
+    {
+        "id": "5e5a6cbfe75b1f72",
+        "type": "group",
+        "z": "b55be59e.79f208",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "81bb68d9.d59bc8",
+            "20b0e4cc.2d2b5c",
+            "f70f14b6.30bd78",
+            "aeb80d8.a5db1f",
+            "38d0e8d0.5e9ce8",
+            "e464c5a3.085da8",
+            "1704e852.035268",
+            "2dbf81a4.f32b6e",
+            "6784b1d7.64221",
+            "a3c663f5.c20ef",
+            "8f0a475.80eb5b8",
+            "7d864de.d3cdeb4",
+            "346d58ac.174e68",
+            "4df76241.b4984c",
+            "56bcce91910fd221",
+            "206de7006d898bb9"
+        ],
+        "x": 44,
+        "y": 1079,
+        "w": 1012,
+        "h": 262
+    },
+    {
+        "id": "9e0b89ab72c7e1fc",
+        "type": "group",
+        "z": "b55be59e.79f208",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8dc2729.26ad79",
+            "65ec54c9.c2ab0c",
+            "3becbe9.6563642",
+            "853e5923.0eceb8",
+            "66a1e29d.497ecc",
+            "15461ac6.fcce45",
+            "b081daab9e21e512"
+        ],
+        "x": 54,
+        "y": 499,
+        "w": 492,
+        "h": 182
+    },
+    {
+        "id": "b10ad014.87166",
+        "type": "group",
+        "z": "b55be59e.79f208",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "43c23373.3fce8c",
+            "6985c81d.e2d7e8",
+            "92812969.fbd398",
+            "4ef8d3bf.d9181c",
+            "30aae753.083d28",
+            "d43a0626.2351d8",
+            "79615514.5eaccc",
+            "903351a4.9ea6f",
+            "c23ad9ab.6189e8"
+        ],
+        "x": 54,
+        "y": 1979,
+        "w": 942,
+        "h": 202
+    },
+    {
+        "id": "b621b9a3ac89fafc",
+        "type": "group",
+        "z": "b55be59e.79f208",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3c6d4f3f.f7afd",
+            "a3d71e5f.5e249",
+            "88c6db12.c0e2d8",
+            "3db0f860.69b098",
+            "c18c5bc5.738748",
+            "1e75b9c2.28c8c6",
+            "113b939e.73012c",
+            "a929a14d.25efc",
+            "d60249f2.eddef8",
+            "d9bfae54.727b6"
+        ],
+        "x": 54,
+        "y": 879,
+        "w": 622,
+        "h": 162
+    },
+    {
+        "id": "c468baa6743dec3e",
+        "type": "group",
+        "z": "b55be59e.79f208",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "52cf33de.2c84cc",
+            "7bdf8135.45cc6",
+            "d71345075a9656b0",
+            "2d744d5d0927b7ee",
+            "6c7c8aafe195389b",
+            "f9c5e4a43dbb654b",
+            "f7a80506041539e6",
+            "039150611f7eb91a",
+            "7aba14e7dc46ce65",
+            "5c6d7d10b95f388a"
+        ],
+        "x": 54,
+        "y": 139,
+        "w": 652,
+        "h": 322
+    },
+    {
+        "id": "ee7ff22f0d6fed85",
+        "type": "group",
+        "z": "b55be59e.79f208",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e25fea07.536f28",
+            "4f16320f.f756fc",
+            "b54f3630.5821d8",
+            "d9489e46.4a865",
+            "24368291.3e031e",
+            "3e411187.40a6ae",
+            "c1a9dbb7.fae148",
+            "39c8458d.0818aa",
+            "fbf3de07.28842",
+            "4708670b.2032d8",
+            "6347fb4e.5291a4",
+            "4f918f5d.369ba",
+            "f59073b2.96934",
+            "b6a08c9c.ec1ff",
+            "49439bf9df05f4d5",
+            "f6194a80283948da"
+        ],
+        "x": 34,
+        "y": 1359,
+        "w": 1012,
+        "h": 262
+    },
+    {
+        "id": "eebf0f55315f6c4e",
+        "type": "group",
+        "z": "b55be59e.79f208",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cf7f9fef.e3d91",
+            "d9c0e0eb.42403",
+            "638d4db8.ed7964",
+            "1a989b41.331fc5",
+            "91fa49c2.cc0f18",
+            "140b00fe.6805af",
+            "cf693bef.6a2918",
+            "cf5eeeed.99aa7",
+            "bd1d78b3.acff88",
+            "2bd51a92.3bbea6"
+        ],
+        "x": 54,
+        "y": 699,
+        "w": 622,
+        "h": 162
+    },
+    {
+        "id": "70aafc90.d83f44",
+        "type": "ui_group",
+        "name": "Welcome",
+        "tab": "5802379d.103d48",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c2e1f89a.4caf28",
+        "type": "ui_group",
+        "name": "Print Boarding Pass",
+        "tab": "5802379d.103d48",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "91af0535.a806e8",
+        "type": "ui_group",
+        "name": "Print Baggage Tag",
+        "tab": "5802379d.103d48",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5802379d.103d48",
+        "type": "ui_tab",
+        "name": "Welcome",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c1fee40c28d999a3",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Self Check-in KIOSK",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "8dc2729.26ad79",
+        "type": "ui_button",
+        "z": "b55be59e.79f208",
+        "g": "9e0b89ab72c7e1fc",
+        "name": "",
+        "group": "70aafc90.d83f44",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Print Boarding Pass",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Welcome_Print_Baggage_Tag\",\"Welcome_Welcome\"],\"show\":[\"Welcome_Print_Boarding_Pass\"],\"focus\":true}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 600,
+        "wires": [
+            [
+                "3becbe9.6563642",
+                "66a1e29d.497ecc"
+            ]
+        ]
+    },
+    {
+        "id": "65ec54c9.c2ab0c",
+        "type": "ui_button",
+        "z": "b55be59e.79f208",
+        "g": "9e0b89ab72c7e1fc",
+        "name": "",
+        "group": "70aafc90.d83f44",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Print Baggage Tag",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Welcome_Print_Boarding_Pass\",\"Welcome_Welcome\"],\"show\":[\"Welcome_Print_Baggage_Tag\"],\"focus\":true}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 640,
+        "wires": [
+            [
+                "3becbe9.6563642",
+                "b081daab9e21e512"
+            ]
+        ]
+    },
+    {
+        "id": "cf7f9fef.e3d91",
+        "type": "ui_text_input",
+        "z": "b55be59e.79f208",
+        "g": "eebf0f55315f6c4e",
+        "name": "Get PNR",
+        "label": "Enter your PNR here",
+        "tooltip": "Enter your PNR numner",
+        "group": "c2e1f89a.4caf28",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 200,
+        "y": 740,
+        "wires": [
+            [
+                "91fa49c2.cc0f18",
+                "d16c85ecba2249b4"
+            ]
+        ]
+    },
+    {
+        "id": "3becbe9.6563642",
+        "type": "ui_ui_control",
+        "z": "b55be59e.79f208",
+        "g": "9e0b89ab72c7e1fc",
+        "name": "",
+        "events": "change",
+        "x": 460,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c6d4f3f.f7afd",
+        "type": "ui_text_input",
+        "z": "b55be59e.79f208",
+        "g": "b621b9a3ac89fafc",
+        "name": "Get PNR",
+        "label": "Enter your PNR here",
+        "tooltip": "Get PNR ",
+        "group": "91af0535.a806e8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 200,
+        "y": 920,
+        "wires": [
+            [
+                "1e75b9c2.28c8c6",
+                "d16c85ecba2249b4"
+            ]
+        ]
+    },
+    {
+        "id": "853e5923.0eceb8",
+        "type": "inject",
+        "z": "b55be59e.79f208",
+        "g": "9e0b89ab72c7e1fc",
+        "name": "Hide all",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"group\":{\"hide\":[\"Welcome_Print_Baggage_Tag\",\"Welcome_Print_Boarding_Pass\"],\"show\":[\"Welcome_Welcome\"],\"focus\":true}}",
+        "payloadType": "json",
+        "x": 160,
+        "y": 560,
+        "wires": [
+            [
+                "3becbe9.6563642"
+            ]
+        ]
+    },
+    {
+        "id": "d9c0e0eb.42403",
+        "type": "http request",
+        "z": "b55be59e.79f208",
+        "g": "eebf0f55315f6c4e",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://172.16.17.100/passenger/getPassenger.php?pnr={{{payload}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 370,
+        "y": 780,
+        "wires": [
+            [
+                "bd1d78b3.acff88",
+                "2bd51a92.3bbea6"
+            ]
+        ]
+    },
+    {
+        "id": "66a1e29d.497ecc",
+        "type": "ui_template",
+        "z": "b55be59e.79f208",
+        "g": "9e0b89ab72c7e1fc",
+        "group": "c2e1f89a.4caf28",
+        "name": "Virtual Keyboard",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<script> \n    \n// the semi-colon before function invocation is a safety net against concatenated\n// scripts and/or other plugins which may not be closed properly.\n; (function ($, window, document, undefined) {\n\n    // undefined is used here as the undefined global variable in ECMAScript 3 is\n    // mutable (ie. it can be changed by someone else). undefined isn't really being\n    // passed in so we can ensure the value of it is truly undefined. In ES5, undefined\n    // can no longer be modified.\n\n    // window and document are passed through as local variable rather than global\n    // as this (slightly) quickens the resolution process and can be more efficiently\n    // minified (especially when both are regularly referenced in your plugin).\n\n    // Create the defaults once\n    var pluginName = \"jkeyboard\",\n        defaults = {\n            layout: \"english\",\n            input: $('#input'),\n            customLayouts: {\n                selectable: []\n            },\n        };\n\n\n    var function_keys = {\n        backspace: {\n            text: 'DEL',\n        },\n        return: {\n            text: 'Enter'\n        },\n        shift: {\n            text: 'Shift'\n        },\n        space: {\n            text: 'Space'\n        },\n        numeric_switch: {\n            text: '123',\n            command: function () {\n                this.createKeyboard('numeric');\n                this.events();\n            }\n        },\n        layout_switch: {\n            text: '<i class=\"fa fa-keyboard-o\" aria-hidden=\"true\"></i>',\n            command: function () {\n                var l = this.toggleLayout();\n                this.createKeyboard(l);\n                this.events();\n            }\n        },\n        character_switch: {\n            text: 'ABC',\n            command: function () {\n                this.createKeyboard(layout);\n                this.events();\n            }\n        },\n        symbol_switch: {\n            text: '#+=',\n            command: function () {\n                this.createKeyboard('symbolic');\n                this.events();\n            }\n        }\n    };\n\n\n    var layouts = {\n        selectable: ['azeri', 'english', 'russian','french', 'emoji'],\n        azeri: [\n            ['q', 'ü', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'ö', 'ğ'],\n            ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'ı', 'ə'],\n            ['shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'ç', 'ş', 'backspace'],\n            ['numeric_switch', 'layout_switch', 'space', 'return']\n        ],\n        english: [\n            ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p',],\n            ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l',],\n            ['shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'backspace'],\n            ['numeric_switch', 'layout_switch', 'space', 'return']\n        ],\n        russian: [\n            ['й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х'],\n            ['ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э'],\n            ['shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', 'backspace'],\n            ['numeric_switch', 'layout_switch', 'space', 'return']\n        ],\n        french: [\n            ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p',],\n            ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l','à','ç'],\n            ['shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm','é','è', 'backspace'],\n            ['numeric_switch', 'layout_switch', 'space', 'return']\n        ],\n        emoji: [\n            ['😀', '😁', '😂', '🤣', '😃', '😄', '😅', '😆', '😉', '😊',],\n            ['😋', '😎', '😍', '😘', 'g', 'h', 'j', 'k', 'l','à','ç'],\n            ['shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm','é','è', 'backspace'],\n            ['numeric_switch', 'layout_switch', 'space', 'return']\n        ],            \n        numeric: [\n            ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],\n            ['-', '/', ':', ';', '(', ')', '$', '&', '@', '\"'],\n            ['symbol_switch', '.', ',', '?', '!', \"'\", 'backspace'],\n            ['character_switch', 'layout_switch', 'space', 'return'],\n        ],\n        numbers_only: [\n            ['1', '2', '3',],\n            ['4', '5', '6',],\n            ['7', '8', '9',],\n            ['0', 'backspace'],\n        ],\n        symbolic: [\n            ['[', ']', '{', '}', '#', '%', '^', '*', '+', '='],\n            ['_', '\\\\', '|', '~', '<', '>'],\n            ['numeric_switch', '.', ',', '?', '!', \"'\", 'backspace'],\n            ['character_switch', 'layout_switch', 'space', 'return'],\n\n        ]\n    }\n\n    var shift = false, capslock = false, layout = 'english', layout_id = 0;\n\n    // The actual plugin constructor\n    function Plugin(element, options) {\n        this.element = element;\n        // jQuery has an extend method which merges the contents of two or\n        // more objects, storing the result in the first object. The first object\n        // is generally empty as we don't want to alter the default options for\n        // future instances of the plugin\n        this.settings = $.extend({}, defaults, options);\n        // Extend & Merge the cusom layouts\n        layouts = $.extend(true, {}, this.settings.customLayouts, layouts);\n        if (Array.isArray(this.settings.customLayouts.selectable)) {\n            $.merge(layouts.selectable, this.settings.customLayouts.selectable);\n        }\n        this._defaults = defaults;\n        this._name = pluginName;\n        this.init();\n    }\n\n    Plugin.prototype = {\n        init: function () {\n            layout = this.settings.layout;\n            this.createKeyboard(layout);\n            this.events();\n        },\n\n        setInput: function (newInputField) {\n            this.settings.input = newInputField;\n        },\n\n        createKeyboard: function (layout) {\n            shift = false;\n            capslock = false;\n\n            var keyboard_container = $('<ul/>').addClass('jkeyboard'),\n                me = this;\n\n            layouts[layout].forEach(function (line, index) {\n                var line_container = $('<li/>').addClass('jline');\n                line_container.append(me.createLine(line));\n                keyboard_container.append(line_container);\n            });\n\n            $(this.element).html('').append(keyboard_container);\n        },\n\n        createLine: function (line) {\n            var line_container = $('<ul/>');\n\n            line.forEach(function (key, index) {\n                var key_container = $('<li/>').addClass('jkey').data('command', key);\n\n                if (function_keys[key]) {\n                    key_container.addClass(key).html(function_keys[key].text);\n                }\n                else {\n                    key_container.addClass('letter').html(key);\n                }\n\n                line_container.append(key_container);\n            })\n\n            return line_container;\n        },\n\n        events: function () {\n            var letters = $(this.element).find('.letter'),\n                shift_key = $(this.element).find('.shift'),\n                space_key = $(this.element).find('.space'),\n                backspace_key = $(this.element).find('.backspace'),\n                return_key = $(this.element).find('.return'),\n\n                me = this,\n                fkeys = Object.keys(function_keys).map(function (k) {\n                    return '.' + k;\n                }).join(',');\n\n            letters.on('click', function () {\n                me.type((shift || capslock) ? $(this).text().toUpperCase() : $(this).text());\n            });\n\n            space_key.on('click', function () {\n                me.type(' ');\n            });\n\n            return_key.on('click', function () {\n                me.type(\"\\n\");\n                me.settings.input.parents('form').submit();\n            });\n\n            backspace_key.on('click', function () {\n                me.backspace();\n            });\n\n            shift_key.on('click', function () {\n                if (capslock) {\n                    me.toggleShiftOff();\n                    capslock = false;\n                } else {\n                    me.toggleShiftOn();\n                }\n            }).on('dblclick', function () {\n                capslock = true;\n            });\n\n\n            $(fkeys).on('click', function () {\n                var command = function_keys[$(this).data('command')].command;\n                if (!command) return;\n\n                command.call(me);\n            });\n        },\n\n        type: function (key) {\n            var input = this.settings.input,\n                val = input.val(),\n                input_node = input.get(0),\n                start = input_node.selectionStart,\n                end = input_node.selectionEnd;\n\n            var max_length = $(input).attr(\"maxlength\");\n            if (start == end && end == val.length) {\n                if (!max_length || val.length < max_length) {\n                    input.val(val + key);\n                    input.change()\n                    $('#vkeyname').text(val + key)\n                }\n            } else {\n                if (input_node.type == \"text\"){\n                    var new_string = this.insertToString(start, end, val, key);\n                    input.val(new_string);\n                    start++;\n                    end = start;\n                    input_node.setSelectionRange(start, end);\n                }else{\n                    input.val(val + key);\n                }\n                input.change()\n                $('#vkeyname').text(val + key)\n                \n            }\n            input.trigger('focus');\n\n            if (shift && !capslock) {\n                this.toggleShiftOff();\n            }\n        },\n\n        backspace: function () {\n            var input = this.settings.input,\n                val = input.val();\n                input_node = input.get(0),\n                start = input_node.selectionStart,\n                end = input_node.selectionEnd;\n            if (input.type == \"text\"){\n                input.val(val.slice(0, start-1) + val.slice(start))\n                input_node.setSelectionRange(start-1, start-1);\n                console.log(val)\n                $('#vkeyname').text(val)\n            }else{\n                input.val(val.slice(0,-1))\n                $('#vkeyname').text(val.slice(0,-1))\n            }\n            input.change()\n            input.focus()\n        },\n\n        toggleShiftOn: function () {\n            var letters = $(this.element).find('.letter'),\n                shift_key = $(this.element).find('.shift');\n\n            letters.addClass('uppercase');\n            shift_key.addClass('active')\n            shift = true;\n        },\n\n        toggleShiftOff: function () {\n            var letters = $(this.element).find('.letter'),\n                shift_key = $(this.element).find('.shift');\n\n            letters.removeClass('uppercase');\n            shift_key.removeClass('active');\n            shift = false;\n        },\n\n        toggleLayout: function () {\n            layout_id = layout_id || 0;\n            var plain_layouts = layouts.selectable;\n            layout_id++;\n\n            var current_id = layout_id % plain_layouts.length;\n            var SelectedLayoutName = plain_layouts[current_id];\n            $('#vkeyname').text('V-Keyboard ' + SelectedLayoutName )\n            return plain_layouts[current_id];\n        },\n\n        insertToString: function (start, end, string, insert_string) {\n            return string.substring(0, start) + insert_string + string.substring(end, string.length);\n        }\n    };\n\n        /*\n\t\t// A really lightweight plugin wrapper around the constructor,\n\t\t// preventing against multiple instantiations\n\t\t$.fn[ pluginName ] = function ( options ) {\n\t\t\t\treturn this.each(function() {\n\t\t\t\t\t\tif ( !$.data( this, \"plugin_\" + pluginName ) ) {\n\t\t\t\t\t\t\t\t$.data( this, \"plugin_\" + pluginName, new Plugin( this, options ) );\n\t\t\t\t\t\t}\n\t\t\t\t});\n\t\t};\n        */\n        var methods = {\n            init: function(options) {\n                if (!this.data(\"plugin_\" + pluginName)) {\n                    this.data(\"plugin_\" + pluginName, new Plugin(this, options));\n                }\n            },\n\t\t\tsetInput: function(content) {\n\t\t\t\tthis.data(\"plugin_\" + pluginName).setInput($(content));\n            },\n            setLayout: function(layoutname) {\n                // change layout if it is not match current\n                object = this.data(\"plugin_\" + pluginName);\n                if (typeof(layouts[layoutname]) !== 'undefined' && object.settings.layout != layoutname) {\n                    object.settings.layout = layoutname;\n                    object.createKeyboard(layoutname);\n                    object.events();\n                };\n            },\n        };\n\n\t\t$.fn[pluginName] = function (methodOrOptions) {\n            if (methods[methodOrOptions]) {\n                return methods[methodOrOptions].apply(this.first(), Array.prototype.slice.call( arguments, 1));\n            } else if (typeof methodOrOptions === 'object' || ! methodOrOptions) {\n                // Default to \"init\"\n                return methods.init.apply(this.first(), arguments);\n            } else {\n                $.error('Method ' +  methodOrOptions + ' does not exist on jQuery.tooltip');\n            }\n        };\n\n})(jQuery, window, document);\n</script>\n<style>\n    .jkeyboard {\n  display: inline-block;\n}\n.jkeyboard, .jkeyboard .jline, .jkeyboard .jline ul {\n  display: block;\n  margin: 0;\n  padding: 0;\n}\n.jkeyboard .jline {\n  text-align: center;\n  margin-left: -14px;\n}\n.jkeyboard .jline ul li {\n  font-family: arial, sans-serif;\n  font-size: 20px;\n  display: inline-block;\n  border: 1px solid #468db3;\n  -webkit-box-shadow: 0 0 3px #468db3;\n  -webkit-box-shadow: inset 0 0 3px #468db3;\n  margin: 5px 0 1px 6px;\n  color: #000000;\n  border-radius: 5px;\n  width: 52px;\n  height: 52px;\n  box-sizing: border-box;\n  text-align: center;\n  line-height: 52px;\n  overflow: hidden;\n  cursor: pointer;\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  -khtml-user-select: none;\n  -moz-user-select: -moz-none;\n  -ms-user-select: none;\n  user-select: none;\n}\n.jkeyboard .jline ul li.uppercase {\n  text-transform: uppercase;\n}\n.jkeyboard .jline ul li:hover, .jkeyboard .jline ul li:active {\n  background-color: #185a82;\n}\n.jkeyboard .jline .return {\n  width: 80px;\n}\n.jkeyboard .jline .space {\n  width: 366px;\n}\n.jkeyboard .jline .numeric_switch {\n  width: 65px;\n}\n.jkeyboard .jline .layout_switch {\n}\n.jkeyboard .jline .shift {\n  width: 60px;\n}\n.jkeyboard .jline .backspace {\n  width: 69px;\n}\n</style>\n\n\n\n\n<style>\nbody {font-family: Arial, Helvetica, sans-serif;}\n\n.nr-dashboard-theme .nr-dashboard-template .md-button:not(:first-of-type) {\n    margin-top: 0px;\n}\n\n/* The Modal (background) */\n.modal {\n    display: none; /* Hidden by default */\n    position: fixed; /* Stay in place */\n    opacity:0.99;\n    z-index: 100; /* Sit on top */\n    left: 0;\n    top: 0;\n    width: 100%; /* Full width */\n    height: 100%; /* Full height */\n    overflow: auto; /* Enable scroll if needed */\n    background-color: rgb(0,0,0); /* Fallback color */\n    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */\n}\n\n/* Modal Content */\n.modal-content {\n    position: fixed;\n    background-color: #fefefe;\n    margin: auto;\n    padding: 0;\n    bottom: 0%;\n    left: 50%;\n    transform: translate(-50%, 0%);\n    border: 1px solid #888;\n    width: fit-content;\n    max-width: 100%;\n    max-height: 100%;\n    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);\n    -webkit-animation-name: animate;\n    -webkit-animation-duration: 0.4s;\n    animation-name: animate;\n    animation-duration: 0.4s\n}\n\n/* Add Animation */\n@-webkit-keyframes animate {\n    from {bottom:100%; opacity:0} \n    to {bottom:0%; opacity:1}\n}\n\n@keyframes animate {\n    from {bottom:100%; opacity:0}\n    to {bottom:0%; opacity:1}\n}\n\n/* The Close Button */\n.close {\n    color: black;\n    float: right;\n    font-size: 28px;\n    font-weight: bold;\n}\n\n.close:hover,\n.close:focus {\n    color: #000;\n    text-decoration: none;\n    cursor: pointer;\n}\n\n.modal-header {\n    padding: 2px 16px;\n    background-color: aliceblue;\n    color: white;\n}\n\n.modal-body {padding: 2px 16px;}\n\n.modal-footer {\n    padding: 2px 16px;\n    background-color: #5cb85c;\n    color: white;\n}\n</style>\n\n<!-- The Modal -->\n<div id=\"myModal\" class=\"modal\">\n\n  <!-- Modal content -->\n  <div class=\"modal-content\">\n      <div class=\"modal-header\">\n      <span class=\"close\" onclick=\"closeModal()\">&times;</span>\n      <h2 id=\"vkeyname\" style=\"background-color: aliceblue !important; color: black !important; text-align: center; min-height: 30px;\">V-Keyboard</h2>\n    </div>\n    <div class=\"modal-body\">\n        <div id=\"keyboard\"></div>\n        <div>\n        </div>\n    </div>\n  </div>\n</div>\n\n\n<script>\n    // Get the modal\nvar modal = document.getElementById('myModal');\n\n/*\n$('input[type=text]').click(function () {\n    $('#keyboard').unbind().removeData();\n        $('#keyboard').jkeyboard({\n            layout: \"english\",\n            input: $('#'+$(this).attr('id'))\n    });\n});\n\n$('input[type=number]').click(function () {\n    $('#keyboard').unbind().removeData();\n        $('#keyboard').jkeyboard({\n            layout: \"numbers_only\",\n            input: $('#'+$(this).attr('id'))\n    });\n});\n*/\n\nvar inputTags;\nvar inputType;\n\nvar getinputs = function() {\n    inputTags = document.getElementsByTagName(\"input\");\n    console.log(inputTags)\n    for (var i = 0; i < inputTags.length; i++) {\n        inputTags[i].addEventListener('click', openModal, false)\n    }\n}\n\nsetTimeout(function(){ getinputs(); }, 1000);\n\nvar inputTarget;\n\nvar openModal = function() {\n    inputType = event.target.type\n    inputTarget = event.target\n    var layoutName;\n    if (inputType == \"number\"){\n        //inputTarget.type = \"number\" //hack because chrome doesn't allow setselection in number inputs\n        //inputTarget.value = \"\"\n        layoutName = \"numbers_only\"\n    }else{\n        layoutName = \"english\"\n    }\n    $('#vkeyname').text(event.target.value)\n    $('#keyboard').unbind().removeData();\n    modal.style.display = \"block\";\n    $('#keyboard').jkeyboard({\n        layout: layoutName,\n        input: $('#'+$(this).attr('id'))\n    });\n}\n\n\n// Get the <span> element that closes the modal\nvar span = document.getElementsByClassName(\"close\")[0];\n\n// When the user clicks on <span> (x), close the modal\n//span.onclick = function(event) {\n  //closeModal()\n//}\n\n// When the user clicks anywhere outside of the modal, close it\nwindow.onclick = function(event) {\n    var source = event.target;\n    if (source == modal || source == span) {\n        closeModal(source)\n    }\n};\n\nvar closeModal = function(source){\n    //console.log(\"closing\")\n    modal.style.display = \"none\";\n   \n    if (inputType == \"number\"){\n        inputTarget.type = \"number\" //hack because chrome doesn't allow selectionstart on number inputs\n    }\n}\n\n</script>\n<script>\n\nvar clickState = 1;\nvar btn = document.querySelector('.VK');\n\nbtn.addEventListener('click', function(){\n\n  if (clickState == 0) {\n    this.textContent = 'V-KeyBoard On';\n    modal = document.getElementById('myModal');\n    clickState = 1;\n  } else {\n    this.textContent = 'V-KeyBoard Off';\n    modal = document.getElementById('empty');\n    clickState = 0;\n  }\n\n});\n</script>\n\n<style>\n.VK{\n    position: fixed;\n    top: 60px;\n    right: 20px;\n    height: 30px;\n}\n</style>\n\n<div id=\"empty\"></div>\n<button class=\"VK\">V-KeyBoard On</button> ",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 440,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "638d4db8.ed7964",
+        "type": "ui_button",
+        "z": "b55be59e.79f208",
+        "g": "eebf0f55315f6c4e",
+        "name": "",
+        "group": "c2e1f89a.4caf28",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Back",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Welcome_Print_Baggage_Tag\",\"Welcome_Print_Boarding_Pass\"],\"show\":[\"Welcome_Welcome\"],\"focus\":true}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 820,
+        "wires": [
+            [
+                "1a989b41.331fc5"
+            ]
+        ]
+    },
+    {
+        "id": "a3d71e5f.5e249",
+        "type": "ui_button",
+        "z": "b55be59e.79f208",
+        "g": "b621b9a3ac89fafc",
+        "name": "",
+        "group": "91af0535.a806e8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Back",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Welcome_Print_Baggage_Tag\",\"Welcome_Print_Boarding_Pass\"],\"show\":[\"Welcome_Welcome\"],\"focus\":true}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 1000,
+        "wires": [
+            [
+                "88c6db12.c0e2d8"
+            ]
+        ]
+    },
+    {
+        "id": "15461ac6.fcce45",
+        "type": "link in",
+        "z": "b55be59e.79f208",
+        "g": "9e0b89ab72c7e1fc",
+        "name": "ui control",
+        "links": [
+            "1a989b41.331fc5",
+            "88c6db12.c0e2d8",
+            "7d864de.d3cdeb4",
+            "346d58ac.174e68",
+            "2643f4fc.591e1c",
+            "ec622caf.df152",
+            "4f918f5d.369ba",
+            "f59073b2.96934"
+        ],
+        "x": 335,
+        "y": 540,
+        "wires": [
+            [
+                "3becbe9.6563642"
+            ]
+        ]
+    },
+    {
+        "id": "1a989b41.331fc5",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "eebf0f55315f6c4e",
+        "name": "",
+        "links": [
+            "15461ac6.fcce45"
+        ],
+        "x": 295,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "88c6db12.c0e2d8",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "b621b9a3ac89fafc",
+        "name": "",
+        "links": [
+            "15461ac6.fcce45"
+        ],
+        "x": 295,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "81bb68d9.d59bc8",
+        "type": "ui_toast",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Try Again",
+        "cancel": "Cancel",
+        "raw": false,
+        "topic": "",
+        "name": "Boarding Pass Dialog",
+        "x": 340,
+        "y": 1180,
+        "wires": [
+            [
+                "e464c5a3.085da8"
+            ]
+        ]
+    },
+    {
+        "id": "20b0e4cc.2d2b5c",
+        "type": "switch",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 190,
+        "y": 1120,
+        "wires": [
+            [
+                "aeb80d8.a5db1f"
+            ],
+            [
+                "38d0e8d0.5e9ce8",
+                "206de7006d898bb9"
+            ]
+        ]
+    },
+    {
+        "id": "f70f14b6.30bd78",
+        "type": "ui_toast",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Print",
+        "cancel": "Cancel",
+        "raw": false,
+        "topic": "",
+        "name": "Boarding Pass Dialog",
+        "x": 340,
+        "y": 1260,
+        "wires": [
+            [
+                "1704e852.035268"
+            ]
+        ]
+    },
+    {
+        "id": "aeb80d8.a5db1f",
+        "type": "function",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "fail",
+        "func": "msg.payload = msg.payload.message\nmsg.topic = \"Error\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 150,
+        "y": 1180,
+        "wires": [
+            [
+                "81bb68d9.d59bc8"
+            ]
+        ]
+    },
+    {
+        "id": "38d0e8d0.5e9ce8",
+        "type": "function",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "success",
+        "func": "msg.payload = msg.payload.name\nmsg.topic = \"Confirm Details\"\n    \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 1260,
+        "wires": [
+            [
+                "f70f14b6.30bd78"
+            ]
+        ]
+    },
+    {
+        "id": "e464c5a3.085da8",
+        "type": "switch",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Try Again",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Cancel",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 530,
+        "y": 1180,
+        "wires": [
+            [],
+            [
+                "8f0a475.80eb5b8"
+            ]
+        ]
+    },
+    {
+        "id": "1704e852.035268",
+        "type": "switch",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Print",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Try Again",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Cancel",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 530,
+        "y": 1260,
+        "wires": [
+            [
+                "2dbf81a4.f32b6e",
+                "6784b1d7.64221"
+            ],
+            [],
+            [
+                "a3c663f5.c20ef"
+            ]
+        ]
+    },
+    {
+        "id": "2dbf81a4.f32b6e",
+        "type": "function",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "Print Boarding Pass",
+        "func": "msg.payload = {\n    \"name\": global.get('name'),\n    \"destination\": global.get('destination'),\n    \"flight\": global.get('flight'),\n    \"carrier\": global.get('carrier'),\n    \"gate\": global.get('gate'),\n    \"pnr\":global.get('pnr'),\n    \"seat\": global.get('seat')\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1220,
+        "wires": [
+            [
+                "56bcce91910fd221"
+            ]
+        ]
+    },
+    {
+        "id": "6784b1d7.64221",
+        "type": "delay",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "4",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 680,
+        "y": 1300,
+        "wires": [
+            [
+                "a3c663f5.c20ef"
+            ]
+        ]
+    },
+    {
+        "id": "a3c663f5.c20ef",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "Go to home",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"hide\":[\"Welcome_Print_Baggage_Tag\",\"Welcome_Print_Boarding_Pass\"],\"show\":[\"Welcome_Welcome\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 1280,
+        "wires": [
+            [
+                "346d58ac.174e68"
+            ]
+        ]
+    },
+    {
+        "id": "8f0a475.80eb5b8",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "Go to home",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"hide\":[\"Welcome_Print_Baggage_Tag\",\"Welcome_Print_Boarding_Pass\"],\"show\":[\"Welcome_Welcome\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 1180,
+        "wires": [
+            [
+                "7d864de.d3cdeb4"
+            ]
+        ]
+    },
+    {
+        "id": "7d864de.d3cdeb4",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "15461ac6.fcce45"
+        ],
+        "x": 815,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "346d58ac.174e68",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "15461ac6.fcce45"
+        ],
+        "x": 1015,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "52cf33de.2c84cc",
+        "type": "inject",
+        "z": "b55be59e.79f208",
+        "g": "c468baa6743dec3e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "str",
+        "x": 150,
+        "y": 180,
+        "wires": [
+            [
+                "7bdf8135.45cc6",
+                "5c6d7d10b95f388a"
+            ]
+        ]
+    },
+    {
+        "id": "7bdf8135.45cc6",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "c468baa6743dec3e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "pnr",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 180,
+        "wires": [
+            [
+                "bc75d09bc49ff328"
+            ]
+        ]
+    },
+    {
+        "id": "91fa49c2.cc0f18",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "eebf0f55315f6c4e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "pnr",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "140b00fe.6805af",
+        "type": "ui_button",
+        "z": "b55be59e.79f208",
+        "g": "eebf0f55315f6c4e",
+        "name": "",
+        "group": "c2e1f89a.4caf28",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Enter",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "pnr",
+        "payloadType": "global",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 780,
+        "wires": [
+            [
+                "d9c0e0eb.42403"
+            ]
+        ]
+    },
+    {
+        "id": "cf693bef.6a2918",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "eebf0f55315f6c4e",
+        "name": "clear",
+        "links": [
+            "cf5eeeed.99aa7",
+            "d60249f2.eddef8"
+        ],
+        "x": 635,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "cf5eeeed.99aa7",
+        "type": "link in",
+        "z": "b55be59e.79f208",
+        "g": "eebf0f55315f6c4e",
+        "name": "",
+        "links": [
+            "cf693bef.6a2918",
+            "113b939e.73012c"
+        ],
+        "x": 95,
+        "y": 740,
+        "wires": [
+            [
+                "cf7f9fef.e3d91"
+            ]
+        ]
+    },
+    {
+        "id": "3db0f860.69b098",
+        "type": "ui_button",
+        "z": "b55be59e.79f208",
+        "g": "b621b9a3ac89fafc",
+        "name": "",
+        "group": "91af0535.a806e8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Enter",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "pnr",
+        "payloadType": "global",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 960,
+        "wires": [
+            [
+                "c18c5bc5.738748"
+            ]
+        ]
+    },
+    {
+        "id": "bd1d78b3.acff88",
+        "type": "function",
+        "z": "b55be59e.79f208",
+        "g": "eebf0f55315f6c4e",
+        "name": "clear",
+        "func": "msg.payload = \"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 740,
+        "wires": [
+            [
+                "cf693bef.6a2918"
+            ]
+        ]
+    },
+    {
+        "id": "2bd51a92.3bbea6",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "eebf0f55315f6c4e",
+        "name": "boarding response",
+        "links": [
+            "4df76241.b4984c",
+            "232ad91.23ef226",
+            "bca59c0d.8bd61"
+        ],
+        "x": 515,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "4df76241.b4984c",
+        "type": "link in",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "",
+        "links": [
+            "2bd51a92.3bbea6",
+            "fbfff487.df34e8"
+        ],
+        "x": 85,
+        "y": 1120,
+        "wires": [
+            [
+                "20b0e4cc.2d2b5c"
+            ]
+        ]
+    },
+    {
+        "id": "c18c5bc5.738748",
+        "type": "http request",
+        "z": "b55be59e.79f208",
+        "g": "b621b9a3ac89fafc",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://172.16.17.100/passenger/getPassenger.php?pnr={{{payload}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 370,
+        "y": 960,
+        "wires": [
+            [
+                "a929a14d.25efc",
+                "d9bfae54.727b6"
+            ]
+        ]
+    },
+    {
+        "id": "1e75b9c2.28c8c6",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "b621b9a3ac89fafc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "pnr",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "113b939e.73012c",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "b621b9a3ac89fafc",
+        "name": "clear",
+        "links": [
+            "cf5eeeed.99aa7",
+            "d60249f2.eddef8"
+        ],
+        "x": 635,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "a929a14d.25efc",
+        "type": "function",
+        "z": "b55be59e.79f208",
+        "g": "b621b9a3ac89fafc",
+        "name": "clear",
+        "func": "msg.payload = \"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 920,
+        "wires": [
+            [
+                "113b939e.73012c"
+            ]
+        ]
+    },
+    {
+        "id": "d60249f2.eddef8",
+        "type": "link in",
+        "z": "b55be59e.79f208",
+        "g": "b621b9a3ac89fafc",
+        "name": "",
+        "links": [
+            "cf693bef.6a2918",
+            "113b939e.73012c"
+        ],
+        "x": 95,
+        "y": 920,
+        "wires": [
+            [
+                "3c6d4f3f.f7afd"
+            ]
+        ]
+    },
+    {
+        "id": "e25fea07.536f28",
+        "type": "ui_toast",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Try Again",
+        "cancel": "Cancel",
+        "raw": false,
+        "topic": "",
+        "name": "Baggage Dialog",
+        "x": 300,
+        "y": 1460,
+        "wires": [
+            [
+                "3e411187.40a6ae"
+            ]
+        ]
+    },
+    {
+        "id": "4f16320f.f756fc",
+        "type": "switch",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 170,
+        "y": 1400,
+        "wires": [
+            [
+                "d9489e46.4a865"
+            ],
+            [
+                "24368291.3e031e",
+                "f6194a80283948da"
+            ]
+        ]
+    },
+    {
+        "id": "b54f3630.5821d8",
+        "type": "ui_toast",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Print",
+        "cancel": "Cancel",
+        "raw": false,
+        "topic": "",
+        "name": "Baggage Dialog",
+        "x": 320,
+        "y": 1540,
+        "wires": [
+            [
+                "c1a9dbb7.fae148"
+            ]
+        ]
+    },
+    {
+        "id": "d9489e46.4a865",
+        "type": "function",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "fail",
+        "func": "msg.payload = msg.payload.message\nmsg.topic = \"Error\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 130,
+        "y": 1460,
+        "wires": [
+            [
+                "e25fea07.536f28"
+            ]
+        ]
+    },
+    {
+        "id": "24368291.3e031e",
+        "type": "function",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "success",
+        "func": "msg.payload = msg.payload.name\nmsg.topic = \"Confirm Details\"\n    \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 1540,
+        "wires": [
+            [
+                "b54f3630.5821d8"
+            ]
+        ]
+    },
+    {
+        "id": "3e411187.40a6ae",
+        "type": "switch",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Try Again",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Cancel",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 510,
+        "y": 1460,
+        "wires": [
+            [],
+            [
+                "6347fb4e.5291a4"
+            ]
+        ]
+    },
+    {
+        "id": "c1a9dbb7.fae148",
+        "type": "switch",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Print",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Try Again",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Cancel",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 510,
+        "y": 1540,
+        "wires": [
+            [
+                "39c8458d.0818aa",
+                "fbf3de07.28842"
+            ],
+            [],
+            [
+                "4708670b.2032d8"
+            ]
+        ]
+    },
+    {
+        "id": "39c8458d.0818aa",
+        "type": "function",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "Print Baggage Tag",
+        "func": "msg.payload = {\n    \"name\": global.get('name'),\n    \"pnr\":global.get('pnr'),\n    \"flight\": global.get('flight')\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1520,
+        "wires": [
+            [
+                "49439bf9df05f4d5",
+                "c2ebd03dd73cd5a6"
+            ]
+        ]
+    },
+    {
+        "id": "fbf3de07.28842",
+        "type": "delay",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "4",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 680,
+        "y": 1580,
+        "wires": [
+            [
+                "4708670b.2032d8"
+            ]
+        ]
+    },
+    {
+        "id": "4708670b.2032d8",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "Go to home",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"hide\":[\"Welcome_Print_Baggage_Tag\",\"Welcome_Print_Boarding_Pass\"],\"show\":[\"Welcome_Welcome\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 1580,
+        "wires": [
+            [
+                "f59073b2.96934"
+            ]
+        ]
+    },
+    {
+        "id": "6347fb4e.5291a4",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "Go to home",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"hide\":[\"Welcome_Print_Baggage_Tag\",\"Welcome_Print_Boarding_Pass\"],\"show\":[\"Welcome_Welcome\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 1460,
+        "wires": [
+            [
+                "4f918f5d.369ba"
+            ]
+        ]
+    },
+    {
+        "id": "4f918f5d.369ba",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "15461ac6.fcce45"
+        ],
+        "x": 795,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "f59073b2.96934",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "15461ac6.fcce45"
+        ],
+        "x": 975,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "d9bfae54.727b6",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "b621b9a3ac89fafc",
+        "name": "baggage response",
+        "links": [
+            "b6a08c9c.ec1ff"
+        ],
+        "x": 515,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "b6a08c9c.ec1ff",
+        "type": "link in",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "",
+        "links": [
+            "d9bfae54.727b6"
+        ],
+        "x": 75,
+        "y": 1400,
+        "wires": [
+            [
+                "4f16320f.f756fc"
+            ]
+        ]
+    },
+    {
+        "id": "43c23373.3fce8c",
+        "type": "exec",
+        "z": "b55be59e.79f208",
+        "g": "b10ad014.87166",
+        "command": "DISPLAY=:0 /usr/bin/chromium-browser --force-device-scale-factor=1.318 --kiosk  http://172.16.17.112:1880/ui/",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 510,
+        "y": 2080,
+        "wires": [
+            [],
+            [],
+            [
+                "92812969.fbd398"
+            ]
+        ]
+    },
+    {
+        "id": "6985c81d.e2d7e8",
+        "type": "inject",
+        "z": "b55be59e.79f208",
+        "g": "b10ad014.87166",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "x": 270,
+        "y": 2020,
+        "wires": [
+            [
+                "30aae753.083d28"
+            ]
+        ]
+    },
+    {
+        "id": "92812969.fbd398",
+        "type": "switch",
+        "z": "b55be59e.79f208",
+        "g": "b10ad014.87166",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 2140,
+        "wires": [
+            [
+                "903351a4.9ea6f"
+            ]
+        ]
+    },
+    {
+        "id": "4ef8d3bf.d9181c",
+        "type": "delay",
+        "z": "b55be59e.79f208",
+        "g": "b10ad014.87166",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 620,
+        "y": 2020,
+        "wires": [
+            [
+                "79615514.5eaccc"
+            ]
+        ]
+    },
+    {
+        "id": "30aae753.083d28",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "b10ad014.87166",
+        "name": "",
+        "links": [
+            "d43a0626.2351d8"
+        ],
+        "x": 375,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "d43a0626.2351d8",
+        "type": "link in",
+        "z": "b55be59e.79f208",
+        "g": "b10ad014.87166",
+        "name": "kiosk start cmd",
+        "links": [
+            "30aae753.083d28",
+            "79615514.5eaccc"
+        ],
+        "x": 95,
+        "y": 2080,
+        "wires": [
+            [
+                "43c23373.3fce8c"
+            ]
+        ]
+    },
+    {
+        "id": "79615514.5eaccc",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "b10ad014.87166",
+        "name": "",
+        "links": [
+            "d43a0626.2351d8"
+        ],
+        "x": 715,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "903351a4.9ea6f",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "b10ad014.87166",
+        "name": "try after 5 sec",
+        "links": [
+            "c23ad9ab.6189e8"
+        ],
+        "x": 955,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "c23ad9ab.6189e8",
+        "type": "link in",
+        "z": "b55be59e.79f208",
+        "g": "b10ad014.87166",
+        "name": "",
+        "links": [
+            "903351a4.9ea6f"
+        ],
+        "x": 515,
+        "y": 2020,
+        "wires": [
+            [
+                "4ef8d3bf.d9181c"
+            ]
+        ]
+    },
+    {
+        "id": "49439bf9df05f4d5",
+        "type": "pythonshell in",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "",
+        "pyfile": "Documents/baggagetag.py",
+        "virtualenv": "",
+        "continuous": false,
+        "stdInData": false,
+        "x": 940,
+        "y": 1520,
+        "wires": [
+            [
+                "c2ebd03dd73cd5a6"
+            ]
+        ]
+    },
+    {
+        "id": "56bcce91910fd221",
+        "type": "pythonshell in",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "",
+        "pyfile": "Documents/boardingpass.py",
+        "virtualenv": "",
+        "continuous": false,
+        "stdInData": false,
+        "x": 940,
+        "y": 1220,
+        "wires": [
+            [
+                "c2ebd03dd73cd5a6"
+            ]
+        ]
+    },
+    {
+        "id": "44b16055e971c096",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "3c4c2a0046f9d1f4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "name",
+                "pt": "global",
+                "to": "payload.name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 240,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5e504b5baee44f90",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "3c4c2a0046f9d1f4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "carrier",
+                "pt": "global",
+                "to": "payload.carrier",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8a56ec7a0172e8b",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "3c4c2a0046f9d1f4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "flight",
+                "pt": "global",
+                "to": "payload.flight",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 240,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6226e774054a272d",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "3c4c2a0046f9d1f4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "gate",
+                "pt": "global",
+                "to": "payload.gate",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 240,
+        "y": 1840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0bc0d6353f5fd57e",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "3c4c2a0046f9d1f4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "seat",
+                "pt": "global",
+                "to": "payload.seat",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 240,
+        "y": 1880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "13c785ebda07186d",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "3c4c2a0046f9d1f4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "destination",
+                "pt": "global",
+                "to": "payload.destination",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 1920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "88f39bd531fef324",
+        "type": "link in",
+        "z": "b55be59e.79f208",
+        "g": "3c4c2a0046f9d1f4",
+        "name": "setdetails",
+        "links": [
+            "f6194a80283948da",
+            "206de7006d898bb9"
+        ],
+        "x": 75,
+        "y": 1720,
+        "wires": [
+            [
+                "44b16055e971c096",
+                "5e504b5baee44f90",
+                "e8a56ec7a0172e8b",
+                "6226e774054a272d",
+                "0bc0d6353f5fd57e",
+                "13c785ebda07186d",
+                "a05db570a673b839"
+            ]
+        ]
+    },
+    {
+        "id": "d71345075a9656b0",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "c468baa6743dec3e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "name",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 220,
+        "wires": [
+            [
+                "bc75d09bc49ff328"
+            ]
+        ]
+    },
+    {
+        "id": "2d744d5d0927b7ee",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "c468baa6743dec3e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "carrier",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 260,
+        "wires": [
+            [
+                "bc75d09bc49ff328"
+            ]
+        ]
+    },
+    {
+        "id": "6c7c8aafe195389b",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "c468baa6743dec3e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "flight",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 300,
+        "wires": [
+            [
+                "bc75d09bc49ff328"
+            ]
+        ]
+    },
+    {
+        "id": "f9c5e4a43dbb654b",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "c468baa6743dec3e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "gate",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 340,
+        "wires": [
+            [
+                "bc75d09bc49ff328"
+            ]
+        ]
+    },
+    {
+        "id": "f7a80506041539e6",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "c468baa6743dec3e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "seat",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 380,
+        "wires": [
+            [
+                "bc75d09bc49ff328"
+            ]
+        ]
+    },
+    {
+        "id": "039150611f7eb91a",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "c468baa6743dec3e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "destination",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 420,
+        "wires": [
+            [
+                "bc75d09bc49ff328"
+            ]
+        ]
+    },
+    {
+        "id": "f6194a80283948da",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "ee7ff22f0d6fed85",
+        "name": "",
+        "links": [
+            "88f39bd531fef324",
+            "4eefbb7e329aa375"
+        ],
+        "x": 295,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "206de7006d898bb9",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "5e5a6cbfe75b1f72",
+        "name": "",
+        "links": [
+            "88f39bd531fef324",
+            "4eefbb7e329aa375"
+        ],
+        "x": 315,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "7aba14e7dc46ce65",
+        "type": "link in",
+        "z": "b55be59e.79f208",
+        "g": "c468baa6743dec3e",
+        "name": "resetdetails",
+        "links": [
+            "5c6d7d10b95f388a",
+            "41447070ed4833a2",
+            "65ae051dad6ee3a1"
+        ],
+        "x": 375,
+        "y": 220,
+        "wires": [
+            [
+                "d71345075a9656b0",
+                "2d744d5d0927b7ee",
+                "6c7c8aafe195389b",
+                "f9c5e4a43dbb654b",
+                "f7a80506041539e6",
+                "039150611f7eb91a"
+            ]
+        ]
+    },
+    {
+        "id": "5c6d7d10b95f388a",
+        "type": "link out",
+        "z": "b55be59e.79f208",
+        "g": "c468baa6743dec3e",
+        "name": "",
+        "links": [
+            "7aba14e7dc46ce65"
+        ],
+        "x": 295,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "bc75d09bc49ff328",
+        "type": "debug",
+        "z": "b55be59e.79f208",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c2ebd03dd73cd5a6",
+        "type": "debug",
+        "z": "b55be59e.79f208",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "d16c85ecba2249b4",
+        "type": "debug",
+        "z": "b55be59e.79f208",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "a05db570a673b839",
+        "type": "change",
+        "z": "b55be59e.79f208",
+        "g": "3c4c2a0046f9d1f4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "pnr",
+                "pt": "global",
+                "to": "payload.pnr",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 240,
+        "y": 1680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b081daab9e21e512",
+        "type": "ui_template",
+        "z": "b55be59e.79f208",
+        "d": true,
+        "g": "9e0b89ab72c7e1fc",
+        "group": "91af0535.a806e8",
+        "name": "Virtual Keyboard",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<script> \n    \n// the semi-colon before function invocation is a safety net against concatenated\n// scripts and/or other plugins which may not be closed properly.\n; (function ($, window, document, undefined) {\n\n    // undefined is used here as the undefined global variable in ECMAScript 3 is\n    // mutable (ie. it can be changed by someone else). undefined isn't really being\n    // passed in so we can ensure the value of it is truly undefined. In ES5, undefined\n    // can no longer be modified.\n\n    // window and document are passed through as local variable rather than global\n    // as this (slightly) quickens the resolution process and can be more efficiently\n    // minified (especially when both are regularly referenced in your plugin).\n\n    // Create the defaults once\n    var pluginName = \"jkeyboard\",\n        defaults = {\n            layout: \"english\",\n            input: $('#input'),\n            customLayouts: {\n                selectable: []\n            },\n        };\n\n\n    var function_keys = {\n        backspace: {\n            text: 'DEL',\n        },\n        return: {\n            text: 'Enter'\n        },\n        shift: {\n            text: 'Shift'\n        },\n        space: {\n            text: 'Space'\n        },\n        numeric_switch: {\n            text: '123',\n            command: function () {\n                this.createKeyboard('numeric');\n                this.events();\n            }\n        },\n        layout_switch: {\n            text: '<i class=\"fa fa-keyboard-o\" aria-hidden=\"true\"></i>',\n            command: function () {\n                var l = this.toggleLayout();\n                this.createKeyboard(l);\n                this.events();\n            }\n        },\n        character_switch: {\n            text: 'ABC',\n            command: function () {\n                this.createKeyboard(layout);\n                this.events();\n            }\n        },\n        symbol_switch: {\n            text: '#+=',\n            command: function () {\n                this.createKeyboard('symbolic');\n                this.events();\n            }\n        }\n    };\n\n\n    var layouts = {\n        selectable: ['azeri', 'english', 'russian','french', 'emoji'],\n        azeri: [\n            ['q', 'ü', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'ö', 'ğ'],\n            ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'ı', 'ə'],\n            ['shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'ç', 'ş', 'backspace'],\n            ['numeric_switch', 'layout_switch', 'space', 'return']\n        ],\n        english: [\n            ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p',],\n            ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l',],\n            ['shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'backspace'],\n            ['numeric_switch', 'layout_switch', 'space', 'return']\n        ],\n        russian: [\n            ['й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х'],\n            ['ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э'],\n            ['shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', 'backspace'],\n            ['numeric_switch', 'layout_switch', 'space', 'return']\n        ],\n        french: [\n            ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p',],\n            ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l','à','ç'],\n            ['shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm','é','è', 'backspace'],\n            ['numeric_switch', 'layout_switch', 'space', 'return']\n        ],\n        emoji: [\n            ['😀', '😁', '😂', '🤣', '😃', '😄', '😅', '😆', '😉', '😊',],\n            ['😋', '😎', '😍', '😘', 'g', 'h', 'j', 'k', 'l','à','ç'],\n            ['shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm','é','è', 'backspace'],\n            ['numeric_switch', 'layout_switch', 'space', 'return']\n        ],            \n        numeric: [\n            ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],\n            ['-', '/', ':', ';', '(', ')', '$', '&', '@', '\"'],\n            ['symbol_switch', '.', ',', '?', '!', \"'\", 'backspace'],\n            ['character_switch', 'layout_switch', 'space', 'return'],\n        ],\n        numbers_only: [\n            ['1', '2', '3',],\n            ['4', '5', '6',],\n            ['7', '8', '9',],\n            ['0', 'backspace'],\n        ],\n        symbolic: [\n            ['[', ']', '{', '}', '#', '%', '^', '*', '+', '='],\n            ['_', '\\\\', '|', '~', '<', '>'],\n            ['numeric_switch', '.', ',', '?', '!', \"'\", 'backspace'],\n            ['character_switch', 'layout_switch', 'space', 'return'],\n\n        ]\n    }\n\n    var shift = false, capslock = false, layout = 'english', layout_id = 0;\n\n    // The actual plugin constructor\n    function Plugin(element, options) {\n        this.element = element;\n        // jQuery has an extend method which merges the contents of two or\n        // more objects, storing the result in the first object. The first object\n        // is generally empty as we don't want to alter the default options for\n        // future instances of the plugin\n        this.settings = $.extend({}, defaults, options);\n        // Extend & Merge the cusom layouts\n        layouts = $.extend(true, {}, this.settings.customLayouts, layouts);\n        if (Array.isArray(this.settings.customLayouts.selectable)) {\n            $.merge(layouts.selectable, this.settings.customLayouts.selectable);\n        }\n        this._defaults = defaults;\n        this._name = pluginName;\n        this.init();\n    }\n\n    Plugin.prototype = {\n        init: function () {\n            layout = this.settings.layout;\n            this.createKeyboard(layout);\n            this.events();\n        },\n\n        setInput: function (newInputField) {\n            this.settings.input = newInputField;\n        },\n\n        createKeyboard: function (layout) {\n            shift = false;\n            capslock = false;\n\n            var keyboard_container = $('<ul/>').addClass('jkeyboard'),\n                me = this;\n\n            layouts[layout].forEach(function (line, index) {\n                var line_container = $('<li/>').addClass('jline');\n                line_container.append(me.createLine(line));\n                keyboard_container.append(line_container);\n            });\n\n            $(this.element).html('').append(keyboard_container);\n        },\n\n        createLine: function (line) {\n            var line_container = $('<ul/>');\n\n            line.forEach(function (key, index) {\n                var key_container = $('<li/>').addClass('jkey').data('command', key);\n\n                if (function_keys[key]) {\n                    key_container.addClass(key).html(function_keys[key].text);\n                }\n                else {\n                    key_container.addClass('letter').html(key);\n                }\n\n                line_container.append(key_container);\n            })\n\n            return line_container;\n        },\n\n        events: function () {\n            var letters = $(this.element).find('.letter'),\n                shift_key = $(this.element).find('.shift'),\n                space_key = $(this.element).find('.space'),\n                backspace_key = $(this.element).find('.backspace'),\n                return_key = $(this.element).find('.return'),\n\n                me = this,\n                fkeys = Object.keys(function_keys).map(function (k) {\n                    return '.' + k;\n                }).join(',');\n\n            letters.on('click', function () {\n                me.type((shift || capslock) ? $(this).text().toUpperCase() : $(this).text());\n            });\n\n            space_key.on('click', function () {\n                me.type(' ');\n            });\n\n            return_key.on('click', function () {\n                me.type(\"\\n\");\n                me.settings.input.parents('form').submit();\n            });\n\n            backspace_key.on('click', function () {\n                me.backspace();\n            });\n\n            shift_key.on('click', function () {\n                if (capslock) {\n                    me.toggleShiftOff();\n                    capslock = false;\n                } else {\n                    me.toggleShiftOn();\n                }\n            }).on('dblclick', function () {\n                capslock = true;\n            });\n\n\n            $(fkeys).on('click', function () {\n                var command = function_keys[$(this).data('command')].command;\n                if (!command) return;\n\n                command.call(me);\n            });\n        },\n\n        type: function (key) {\n            var input = this.settings.input,\n                val = input.val(),\n                input_node = input.get(0),\n                start = input_node.selectionStart,\n                end = input_node.selectionEnd;\n\n            var max_length = $(input).attr(\"maxlength\");\n            if (start == end && end == val.length) {\n                if (!max_length || val.length < max_length) {\n                    input.val(val + key);\n                    input.change()\n                    $('#vkeyname').text(val + key)\n                }\n            } else {\n                if (input_node.type == \"text\"){\n                    var new_string = this.insertToString(start, end, val, key);\n                    input.val(new_string);\n                    start++;\n                    end = start;\n                    input_node.setSelectionRange(start, end);\n                }else{\n                    input.val(val + key);\n                }\n                input.change()\n                $('#vkeyname').text(val + key)\n                \n            }\n            input.trigger('focus');\n\n            if (shift && !capslock) {\n                this.toggleShiftOff();\n            }\n        },\n\n        backspace: function () {\n            var input = this.settings.input,\n                val = input.val();\n                input_node = input.get(0),\n                start = input_node.selectionStart,\n                end = input_node.selectionEnd;\n            if (input.type == \"text\"){\n                input.val(val.slice(0, start-1) + val.slice(start))\n                input_node.setSelectionRange(start-1, start-1);\n                console.log(val)\n                $('#vkeyname').text(val)\n            }else{\n                input.val(val.slice(0,-1))\n                $('#vkeyname').text(val.slice(0,-1))\n            }\n            input.change()\n            input.focus()\n        },\n\n        toggleShiftOn: function () {\n            var letters = $(this.element).find('.letter'),\n                shift_key = $(this.element).find('.shift');\n\n            letters.addClass('uppercase');\n            shift_key.addClass('active')\n            shift = true;\n        },\n\n        toggleShiftOff: function () {\n            var letters = $(this.element).find('.letter'),\n                shift_key = $(this.element).find('.shift');\n\n            letters.removeClass('uppercase');\n            shift_key.removeClass('active');\n            shift = false;\n        },\n\n        toggleLayout: function () {\n            layout_id = layout_id || 0;\n            var plain_layouts = layouts.selectable;\n            layout_id++;\n\n            var current_id = layout_id % plain_layouts.length;\n            var SelectedLayoutName = plain_layouts[current_id];\n            $('#vkeyname').text('V-Keyboard ' + SelectedLayoutName )\n            return plain_layouts[current_id];\n        },\n\n        insertToString: function (start, end, string, insert_string) {\n            return string.substring(0, start) + insert_string + string.substring(end, string.length);\n        }\n    };\n\n        /*\n\t\t// A really lightweight plugin wrapper around the constructor,\n\t\t// preventing against multiple instantiations\n\t\t$.fn[ pluginName ] = function ( options ) {\n\t\t\t\treturn this.each(function() {\n\t\t\t\t\t\tif ( !$.data( this, \"plugin_\" + pluginName ) ) {\n\t\t\t\t\t\t\t\t$.data( this, \"plugin_\" + pluginName, new Plugin( this, options ) );\n\t\t\t\t\t\t}\n\t\t\t\t});\n\t\t};\n        */\n        var methods = {\n            init: function(options) {\n                if (!this.data(\"plugin_\" + pluginName)) {\n                    this.data(\"plugin_\" + pluginName, new Plugin(this, options));\n                }\n            },\n\t\t\tsetInput: function(content) {\n\t\t\t\tthis.data(\"plugin_\" + pluginName).setInput($(content));\n            },\n            setLayout: function(layoutname) {\n                // change layout if it is not match current\n                object = this.data(\"plugin_\" + pluginName);\n                if (typeof(layouts[layoutname]) !== 'undefined' && object.settings.layout != layoutname) {\n                    object.settings.layout = layoutname;\n                    object.createKeyboard(layoutname);\n                    object.events();\n                };\n            },\n        };\n\n\t\t$.fn[pluginName] = function (methodOrOptions) {\n            if (methods[methodOrOptions]) {\n                return methods[methodOrOptions].apply(this.first(), Array.prototype.slice.call( arguments, 1));\n            } else if (typeof methodOrOptions === 'object' || ! methodOrOptions) {\n                // Default to \"init\"\n                return methods.init.apply(this.first(), arguments);\n            } else {\n                $.error('Method ' +  methodOrOptions + ' does not exist on jQuery.tooltip');\n            }\n        };\n\n})(jQuery, window, document);\n</script>\n<style>\n    .jkeyboard {\n  display: inline-block;\n}\n.jkeyboard, .jkeyboard .jline, .jkeyboard .jline ul {\n  display: block;\n  margin: 0;\n  padding: 0;\n}\n.jkeyboard .jline {\n  text-align: center;\n  margin-left: -14px;\n}\n.jkeyboard .jline ul li {\n  font-family: arial, sans-serif;\n  font-size: 20px;\n  display: inline-block;\n  border: 1px solid #468db3;\n  -webkit-box-shadow: 0 0 3px #468db3;\n  -webkit-box-shadow: inset 0 0 3px #468db3;\n  margin: 5px 0 1px 6px;\n  color: #000000;\n  border-radius: 5px;\n  width: 52px;\n  height: 52px;\n  box-sizing: border-box;\n  text-align: center;\n  line-height: 52px;\n  overflow: hidden;\n  cursor: pointer;\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  -khtml-user-select: none;\n  -moz-user-select: -moz-none;\n  -ms-user-select: none;\n  user-select: none;\n}\n.jkeyboard .jline ul li.uppercase {\n  text-transform: uppercase;\n}\n.jkeyboard .jline ul li:hover, .jkeyboard .jline ul li:active {\n  background-color: #185a82;\n}\n.jkeyboard .jline .return {\n  width: 80px;\n}\n.jkeyboard .jline .space {\n  width: 366px;\n}\n.jkeyboard .jline .numeric_switch {\n  width: 65px;\n}\n.jkeyboard .jline .layout_switch {\n}\n.jkeyboard .jline .shift {\n  width: 60px;\n}\n.jkeyboard .jline .backspace {\n  width: 69px;\n}\n</style>\n\n\n\n\n<style>\nbody {font-family: Arial, Helvetica, sans-serif;}\n\n.nr-dashboard-theme .nr-dashboard-template .md-button:not(:first-of-type) {\n    margin-top: 0px;\n}\n\n/* The Modal (background) */\n.modal {\n    display: none; /* Hidden by default */\n    position: fixed; /* Stay in place */\n    opacity:0.99;\n    z-index: 100; /* Sit on top */\n    left: 0;\n    top: 0;\n    width: 100%; /* Full width */\n    height: 100%; /* Full height */\n    overflow: auto; /* Enable scroll if needed */\n    background-color: rgb(0,0,0); /* Fallback color */\n    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */\n}\n\n/* Modal Content */\n.modal-content {\n    position: fixed;\n    background-color: #fefefe;\n    margin: auto;\n    padding: 0;\n    bottom: 0%;\n    left: 50%;\n    transform: translate(-50%, 0%);\n    border: 1px solid #888;\n    width: fit-content;\n    max-width: 100%;\n    max-height: 100%;\n    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);\n    -webkit-animation-name: animate;\n    -webkit-animation-duration: 0.4s;\n    animation-name: animate;\n    animation-duration: 0.4s\n}\n\n/* Add Animation */\n@-webkit-keyframes animate {\n    from {bottom:100%; opacity:0} \n    to {bottom:0%; opacity:1}\n}\n\n@keyframes animate {\n    from {bottom:100%; opacity:0}\n    to {bottom:0%; opacity:1}\n}\n\n/* The Close Button */\n.close {\n    color: black;\n    float: right;\n    font-size: 28px;\n    font-weight: bold;\n}\n\n.close:hover,\n.close:focus {\n    color: #000;\n    text-decoration: none;\n    cursor: pointer;\n}\n\n.modal-header {\n    padding: 2px 16px;\n    background-color: aliceblue;\n    color: white;\n}\n\n.modal-body {padding: 2px 16px;}\n\n.modal-footer {\n    padding: 2px 16px;\n    background-color: #5cb85c;\n    color: white;\n}\n</style>\n\n<!-- The Modal -->\n<div id=\"myModal\" class=\"modal\">\n\n  <!-- Modal content -->\n  <div class=\"modal-content\">\n      <div class=\"modal-header\">\n      <span class=\"close\" onclick=\"closeModal()\">&times;</span>\n      <h2 id=\"vkeyname\" style=\"background-color: aliceblue !important; color: black !important; text-align: center; min-height: 30px;\">V-Keyboard</h2>\n    </div>\n    <div class=\"modal-body\">\n        <div id=\"keyboard\"></div>\n        <div>\n        </div>\n    </div>\n  </div>\n</div>\n\n\n<script>\n    // Get the modal\nvar modal = document.getElementById('myModal');\n\n/*\n$('input[type=text]').click(function () {\n    $('#keyboard').unbind().removeData();\n        $('#keyboard').jkeyboard({\n            layout: \"english\",\n            input: $('#'+$(this).attr('id'))\n    });\n});\n\n$('input[type=number]').click(function () {\n    $('#keyboard').unbind().removeData();\n        $('#keyboard').jkeyboard({\n            layout: \"numbers_only\",\n            input: $('#'+$(this).attr('id'))\n    });\n});\n*/\n\nvar inputTags;\nvar inputType;\n\nvar getinputs = function() {\n    inputTags = document.getElementsByTagName(\"input\");\n    console.log(inputTags)\n    for (var i = 0; i < inputTags.length; i++) {\n        inputTags[i].addEventListener('click', openModal, false)\n    }\n}\n\nsetTimeout(function(){ getinputs(); }, 1000);\n\nvar inputTarget;\n\nvar openModal = function() {\n    inputType = event.target.type\n    inputTarget = event.target\n    var layoutName;\n    if (inputType == \"number\"){\n        //inputTarget.type = \"number\" //hack because chrome doesn't allow setselection in number inputs\n        //inputTarget.value = \"\"\n        layoutName = \"numbers_only\"\n    }else{\n        layoutName = \"english\"\n    }\n    $('#vkeyname').text(event.target.value)\n    $('#keyboard').unbind().removeData();\n    modal.style.display = \"block\";\n    $('#keyboard').jkeyboard({\n        layout: layoutName,\n        input: $('#'+$(this).attr('id'))\n    });\n}\n\n\n// Get the <span> element that closes the modal\nvar span = document.getElementsByClassName(\"close\")[0];\n\n// When the user clicks on <span> (x), close the modal\n//span.onclick = function(event) {\n  //closeModal()\n//}\n\n// When the user clicks anywhere outside of the modal, close it\nwindow.onclick = function(event) {\n    var source = event.target;\n    if (source == modal || source == span) {\n        closeModal(source)\n    }\n};\n\nvar closeModal = function(source){\n    //console.log(\"closing\")\n    modal.style.display = \"none\";\n   \n    if (inputType == \"number\"){\n        inputTarget.type = \"number\" //hack because chrome doesn't allow selectionstart on number inputs\n    }\n}\n\n</script>\n<script>\n\nvar clickState = 1;\nvar btn = document.querySelector('.VK');\n\nbtn.addEventListener('click', function(){\n\n  if (clickState == 0) {\n    this.textContent = 'V-KeyBoard On';\n    modal = document.getElementById('myModal');\n    clickState = 1;\n  } else {\n    this.textContent = 'V-KeyBoard Off';\n    modal = document.getElementById('empty');\n    clickState = 0;\n  }\n\n});\n</script>\n\n<style>\n.VK{\n    position: fixed;\n    top: 60px;\n    right: 20px;\n    height: 30px;\n}\n</style>\n\n<div id=\"empty\"></div>\n<button class=\"VK\">V-KeyBoard On</button> ",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 440,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    }
+]
