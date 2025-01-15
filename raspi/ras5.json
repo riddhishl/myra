@@ -1,0 +1,3872 @@
+[
+    {
+        "id": "e4a119faf184b0df",
+        "type": "tab",
+        "label": "Traffic",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c2f2a8d89e01cbdd",
+        "type": "tab",
+        "label": "Traffic",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "5a88e2ba.30dccc",
+        "type": "mqtt-broker",
+        "name": "ServerBroker",
+        "broker": "172.16.17.208",
+        "port": "1883",
+        "clientid": "TrafficClients",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "478817c573eefd53",
+        "type": "coap-server",
+        "name": "CoAP Server",
+        "port": "5683",
+        "ipv6": false
+    },
+    {
+        "id": "d7310993477b107e",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T4-Green",
+        "pin": "17",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "960fced0a7553a0b",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T4-Yellow",
+        "pin": "27",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "5343692f3db54cef",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T4-Red",
+        "pin": "22",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "912de6fef21a02b2",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T3-Red",
+        "pin": "6",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "5b13d8fed3c8fc78",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T3-Yellow",
+        "pin": "5",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "82cead0ddab98508",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T3-Green",
+        "pin": "12",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "c81c9c4b709b96e0",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T2-Red",
+        "pin": "26",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "fe917007438f4081",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T2-Green",
+        "pin": "13",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "0ed625f93fe50fbe",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T2-Yellow",
+        "pin": "19",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "ce55a04d287d4d40",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T1-Yellow",
+        "pin": "20",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "7b689a0c35e4f865",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T1-Red",
+        "pin": "21",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "906316540bd4bd79",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T1-Green",
+        "pin": "16",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "15d2a28858178e5e",
+        "type": "inject",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "70790b4471df3988"
+            ]
+        ]
+    },
+    {
+        "id": "70790b4471df3988",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 80,
+        "wires": [
+            [
+                "ce7b925ec5e0f763",
+                "55896cf4dffb1775",
+                "97aa3af9872a5006",
+                "e090f0a2b94b9f37"
+            ]
+        ]
+    },
+    {
+        "id": "ce7b925ec5e0f763",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "4",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 120,
+        "wires": [
+            [
+                "7aa337efb7b451c0"
+            ]
+        ]
+    },
+    {
+        "id": "7aa337efb7b451c0",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Red and Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "930ef2e658ab0844",
+                "55896cf4dffb1775",
+                "97aa3af9872a5006",
+                "e090f0a2b94b9f37"
+            ]
+        ]
+    },
+    {
+        "id": "930ef2e658ab0844",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 200,
+        "wires": [
+            [
+                "cc848377bbb6d961"
+            ]
+        ]
+    },
+    {
+        "id": "cc848377bbb6d961",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Green",
+        "func": "msg.payload = {\"red\":0, \"yellow\":0, \"green\":1};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 240,
+        "wires": [
+            [
+                "25afa0687ef9bca5",
+                "55896cf4dffb1775",
+                "97aa3af9872a5006",
+                "e090f0a2b94b9f37"
+            ]
+        ]
+    },
+    {
+        "id": "25afa0687ef9bca5",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 280,
+        "wires": [
+            [
+                "72280c9e3dc5f24b"
+            ]
+        ]
+    },
+    {
+        "id": "72280c9e3dc5f24b",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 320,
+        "wires": [
+            [
+                "1bfda83ef4d491d3",
+                "55896cf4dffb1775",
+                "97aa3af9872a5006",
+                "e090f0a2b94b9f37"
+            ]
+        ]
+    },
+    {
+        "id": "1bfda83ef4d491d3",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 360,
+        "wires": [
+            [
+                "2a9ef1b63524af31"
+            ]
+        ]
+    },
+    {
+        "id": "2a9ef1b63524af31",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 400,
+        "wires": [
+            [
+                "dacccd087ddf6275",
+                "55896cf4dffb1775",
+                "97aa3af9872a5006",
+                "e090f0a2b94b9f37"
+            ]
+        ]
+    },
+    {
+        "id": "dacccd087ddf6275",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 440,
+        "wires": [
+            [
+                "9565c7a42b221991"
+            ]
+        ]
+    },
+    {
+        "id": "55896cf4dffb1775",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Red",
+        "func": "msg.payload = msg.payload.red;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 80,
+        "wires": [
+            [
+                "41847142fb473dbf",
+                "7b689a0c35e4f865"
+            ]
+        ]
+    },
+    {
+        "id": "97aa3af9872a5006",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Yellow",
+        "func": "msg.payload = msg.payload.yellow;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 140,
+        "wires": [
+            [
+                "2d1e222f072f919b",
+                "ce55a04d287d4d40"
+            ]
+        ]
+    },
+    {
+        "id": "e090f0a2b94b9f37",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Green",
+        "func": "msg.payload = msg.payload.green;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 200,
+        "wires": [
+            [
+                "c72400935af475fe",
+                "906316540bd4bd79"
+            ]
+        ]
+    },
+    {
+        "id": "9565c7a42b221991",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Green",
+        "func": "msg.payload = {\"red\":0, \"yellow\":0, \"green\":1};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 520,
+        "wires": [
+            [
+                "403fa04da5fcd879",
+                "77ae9141d529d546",
+                "fcca9f2e48623519",
+                "033ab0afb15034ef"
+            ]
+        ]
+    },
+    {
+        "id": "403fa04da5fcd879",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 560,
+        "wires": [
+            [
+                "d1a6fe4c14f152f5"
+            ]
+        ]
+    },
+    {
+        "id": "d1a6fe4c14f152f5",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 600,
+        "wires": [
+            [
+                "b361bff96ed58b3b",
+                "77ae9141d529d546",
+                "fcca9f2e48623519",
+                "033ab0afb15034ef"
+            ]
+        ]
+    },
+    {
+        "id": "b361bff96ed58b3b",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 640,
+        "wires": [
+            [
+                "9c885f7502f213a6"
+            ]
+        ]
+    },
+    {
+        "id": "9c885f7502f213a6",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 680,
+        "wires": [
+            [
+                "0812741628727135",
+                "77ae9141d529d546",
+                "fcca9f2e48623519",
+                "033ab0afb15034ef"
+            ]
+        ]
+    },
+    {
+        "id": "0812741628727135",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 720,
+        "wires": [
+            [
+                "bec4eade87137e45"
+            ]
+        ]
+    },
+    {
+        "id": "77ae9141d529d546",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Red",
+        "func": "msg.payload = msg.payload.red;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 520,
+        "wires": [
+            [
+                "67c3df1301d7be36",
+                "c81c9c4b709b96e0"
+            ]
+        ]
+    },
+    {
+        "id": "fcca9f2e48623519",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Yellow",
+        "func": "msg.payload = msg.payload.yellow;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 580,
+        "wires": [
+            [
+                "750ab85ae1be8a83",
+                "0ed625f93fe50fbe"
+            ]
+        ]
+    },
+    {
+        "id": "033ab0afb15034ef",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Green",
+        "func": "msg.payload = msg.payload.green;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 640,
+        "wires": [
+            [
+                "9834391a2974c1fc",
+                "fe917007438f4081"
+            ]
+        ]
+    },
+    {
+        "id": "bec4eade87137e45",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Green",
+        "func": "msg.payload = {\"red\":0, \"yellow\":0, \"green\":1};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 900,
+        "wires": [
+            [
+                "7620956c02c52312",
+                "b1ec50c9c0c4183f",
+                "b891ded37270ef0e",
+                "404d37113b85e111"
+            ]
+        ]
+    },
+    {
+        "id": "7620956c02c52312",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 940,
+        "wires": [
+            [
+                "3fee32f59e2b6d88"
+            ]
+        ]
+    },
+    {
+        "id": "3fee32f59e2b6d88",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 980,
+        "wires": [
+            [
+                "9af20e5f0c632ac8",
+                "b1ec50c9c0c4183f",
+                "b891ded37270ef0e",
+                "404d37113b85e111"
+            ]
+        ]
+    },
+    {
+        "id": "9af20e5f0c632ac8",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 1020,
+        "wires": [
+            [
+                "a3219a3f2c89ca81"
+            ]
+        ]
+    },
+    {
+        "id": "a3219a3f2c89ca81",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 1060,
+        "wires": [
+            [
+                "416275e0d3888d27",
+                "b1ec50c9c0c4183f",
+                "b891ded37270ef0e",
+                "404d37113b85e111"
+            ]
+        ]
+    },
+    {
+        "id": "416275e0d3888d27",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 1100,
+        "wires": [
+            [
+                "3134c171f966b73c"
+            ]
+        ]
+    },
+    {
+        "id": "b1ec50c9c0c4183f",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Red",
+        "func": "msg.payload = msg.payload.red;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 900,
+        "wires": [
+            [
+                "2066dee30b87523d",
+                "912de6fef21a02b2"
+            ]
+        ]
+    },
+    {
+        "id": "b891ded37270ef0e",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Yellow",
+        "func": "msg.payload = msg.payload.yellow;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 960,
+        "wires": [
+            [
+                "5b13d8fed3c8fc78",
+                "88ab8d4892be6b38"
+            ]
+        ]
+    },
+    {
+        "id": "404d37113b85e111",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Green",
+        "func": "msg.payload = msg.payload.green;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 1020,
+        "wires": [
+            [
+                "a0b31ffb0473d414",
+                "82cead0ddab98508"
+            ]
+        ]
+    },
+    {
+        "id": "3134c171f966b73c",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Green",
+        "func": "msg.payload = {\"red\":0, \"yellow\":0, \"green\":1};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 1300,
+        "wires": [
+            [
+                "d5a872431bd0ab14",
+                "5a67bf683417b83c",
+                "09ff88fdcff47584",
+                "a57584cd32d43c05"
+            ]
+        ]
+    },
+    {
+        "id": "d5a872431bd0ab14",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 1340,
+        "wires": [
+            [
+                "ad98d1984a040ff1"
+            ]
+        ]
+    },
+    {
+        "id": "ad98d1984a040ff1",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 1380,
+        "wires": [
+            [
+                "5a67bf683417b83c",
+                "09ff88fdcff47584",
+                "a57584cd32d43c05",
+                "b152423dd060f6de"
+            ]
+        ]
+    },
+    {
+        "id": "b152423dd060f6de",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 1420,
+        "wires": [
+            [
+                "a43283db8568de9d"
+            ]
+        ]
+    },
+    {
+        "id": "a43283db8568de9d",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 1460,
+        "wires": [
+            [
+                "66b16d66f59278d6",
+                "5a67bf683417b83c",
+                "09ff88fdcff47584",
+                "a57584cd32d43c05"
+            ]
+        ]
+    },
+    {
+        "id": "66b16d66f59278d6",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 1500,
+        "wires": [
+            [
+                "cc848377bbb6d961"
+            ]
+        ]
+    },
+    {
+        "id": "5a67bf683417b83c",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Red",
+        "func": "msg.payload = msg.payload.red;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 1300,
+        "wires": [
+            [
+                "5343692f3db54cef",
+                "77487c8f0e93861b"
+            ]
+        ]
+    },
+    {
+        "id": "09ff88fdcff47584",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Yellow",
+        "func": "msg.payload = msg.payload.yellow;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 1360,
+        "wires": [
+            [
+                "960fced0a7553a0b",
+                "3a154a053f134a6e"
+            ]
+        ]
+    },
+    {
+        "id": "a57584cd32d43c05",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Green",
+        "func": "msg.payload = msg.payload.green;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 1420,
+        "wires": [
+            [
+                "d7310993477b107e",
+                "90f108fefb0c927f"
+            ]
+        ]
+    },
+    {
+        "id": "41847142fb473dbf",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T1 Red Status",
+        "topic": "t1/red",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1140,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "2d1e222f072f919b",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T1 Yellow Status",
+        "topic": "t1/yellow",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1150,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "c72400935af475fe",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T1 Green Status",
+        "topic": "t1/green",
+        "qos": "1",
+        "retain": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1140,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "67c3df1301d7be36",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T2 Red Status",
+        "topic": "t2/red",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1160,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "750ab85ae1be8a83",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T1 Yellow Status",
+        "topic": "t2/yellow",
+        "qos": "1",
+        "retain": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1170,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "9834391a2974c1fc",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T2 Green Status",
+        "topic": "t2/green",
+        "qos": "1",
+        "retain": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1160,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "2066dee30b87523d",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T3 Red Status",
+        "topic": "t3/red",
+        "qos": "1",
+        "retain": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1160,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "88ab8d4892be6b38",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T3 Yellow Status",
+        "topic": "t3/yellow",
+        "qos": "1",
+        "retain": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1170,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "a0b31ffb0473d414",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T3 Green Status",
+        "topic": "t3/green",
+        "qos": "1",
+        "retain": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1160,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "77487c8f0e93861b",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T4 Red Status",
+        "topic": "t4/red",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1120,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "3a154a053f134a6e",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T4 Yellow Status",
+        "topic": "t4/yellow",
+        "qos": "1",
+        "retain": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1130,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "90f108fefb0c927f",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T4 Green Status",
+        "topic": "t4/green",
+        "qos": "1",
+        "retain": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1120,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "0651ae80685b7911",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t1/control/r",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 700,
+        "y": 260,
+        "wires": [
+            [
+                "41847142fb473dbf",
+                "7b689a0c35e4f865"
+            ]
+        ]
+    },
+    {
+        "id": "90377192fca1a928",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t1/control/y",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "inputs": 0,
+        "x": 700,
+        "y": 320,
+        "wires": [
+            [
+                "2d1e222f072f919b",
+                "ce55a04d287d4d40"
+            ]
+        ]
+    },
+    {
+        "id": "53d464b46912bd58",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t1/control/g",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "inputs": 0,
+        "x": 700,
+        "y": 380,
+        "wires": [
+            [
+                "c72400935af475fe",
+                "906316540bd4bd79"
+            ]
+        ]
+    },
+    {
+        "id": "446d9e0e374c674f",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t2/control/r",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 700,
+        "y": 700,
+        "wires": [
+            [
+                "67c3df1301d7be36",
+                "c81c9c4b709b96e0"
+            ]
+        ]
+    },
+    {
+        "id": "d18c11f6b66b2184",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t2/control/y",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "inputs": 0,
+        "x": 700,
+        "y": 760,
+        "wires": [
+            [
+                "750ab85ae1be8a83",
+                "0ed625f93fe50fbe"
+            ]
+        ]
+    },
+    {
+        "id": "cdf4189b41ab34d1",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t2/control/g",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "inputs": 0,
+        "x": 700,
+        "y": 820,
+        "wires": [
+            [
+                "9834391a2974c1fc",
+                "fe917007438f4081"
+            ]
+        ]
+    },
+    {
+        "id": "aecea3ab04fcaabe",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t3/control/r",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "inputs": 0,
+        "x": 700,
+        "y": 1100,
+        "wires": [
+            [
+                "2066dee30b87523d",
+                "912de6fef21a02b2"
+            ]
+        ]
+    },
+    {
+        "id": "04a8481ce67e8e21",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t3/control/y",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "inputs": 0,
+        "x": 700,
+        "y": 1160,
+        "wires": [
+            [
+                "5b13d8fed3c8fc78",
+                "88ab8d4892be6b38"
+            ]
+        ]
+    },
+    {
+        "id": "76c906c4a5e52606",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t3/control/g",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "inputs": 0,
+        "x": 700,
+        "y": 1220,
+        "wires": [
+            [
+                "a0b31ffb0473d414",
+                "82cead0ddab98508"
+            ]
+        ]
+    },
+    {
+        "id": "46c3df06ad770d14",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t4/control/r",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 700,
+        "y": 1500,
+        "wires": [
+            [
+                "5343692f3db54cef",
+                "77487c8f0e93861b"
+            ]
+        ]
+    },
+    {
+        "id": "85dfda72ef6baf1a",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t4/control/y",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "inputs": 0,
+        "x": 700,
+        "y": 1560,
+        "wires": [
+            [
+                "960fced0a7553a0b",
+                "3a154a053f134a6e"
+            ]
+        ]
+    },
+    {
+        "id": "20e132c07a2dbb36",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t4/control/g",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 700,
+        "y": 1620,
+        "wires": [
+            [
+                "d7310993477b107e",
+                "90f108fefb0c927f"
+            ]
+        ]
+    },
+    {
+        "id": "1761df3b488d195e",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T5-Red",
+        "pin": "2",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 1100,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "72d2f5625894f040",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "T5-Green",
+        "pin": "3",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 1100,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "dda31bcbfa1eb8f9",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 1940,
+        "wires": [
+            [
+                "7637aa3890e06bf4",
+                "1b94f0b4e94f8ee4",
+                "5bb01ee95cd63148",
+                "27a90b4f73081752"
+            ]
+        ]
+    },
+    {
+        "id": "7637aa3890e06bf4",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "6",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 1980,
+        "wires": [
+            [
+                "b530e05771236ae6"
+            ]
+        ]
+    },
+    {
+        "id": "b530e05771236ae6",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Red and Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 500,
+        "y": 2020,
+        "wires": [
+            [
+                "75d8e992bca9843f",
+                "1b94f0b4e94f8ee4",
+                "5bb01ee95cd63148",
+                "27a90b4f73081752"
+            ]
+        ]
+    },
+    {
+        "id": "75d8e992bca9843f",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 2060,
+        "wires": [
+            [
+                "e19b75e90e714d3d"
+            ]
+        ]
+    },
+    {
+        "id": "e19b75e90e714d3d",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Green",
+        "func": "msg.payload = {\"red\":0, \"yellow\":0, \"green\":1};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 2100,
+        "wires": [
+            [
+                "1b94f0b4e94f8ee4",
+                "5bb01ee95cd63148",
+                "27a90b4f73081752",
+                "19019dc4bbc502fc"
+            ]
+        ]
+    },
+    {
+        "id": "1b94f0b4e94f8ee4",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Red",
+        "func": "msg.payload = msg.payload.red;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 860,
+        "y": 1940,
+        "wires": [
+            [
+                "2c32db8e111a049e",
+                "1761df3b488d195e",
+                "a36b98912330fbf9",
+                "041729ebf86423dd"
+            ]
+        ]
+    },
+    {
+        "id": "5bb01ee95cd63148",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Yellow",
+        "func": "msg.payload = msg.payload.yellow;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 870,
+        "y": 2000,
+        "wires": [
+            [
+                "6ec06ff90e0fcdca",
+                "6de4c706cc56715e"
+            ]
+        ]
+    },
+    {
+        "id": "27a90b4f73081752",
+        "type": "function",
+        "z": "e4a119faf184b0df",
+        "name": "Get Green",
+        "func": "msg.payload = msg.payload.green;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 870,
+        "y": 2060,
+        "wires": [
+            [
+                "e96d771b5813faa8",
+                "72d2f5625894f040",
+                "537c936822bbe678"
+            ]
+        ]
+    },
+    {
+        "id": "2c32db8e111a049e",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T5 Red Status",
+        "topic": "t5/red",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1300,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "6ec06ff90e0fcdca",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T5 Yellow Status",
+        "topic": "t5/yellow",
+        "qos": "1",
+        "retain": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1310,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "e96d771b5813faa8",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T5 Green Status",
+        "topic": "t5/green",
+        "qos": "1",
+        "retain": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1300,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "a74da54bb8619fb0",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t5/control/r",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "inputs": 0,
+        "x": 860,
+        "y": 2140,
+        "wires": [
+            [
+                "2c32db8e111a049e",
+                "1761df3b488d195e"
+            ]
+        ]
+    },
+    {
+        "id": "3795ab1e45800cf5",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t5/control/y",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "inputs": 0,
+        "x": 860,
+        "y": 2200,
+        "wires": [
+            [
+                "6ec06ff90e0fcdca"
+            ]
+        ]
+    },
+    {
+        "id": "1a4ca0c69f65193d",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t5/control/g",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "inputs": 0,
+        "x": 860,
+        "y": 2260,
+        "wires": [
+            [
+                "e96d771b5813faa8",
+                "72d2f5625894f040"
+            ]
+        ]
+    },
+    {
+        "id": "f09a12147ef72c87",
+        "type": "inject",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 310,
+        "y": 1880,
+        "wires": [
+            [
+                "dda31bcbfa1eb8f9"
+            ]
+        ]
+    },
+    {
+        "id": "19019dc4bbc502fc",
+        "type": "delay",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 2140,
+        "wires": [
+            [
+                "dda31bcbfa1eb8f9"
+            ]
+        ]
+    },
+    {
+        "id": "a36b98912330fbf9",
+        "type": "rpi-gpio out",
+        "z": "e4a119faf184b0df",
+        "name": "Stopper",
+        "pin": "4",
+        "set": false,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 1100,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "61e6bee6b54d9465",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t6/control/r",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 860,
+        "y": 2320,
+        "wires": [
+            [
+                "1761df3b488d195e",
+                "041729ebf86423dd"
+            ]
+        ]
+    },
+    {
+        "id": "ebae301e9ecec632",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t6/control/y",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 860,
+        "y": 2380,
+        "wires": [
+            [
+                "6de4c706cc56715e"
+            ]
+        ]
+    },
+    {
+        "id": "2ca7367318eae4f6",
+        "type": "mqtt in",
+        "z": "e4a119faf184b0df",
+        "name": "",
+        "topic": "t6/control/g",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5a88e2ba.30dccc",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 860,
+        "y": 2440,
+        "wires": [
+            [
+                "72d2f5625894f040",
+                "537c936822bbe678"
+            ]
+        ]
+    },
+    {
+        "id": "041729ebf86423dd",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T5 Red Status",
+        "topic": "t6/red",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1300,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "6de4c706cc56715e",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T5 Yellow Status",
+        "topic": "t6/yellow",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1310,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "537c936822bbe678",
+        "type": "mqtt out",
+        "z": "e4a119faf184b0df",
+        "name": "T5 Green Status",
+        "topic": "t6/green",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5a88e2ba.30dccc",
+        "x": 1300,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "1c6167b7006ebcf6",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T4-Green",
+        "pin": "17",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "5fed181bc3125a4f",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T4-Yellow",
+        "pin": "27",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "39918fb630d9fbea",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T4-Red",
+        "pin": "22",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "54ec01fc2849e718",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T3-Red",
+        "pin": "6",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "588ee43ce45482c3",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T3-Yellow",
+        "pin": "5",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "9a5bc2afb2136792",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T3-Green",
+        "pin": "12",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "5cc04eb6a329a3c2",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T2-Red",
+        "pin": "26",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "5328f96bfa55709e",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T2-Green",
+        "pin": "13",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "7864defe8a3b9cdd",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T2-Yellow",
+        "pin": "19",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "203e2b7de15a2cf7",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T1-Yellow",
+        "pin": "20",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "79eb608120600ea6",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T1-Red",
+        "pin": "21",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "fa7c5f42811fe873",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T1-Green",
+        "pin": "16",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 940,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ab861e9f6bdc8586",
+        "type": "inject",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "daf7f935f12b58e8"
+            ]
+        ]
+    },
+    {
+        "id": "daf7f935f12b58e8",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 80,
+        "wires": [
+            [
+                "1aa174a9a3c86739",
+                "989856ea1e709f96",
+                "2bf83fea5c844b20",
+                "f9362df20183912d"
+            ]
+        ]
+    },
+    {
+        "id": "1aa174a9a3c86739",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "4",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 120,
+        "wires": [
+            [
+                "f9d28f69218b7700"
+            ]
+        ]
+    },
+    {
+        "id": "f9d28f69218b7700",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Red and Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "3c589d14039df90e",
+                "989856ea1e709f96",
+                "2bf83fea5c844b20",
+                "f9362df20183912d"
+            ]
+        ]
+    },
+    {
+        "id": "3c589d14039df90e",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 200,
+        "wires": [
+            [
+                "70c94449aa12cefb"
+            ]
+        ]
+    },
+    {
+        "id": "70c94449aa12cefb",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Green",
+        "func": "msg.payload = {\"red\":0, \"yellow\":0, \"green\":1};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 240,
+        "wires": [
+            [
+                "d606479811c7e68e",
+                "989856ea1e709f96",
+                "2bf83fea5c844b20",
+                "f9362df20183912d"
+            ]
+        ]
+    },
+    {
+        "id": "d606479811c7e68e",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 280,
+        "wires": [
+            [
+                "e4763b5554ec6281"
+            ]
+        ]
+    },
+    {
+        "id": "e4763b5554ec6281",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 320,
+        "wires": [
+            [
+                "476f28d89a6ea288",
+                "989856ea1e709f96",
+                "2bf83fea5c844b20",
+                "f9362df20183912d"
+            ]
+        ]
+    },
+    {
+        "id": "476f28d89a6ea288",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 360,
+        "wires": [
+            [
+                "01a6e77bd8ef63be"
+            ]
+        ]
+    },
+    {
+        "id": "01a6e77bd8ef63be",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 400,
+        "wires": [
+            [
+                "2895b8f4c273a717",
+                "989856ea1e709f96",
+                "2bf83fea5c844b20",
+                "f9362df20183912d"
+            ]
+        ]
+    },
+    {
+        "id": "2895b8f4c273a717",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 440,
+        "wires": [
+            [
+                "a8dd6e8447260549"
+            ]
+        ]
+    },
+    {
+        "id": "989856ea1e709f96",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Red",
+        "func": "msg.payload = msg.payload.red;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 80,
+        "wires": [
+            [
+                "79eb608120600ea6",
+                "9a1f867f393f2eeb"
+            ]
+        ]
+    },
+    {
+        "id": "2bf83fea5c844b20",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Yellow",
+        "func": "msg.payload = msg.payload.yellow;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 140,
+        "wires": [
+            [
+                "203e2b7de15a2cf7",
+                "fc62c80be6b7962b"
+            ]
+        ]
+    },
+    {
+        "id": "f9362df20183912d",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Green",
+        "func": "msg.payload = msg.payload.green;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 200,
+        "wires": [
+            [
+                "fa7c5f42811fe873",
+                "1b4ae1cc6e151baf"
+            ]
+        ]
+    },
+    {
+        "id": "a8dd6e8447260549",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Green",
+        "func": "msg.payload = {\"red\":0, \"yellow\":0, \"green\":1};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 520,
+        "wires": [
+            [
+                "26b6bad47c64a402",
+                "079a128a730f37ea",
+                "8037d4cc687e6766",
+                "513b9382a10f6eb4"
+            ]
+        ]
+    },
+    {
+        "id": "26b6bad47c64a402",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 560,
+        "wires": [
+            [
+                "f8fa4ebc79a6ca5b"
+            ]
+        ]
+    },
+    {
+        "id": "f8fa4ebc79a6ca5b",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 600,
+        "wires": [
+            [
+                "8a3ef6fb2766c08f",
+                "079a128a730f37ea",
+                "8037d4cc687e6766",
+                "513b9382a10f6eb4"
+            ]
+        ]
+    },
+    {
+        "id": "8a3ef6fb2766c08f",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 640,
+        "wires": [
+            [
+                "1195dfdceeee0bc1"
+            ]
+        ]
+    },
+    {
+        "id": "1195dfdceeee0bc1",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 680,
+        "wires": [
+            [
+                "8b5ef843633f1918",
+                "079a128a730f37ea",
+                "8037d4cc687e6766",
+                "513b9382a10f6eb4"
+            ]
+        ]
+    },
+    {
+        "id": "8b5ef843633f1918",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 720,
+        "wires": [
+            [
+                "3a39db28417c5dd2"
+            ]
+        ]
+    },
+    {
+        "id": "079a128a730f37ea",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Red",
+        "func": "msg.payload = msg.payload.red;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 520,
+        "wires": [
+            [
+                "5cc04eb6a329a3c2",
+                "b32848923ad55d3c"
+            ]
+        ]
+    },
+    {
+        "id": "8037d4cc687e6766",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Yellow",
+        "func": "msg.payload = msg.payload.yellow;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 580,
+        "wires": [
+            [
+                "7864defe8a3b9cdd",
+                "85a7f41b5e988688"
+            ]
+        ]
+    },
+    {
+        "id": "513b9382a10f6eb4",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Green",
+        "func": "msg.payload = msg.payload.green;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 640,
+        "wires": [
+            [
+                "5328f96bfa55709e",
+                "3cfbc67e1cb97ac3"
+            ]
+        ]
+    },
+    {
+        "id": "3a39db28417c5dd2",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Green",
+        "func": "msg.payload = {\"red\":0, \"yellow\":0, \"green\":1};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 900,
+        "wires": [
+            [
+                "f08e3f34f24453a2",
+                "0dfa7493aff68117",
+                "b10f4d2f891ae794",
+                "09b890f65511cdba"
+            ]
+        ]
+    },
+    {
+        "id": "f08e3f34f24453a2",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 940,
+        "wires": [
+            [
+                "0a44710d114cbe51"
+            ]
+        ]
+    },
+    {
+        "id": "0a44710d114cbe51",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 980,
+        "wires": [
+            [
+                "12ba3a8fac0f4646",
+                "0dfa7493aff68117",
+                "b10f4d2f891ae794",
+                "09b890f65511cdba"
+            ]
+        ]
+    },
+    {
+        "id": "12ba3a8fac0f4646",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 1020,
+        "wires": [
+            [
+                "a78eb823a80468d5"
+            ]
+        ]
+    },
+    {
+        "id": "a78eb823a80468d5",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 1060,
+        "wires": [
+            [
+                "3816c8fdb74bbaed",
+                "0dfa7493aff68117",
+                "b10f4d2f891ae794",
+                "09b890f65511cdba"
+            ]
+        ]
+    },
+    {
+        "id": "3816c8fdb74bbaed",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 1100,
+        "wires": [
+            [
+                "73b3fe2de6b30e92"
+            ]
+        ]
+    },
+    {
+        "id": "0dfa7493aff68117",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Red",
+        "func": "msg.payload = msg.payload.red;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 900,
+        "wires": [
+            [
+                "54ec01fc2849e718",
+                "776374f8ca7dd22c"
+            ]
+        ]
+    },
+    {
+        "id": "b10f4d2f891ae794",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Yellow",
+        "func": "msg.payload = msg.payload.yellow;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 960,
+        "wires": [
+            [
+                "588ee43ce45482c3",
+                "5e9bf146b0b9bb62"
+            ]
+        ]
+    },
+    {
+        "id": "09b890f65511cdba",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Green",
+        "func": "msg.payload = msg.payload.green;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 1020,
+        "wires": [
+            [
+                "9a5bc2afb2136792",
+                "fb8d696955effd06"
+            ]
+        ]
+    },
+    {
+        "id": "73b3fe2de6b30e92",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Green",
+        "func": "msg.payload = {\"red\":0, \"yellow\":0, \"green\":1};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 1300,
+        "wires": [
+            [
+                "de1e37f9d3f1c0aa",
+                "f374f803529649f1",
+                "ee3423b840f9c528",
+                "5d6ebc80301f6981"
+            ]
+        ]
+    },
+    {
+        "id": "de1e37f9d3f1c0aa",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 1340,
+        "wires": [
+            [
+                "fa13644e6e4e858a"
+            ]
+        ]
+    },
+    {
+        "id": "fa13644e6e4e858a",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 1380,
+        "wires": [
+            [
+                "f374f803529649f1",
+                "ee3423b840f9c528",
+                "5d6ebc80301f6981",
+                "bbca56dc3c80848a"
+            ]
+        ]
+    },
+    {
+        "id": "bbca56dc3c80848a",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 1420,
+        "wires": [
+            [
+                "7036397c4af79e22"
+            ]
+        ]
+    },
+    {
+        "id": "7036397c4af79e22",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 1460,
+        "wires": [
+            [
+                "c8281f49f203b727",
+                "f374f803529649f1",
+                "ee3423b840f9c528",
+                "5d6ebc80301f6981"
+            ]
+        ]
+    },
+    {
+        "id": "c8281f49f203b727",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 1500,
+        "wires": [
+            [
+                "70c94449aa12cefb"
+            ]
+        ]
+    },
+    {
+        "id": "f374f803529649f1",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Red",
+        "func": "msg.payload = msg.payload.red;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 1300,
+        "wires": [
+            [
+                "39918fb630d9fbea",
+                "c3d105f92b465cc2"
+            ]
+        ]
+    },
+    {
+        "id": "ee3423b840f9c528",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Yellow",
+        "func": "msg.payload = msg.payload.yellow;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 1360,
+        "wires": [
+            [
+                "5fed181bc3125a4f",
+                "53e454e0355d80b8"
+            ]
+        ]
+    },
+    {
+        "id": "5d6ebc80301f6981",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Green",
+        "func": "msg.payload = msg.payload.green;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 1420,
+        "wires": [
+            [
+                "1c6167b7006ebcf6",
+                "6a8bf6b14ed49311"
+            ]
+        ]
+    },
+    {
+        "id": "a1a98dd895ec641e",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T5-Red",
+        "pin": "2",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 1060,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "9fa1456307405fe9",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "T5-Green",
+        "pin": "3",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 1060,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "3c657c8c7cc7829e",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Red",
+        "func": "msg.payload = {\"red\":1, \"yellow\":0, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 1940,
+        "wires": [
+            [
+                "f1c9499f53a74283",
+                "69787e5a39a672de",
+                "42ae0ee7de4db15e",
+                "921c15228869d683"
+            ]
+        ]
+    },
+    {
+        "id": "f1c9499f53a74283",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "6",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 1980,
+        "wires": [
+            [
+                "01dbb118a3dd8a8a"
+            ]
+        ]
+    },
+    {
+        "id": "01dbb118a3dd8a8a",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Red and Yellow",
+        "func": "msg.payload = {\"red\":0, \"yellow\":1, \"green\":0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 500,
+        "y": 2020,
+        "wires": [
+            [
+                "7a1ca6e393c833ca",
+                "69787e5a39a672de",
+                "42ae0ee7de4db15e",
+                "921c15228869d683"
+            ]
+        ]
+    },
+    {
+        "id": "7a1ca6e393c833ca",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 2060,
+        "wires": [
+            [
+                "e4fdaa080061273b"
+            ]
+        ]
+    },
+    {
+        "id": "e4fdaa080061273b",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Green",
+        "func": "msg.payload = {\"red\":0, \"yellow\":0, \"green\":1};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 2100,
+        "wires": [
+            [
+                "69787e5a39a672de",
+                "42ae0ee7de4db15e",
+                "921c15228869d683",
+                "28b81b4c57960c0b"
+            ]
+        ]
+    },
+    {
+        "id": "69787e5a39a672de",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Red",
+        "func": "msg.payload = msg.payload.red;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 820,
+        "y": 1940,
+        "wires": [
+            [
+                "a1a98dd895ec641e",
+                "0f3b54c6426cb4da",
+                "d5d334beef33d37e",
+                "4b0ab76b0f291053"
+            ]
+        ]
+    },
+    {
+        "id": "42ae0ee7de4db15e",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Yellow",
+        "func": "msg.payload = msg.payload.yellow;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 830,
+        "y": 2000,
+        "wires": [
+            [
+                "7c342b7e3075c123",
+                "f6c19941ca9cae94"
+            ]
+        ]
+    },
+    {
+        "id": "921c15228869d683",
+        "type": "function",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Get Green",
+        "func": "msg.payload = msg.payload.green;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 830,
+        "y": 2060,
+        "wires": [
+            [
+                "9fa1456307405fe9",
+                "79d9d5a4fcede612",
+                "4b12b094026c7ce0"
+            ]
+        ]
+    },
+    {
+        "id": "21f3e7bfe023c050",
+        "type": "inject",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 1940,
+        "wires": [
+            [
+                "3c657c8c7cc7829e"
+            ]
+        ]
+    },
+    {
+        "id": "28b81b4c57960c0b",
+        "type": "delay",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 2140,
+        "wires": [
+            [
+                "3c657c8c7cc7829e"
+            ]
+        ]
+    },
+    {
+        "id": "0f3b54c6426cb4da",
+        "type": "rpi-gpio out",
+        "z": "c2f2a8d89e01cbdd",
+        "name": "Stopper",
+        "pin": "4",
+        "set": false,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 1060,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "bbdeb8a120c4aec4",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t1/control/r",
+        "x": 680,
+        "y": 280,
+        "wires": [
+            [
+                "79eb608120600ea6",
+                "9a1f867f393f2eeb"
+            ]
+        ]
+    },
+    {
+        "id": "35098bc644c46a76",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t1/control/y",
+        "x": 690,
+        "y": 320,
+        "wires": [
+            [
+                "203e2b7de15a2cf7",
+                "fc62c80be6b7962b"
+            ]
+        ]
+    },
+    {
+        "id": "5b04de16de324107",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t1/control/g",
+        "x": 690,
+        "y": 360,
+        "wires": [
+            [
+                "fa7c5f42811fe873",
+                "1b4ae1cc6e151baf"
+            ]
+        ]
+    },
+    {
+        "id": "4f838e40c3ee7464",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t2/control/r",
+        "x": 680,
+        "y": 720,
+        "wires": [
+            [
+                "5cc04eb6a329a3c2",
+                "b32848923ad55d3c"
+            ]
+        ]
+    },
+    {
+        "id": "43f68bd23e841c53",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t2/control/y",
+        "x": 690,
+        "y": 760,
+        "wires": [
+            [
+                "7864defe8a3b9cdd",
+                "85a7f41b5e988688"
+            ]
+        ]
+    },
+    {
+        "id": "3980c6f31a9302fa",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t2/control/g",
+        "x": 690,
+        "y": 800,
+        "wires": [
+            [
+                "5328f96bfa55709e",
+                "3cfbc67e1cb97ac3"
+            ]
+        ]
+    },
+    {
+        "id": "c4574d95d68929ad",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t3/control/r",
+        "x": 680,
+        "y": 1120,
+        "wires": [
+            [
+                "54ec01fc2849e718",
+                "776374f8ca7dd22c"
+            ]
+        ]
+    },
+    {
+        "id": "0d1c2525e9a4faf0",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t3/control/y",
+        "x": 690,
+        "y": 1160,
+        "wires": [
+            [
+                "588ee43ce45482c3",
+                "5e9bf146b0b9bb62"
+            ]
+        ]
+    },
+    {
+        "id": "12f3d627e4edcb4d",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t3/control/g",
+        "x": 690,
+        "y": 1200,
+        "wires": [
+            [
+                "9a5bc2afb2136792",
+                "fb8d696955effd06"
+            ]
+        ]
+    },
+    {
+        "id": "fbf8c5754f6e783a",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t4/control/r",
+        "x": 680,
+        "y": 1520,
+        "wires": [
+            [
+                "39918fb630d9fbea",
+                "c3d105f92b465cc2"
+            ]
+        ]
+    },
+    {
+        "id": "827eaabeabb5b78e",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t4/control/y",
+        "x": 690,
+        "y": 1560,
+        "wires": [
+            [
+                "5fed181bc3125a4f",
+                "53e454e0355d80b8"
+            ]
+        ]
+    },
+    {
+        "id": "41abebc957b5f725",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t4/control/g",
+        "x": 690,
+        "y": 1600,
+        "wires": [
+            [
+                "1c6167b7006ebcf6",
+                "6a8bf6b14ed49311"
+            ]
+        ]
+    },
+    {
+        "id": "6e4d30bb025cf5b1",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t5/control/r",
+        "x": 800,
+        "y": 2140,
+        "wires": [
+            [
+                "0f3b54c6426cb4da",
+                "d5d334beef33d37e"
+            ]
+        ]
+    },
+    {
+        "id": "b6ca0df6490c6352",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t5/control/y",
+        "x": 810,
+        "y": 2180,
+        "wires": [
+            [
+                "7c342b7e3075c123"
+            ]
+        ]
+    },
+    {
+        "id": "d4e28c5c19e7c94c",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t5/control/g",
+        "x": 810,
+        "y": 2220,
+        "wires": [
+            [
+                "a1a98dd895ec641e",
+                "79d9d5a4fcede612"
+            ]
+        ]
+    },
+    {
+        "id": "bdd8e48fcee9d482",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t6/control/r",
+        "x": 800,
+        "y": 2320,
+        "wires": [
+            [
+                "a1a98dd895ec641e",
+                "4b0ab76b0f291053"
+            ]
+        ]
+    },
+    {
+        "id": "0b576e56a0b05acf",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t6/control/y",
+        "x": 810,
+        "y": 2360,
+        "wires": [
+            [
+                "f6c19941ca9cae94"
+            ]
+        ]
+    },
+    {
+        "id": "f6fd33fab8d32a14",
+        "type": "coap in",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "name": "",
+        "server": "478817c573eefd53",
+        "url": "/t6/control/g",
+        "x": 810,
+        "y": 2400,
+        "wires": [
+            [
+                "9fa1456307405fe9",
+                "4b12b094026c7ce0"
+            ]
+        ]
+    },
+    {
+        "id": "9a1f867f393f2eeb",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t1/red",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T1 Red Status",
+        "x": 1240,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fc62c80be6b7962b",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t1/yellow",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T1 Yellow Status",
+        "x": 1250,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b4ae1cc6e151baf",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t1/green",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T1 Green Status",
+        "x": 1240,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b32848923ad55d3c",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t2/red",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T2 Red Status",
+        "x": 1260,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "85a7f41b5e988688",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t2/yellow",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T2 Yellow Status",
+        "x": 1270,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3cfbc67e1cb97ac3",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t2/green",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T2 Green Status",
+        "x": 1260,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "776374f8ca7dd22c",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t3/red",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T3 Red Status",
+        "x": 1260,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5e9bf146b0b9bb62",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t3/yellow",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T3 Yellow Status",
+        "x": 1270,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fb8d696955effd06",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t3/green",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T3 Green Status",
+        "x": 1260,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3d105f92b465cc2",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t4/red",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T4 Red Status",
+        "x": 1260,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53e454e0355d80b8",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t4/yellow",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T4 Yellow Status",
+        "x": 1270,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6a8bf6b14ed49311",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t4/green",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T4 Green Status",
+        "x": 1260,
+        "y": 1580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d5d334beef33d37e",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t5/red",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T5 Red Status",
+        "x": 1280,
+        "y": 2120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c342b7e3075c123",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t5/yellow",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T5 Yellow Status",
+        "x": 1290,
+        "y": 2160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79d9d5a4fcede612",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t5/green",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T5 Green Status",
+        "x": 1280,
+        "y": 2200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b0ab76b0f291053",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t6/red",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T6 Red Status",
+        "x": 1280,
+        "y": 2300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f6c19941ca9cae94",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t6/yellow",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T6 Yellow Status",
+        "x": 1290,
+        "y": 2340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b12b094026c7ce0",
+        "type": "coap request",
+        "z": "c2f2a8d89e01cbdd",
+        "method": "POST",
+        "confirmable": true,
+        "observe": false,
+        "multicast": false,
+        "multicastTimeout": 20000,
+        "url": "coap://172.16.17.208:5683/t6/green",
+        "content-format": "text/plain",
+        "raw-buffer": false,
+        "name": "T6 Green Status",
+        "x": 1280,
+        "y": 2380,
+        "wires": [
+            []
+        ]
+    }
+]
